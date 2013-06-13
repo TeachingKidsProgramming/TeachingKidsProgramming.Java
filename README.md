@@ -1,0 +1,4 @@
+TeachingKidsProgramming.Java
+============================
+
+Eclipse Workspace
