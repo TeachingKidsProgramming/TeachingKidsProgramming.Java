@@ -1,0 +1,12 @@
+{
+  "\\Users\\genevievelesperance\\Documents\\tkp_workspace\\TeachingKidsProgramming\\src\\jars\\TeachingKidsProgramming.jar": {
+    "location": "\\Users\\genevievelesperance\\Documents\\tkp_workspace\\TeachingKidsProgramming\\src\\jars\\TeachingKidsProgramming.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/Users/genevievelesperance/Documents/tkp_workspace/TeachingKidsProgramming/src/jars/TeachingKidsProgramming.jar\u0027. Neither fingerprint \u0027ea3a9e7c1ba3b653eda0d4ed76b0d4cf09d8b4b4\u0027 nor symbolic name \u0027TeachingKidsProgramming\u0027 are known."
+  },
+  "C:\\Users\\llewellyn\\Downloads\\tkp_workspace.v02\\TeachingKidsProgramming\\src\\jars\\TeachingKidsProgramming.jar": {
+    "location": "C:\\Users\\llewellyn\\Downloads\\tkp_workspace.v02\\TeachingKidsProgramming\\src\\jars\\TeachingKidsProgramming.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\llewellyn\\Downloads\\tkp_workspace.v02\\TeachingKidsProgramming\\src\\jars\\TeachingKidsProgramming.jar\u0027. Neither fingerprint \u00278ffee03fc5daeef2b1b85a3c4c5948dd87576b20\u0027 nor symbolic name \u0027TeachingKidsProgramming\u0027 are known."
+  }
+}

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java-statements" deleted="false" description="do an action many times" enabled="true" name="for">for (int ${index} = 1; ${index} &lt;= ${stop}; ${index}++) {&#13;
+	&#13;
+}</template></templates>

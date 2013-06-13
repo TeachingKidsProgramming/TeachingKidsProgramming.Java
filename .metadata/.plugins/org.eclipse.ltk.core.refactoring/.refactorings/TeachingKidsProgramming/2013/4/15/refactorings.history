@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;sides&apos; from expression &apos;4&apos;&#x0D;&#x0A;- Original project: &apos;TeachingKidsProgramming&apos;&#x0D;&#x0A;- Variable name: &apos;sides&apos;&#x0D;&#x0A;- Destination method: &apos;org.teachingkidsprogramming.recipes.SimpleSquare.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;4&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;sides&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;org.teachingkidsprogramming.recipes{SimpleSquare.java" name="sides" replace="true" selection="309 1" stamp="1365709645082" version="1.0"/>
+</session>
