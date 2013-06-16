@@ -2,6 +2,7 @@
 
 bin
 .metadata
+.DS_Store
 
 # Package Files #
 *.war
