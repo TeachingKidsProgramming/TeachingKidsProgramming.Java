@@ -1,6 +1,5 @@
 package org.teachingkidsprogramming.recipes;
 
-
 public class SimpleSquare
 {
   public static void main(String[] args) throws Exception
