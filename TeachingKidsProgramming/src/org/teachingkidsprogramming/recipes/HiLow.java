@@ -9,12 +9,12 @@ public class HiLow
 {
   public static void main(String[] args)
   {
+    int correctNumber = NumberUtils.getRandomInt(1, 100);
     for (int i = 1; i <= 8; i++)
     {
       //    Choose a random number between 1 and 100 --#4.1 (fake!) & --#13
       //    Do the following 8 times --#9
       int guess = MessageBox.askForNumericalInput("Please guess a number. You have " + (9 - i) + " tries.");
-      int correctNumber = NumberUtils.getRandomInt(1, 100);
       if (guess == correctNumber)
       {
         Sounds.playBeep();
@@ -33,6 +33,6 @@ public class HiLow
       //    If after 8 times they haven't guessed correctly then --#12
       //     Tell them they've lost the game --#11
     }
-    MessageBox.showMessage("Yu loozez! Sukkah!!!");
+    MessageBox.showMessage("Yu loozez! Sukkah!!! Da ansah was" + correctNumber);
   }
 }
