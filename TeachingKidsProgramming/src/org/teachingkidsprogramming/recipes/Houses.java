@@ -1,26 +1,59 @@
 package org.teachingkidsprogramming.recipes;
 
+import java.awt.Color;
+
+import org.teachingextensions.logo.Colors;
+import org.teachingextensions.logo.Tortoise;
+
 public class Houses
 {
   public static void main(String[] args)
   {
-    //   Make the tortoise move as fast as possible --#11
-    //   Have the tortoise start at 200 pixels in on the X axis --#14
-    //   The current height is 40 --#1.2
-    //   drawHouse (recipe below) --#9
-    //   ------------- Recipe for drawHouse --#9
-    //   Change the color of the line the tortoise draws to lightGray --#15
-    //   Move the tortoise the height of a house --#1.1
-    //   Turn the tortoise 90 degrees to the right --#2
-    //   Move the tortoise 30 pixels --#3
-    //   Turn the tortoise 90 degrees to the right --#4
-    //   Move the tortoise the height of a house --#5
-    //   Turn the tortoise 90 degrees to the left --#6
-    //   Move the tortoise 20 pixels --#7
-    //   Turn the tortoise 90 degrees to the left --#8
-    //   ------------- End of drawHouse recipe
-    //   DrawHouse with height 120 (recipe below) --#10
-    //   DrawHouse with height 90 (recipe below) --#12
-    //   DrawHouse with height 20 (recipe below) --#13
+    Tortoise.setSpeed(10);
+    Tortoise.setX(200);
+    int height = 40;
+    drawHouse(height, Colors.Grays.LightGray);
+    drawHouse(120, Colors.Grays.LightGray);
+    drawHouse(90, Colors.Grays.LightGray);
+    drawHouse(20, Colors.Grays.LightGray);
+  }
+  private static void drawHouse(int height, Color color)
+  {
+    Tortoise.setPenColor(color);
+    Tortoise.move(height);
+    // flatRoof();
+    //amittasisRoof();
+    //MavericksRoof
+    mavericksRoof();
+    Tortoise.move(height);
+    Tortoise.turn(-90);
+    Tortoise.move(20);
+    Tortoise.turn(-90);
+  }
+  private static void mavericksRoof()
+  {
+    Tortoise.turn(-90);
+    Tortoise.move(10);
+    Tortoise.turn(90 + 45);
+    Tortoise.move(50);
+    Tortoise.turn(90);
+    Tortoise.move(50);
+    Tortoise.turn(90 + 45);
+    Tortoise.move(10);
+    Tortoise.turn(-90);
+  }
+  private static void amittasisRoof()
+  {
+    Tortoise.turn(45);
+    Tortoise.move(10);
+    Tortoise.turn(90);
+    Tortoise.move(10);
+    Tortoise.turn(45);
+  }
+  private static void flatRoof()
+  {
+    Tortoise.turn(90);
+    Tortoise.move(30);
+    Tortoise.turn(90);
   }
 }
