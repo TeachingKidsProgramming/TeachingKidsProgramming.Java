@@ -5,7 +5,7 @@ import org.teachingextensions.windows.MessageBox;
 
 import com.spun.util.NumberUtils;
 
-public class HiLow
+public class ET
 {
   public static void main(String[] args)
   {
