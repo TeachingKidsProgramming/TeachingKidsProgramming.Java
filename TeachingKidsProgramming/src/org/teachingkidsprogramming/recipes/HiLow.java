@@ -13,7 +13,7 @@ public class HiLow
     {
       //    Choose a random number between 1 and 100 --#4.1 (fake!) & --#13
       //    Do the following 8 times --#9
-      int guess = MessageBox.askForNumericalInput("Please guess a number. You have 8 tries.");
+      int guess = MessageBox.askForNumericalInput("Please guess a number. You have " + (9 - i) + " tries.");
       int correctNumber = NumberUtils.getRandomInt(1, 100);
       if (guess == correctNumber)
       {
