@@ -20,7 +20,8 @@ public class HiLow
       if (guess == correctNumber)
       {
         Sounds.playBeep();
-        MessageBox.showMessage("YOU WINzip :D\n\nYou took " + i + " tries.");
+        MessageBox.showMessage("Your answer was " + correctNumber + "\n\nYOU WINzip :D\n\nYou took " + i
+            + " tries.");
         //     and exit --#10
         System.exit(0);
       }
