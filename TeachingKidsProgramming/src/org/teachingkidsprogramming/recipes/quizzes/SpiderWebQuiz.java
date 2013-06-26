@@ -1,12 +1,10 @@
 package org.teachingkidsprogramming.recipes.quizzes;
 
-import org.teachingkidsprogramming.recipes.quizzes.graders.HousesQuizGrader;
+import org.teachingkidsprogramming.recipes.quizzes.graders.SpiderQuiz;
 import org.teachingkidsprogramming.recipes.quizzes.graders.SpiderWebQuizGrader;
 
-public class SpiderWebQuiz extends SpiderWebQuizGrader
+public class SpiderWebQuiz extends SpiderQuiz
 {
-  public double length = 1;
-  public int    number = 1;
   public void question1()
   {
     //         Do the following the current number of times
@@ -38,6 +36,6 @@ public class SpiderWebQuiz extends SpiderWebQuizGrader
   //
   public static void main(String[] args)
   {
-    new HousesQuizGrader().grade(new HousesQuiz());
+    new SpiderWebQuizGrader().grade(new SpiderWebQuiz());
   }
 }
