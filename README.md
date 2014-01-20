@@ -7,14 +7,16 @@ TeachingKidsProgramming.Java
 
 2) After the install is complete, Eclipse should open with the TKP courseware loaded. The courseware is a series of *.java files
 
+The result should look like this: ![screenshot of Eclipse](http://teachingkidsprogramming.org/blog/wp-content/uploads/2012/04/Screen-shot-TKP-Java1.png)
+
 =============================
 ### If Standard Install Doesn't Work ###
 
 If the standard install doesn't work, then there are a couple of possible reasons: 
    
-   a) You do not have Java installed, if this is the case, then run the 'Ninite JDK Installer'
+   a) You do not have Java installed, if this is the case and you have Windows, then run the 'Ninite JDK Installer', if you have Mac, then you should be prompted to install Java automatically
    
-   b) You do not have Eclipse installed, if this is the case, then run the 'Ninite Eclipse Installer'
+   b) You do not have Eclipse installed, if this is the case and you have Windows, then run the 'Ninite Eclipse Installer', if you have Mac, then you will have to install Eclipse manually
 
 When done your dir should include
 
