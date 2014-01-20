@@ -3,7 +3,11 @@ TeachingKidsProgramming.Java
 
 ## Install ##
 
-1) Unzip eclipse_workspace.zip to current folder
+1) Run the TKP_Launcher
+
+If this doesn't work, then there are two reasons: 
+1) You do not have Java installed, if this is the case, then run the 'Ninite JDK Installer'
+2) You do not have Eclipse installed, if this is the case, then run the 'Ninite Eclipse Installer'
 
 When done your dir should include
 
