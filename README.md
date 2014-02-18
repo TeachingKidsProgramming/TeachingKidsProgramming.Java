@@ -14,25 +14,25 @@ The result should look like this: ![screenshot of Eclipse](http://teachingkidspr
 
 If the standard install doesn't work, then there are a couple of possible reasons: 
    
-   a) You do not have Java (6 or higher) installed, if this is the case and you have Windows, then run the 'Ninite JDK Installer'. After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it.
+   a) Java (6 or higher) not installed -> (Win) run the 'Ninite JDK Installer'.  After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it.
    
-   b) You do not have Eclipse 4.3(Kepler) installed, if this is the case and you have Windows, then run the 'Ninite Eclipse Installer'. After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it.
+   b1) Eclipse 4.3 (Kepler) not installed -> (Win) run the 'Ninite Eclipse Installer'. After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it.
    
-   if you have Mac, then you will have to install Eclipse manually.  After you are done installing Eclipse, then double-click on the 'TKP_Launcher.jar' file to re-run it.
+   b2) Eclipse 4.3 (Kepler) not installed -> (Mac) install Eclipse manually.  After you are done installing Eclipse, then double-click on the 'TKP_Launcher.jar' file to re-run it.
+
+   c1a) Some old version of Eclipse installed -> (Win/Mac) Delete the version of Eclipse you have on your system by finding the folder named Eclipse and deleting it.  Then install Eclipse 4.3 (Kepler).  You can find Eclipse Kepler here
+
+[Eclipse 4.3](http://eclipse.org/downloads/packages/eclipse-standard-43/keplerr)  
+
+   c1b) Open Eclipse and point it at the this directory, by going to File>Switch Workspace>Open 
+
+\TeachingKidsProgramming.Java
 
 When done your dir should include
 
    `.git  
    .metadata  
    TeachingKidsProgramming` 
-
-3) You do not have the correct version of Eclipse installed.  Delete the version of Eclipse you have on your system.  Then install Eclipse 4.3 (Kepler) our courseware is dependant on this version because we customize the IDE as part of the courseware.  You can find Eclipse Kepler here
-
-[Eclipse 4.3](http://eclipse.org/downloads/packages/eclipse-standard-43/keplerr)  
-
-4) Open Eclipse and point it at the this directory, by going to File>Switch Workspace>Open 
-
-\TeachingKidsProgramming.Java
 
 
 
