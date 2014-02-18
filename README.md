@@ -9,6 +9,10 @@ TeachingKidsProgramming.Java
 
 The result should look like this (our sample has two lines of code completed 'Tortoise.show();' which can you run to test to make sure everything is working if you like: ![screenshot of Eclipse](http://teachingkidsprogramming.org/blog/wp-content/uploads/2012/04/Screen-shot-TKP-Java1.png)
 
+## To Run the Courseware ##
+
+1) Double click the 'TKP_Launcher.jar' file.  This will open Eclipse and load the TKP workspace (courseware) into the customized IDE (Eclipse editor).
+
 =============================
 ### If Standard Install Doesn't Work ###
 
