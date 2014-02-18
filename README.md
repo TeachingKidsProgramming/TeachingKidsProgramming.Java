@@ -7,7 +7,7 @@ TeachingKidsProgramming.Java
 
 2) After the install is complete, Eclipse should open with the TKP courseware loaded. The courseware is a series of *.java files
 
-The result should look like this: ![screenshot of Eclipse](http://teachingkidsprogramming.org/blog/wp-content/uploads/2012/04/Screen-shot-TKP-Java1.png)
+The result should look like this (our sample has two lines of code completed 'Tortoise.show();' which can you run to test to make sure everything is working if you like: ![screenshot of Eclipse](http://teachingkidsprogramming.org/blog/wp-content/uploads/2012/04/Screen-shot-TKP-Java1.png)
 
 =============================
 ### If Standard Install Doesn't Work ###
