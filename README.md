@@ -3,7 +3,7 @@ TeachingKidsProgramming.Java
 
 ## To Install ##
 
-1) Run the TKP_Launcher.jar file
+1) Download the zip file and unzip it.  Open the upzipped folders and find the 'TKP_Launcher.jar' file.  Double-click the TKP_Launcher.jar file to run it.
 
 2) After the install is complete, Eclipse should open with the TKP courseware loaded. The courseware is a series of *.java files
 
