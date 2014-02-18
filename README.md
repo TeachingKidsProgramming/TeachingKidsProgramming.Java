@@ -14,9 +14,11 @@ The result should look like this: ![screenshot of Eclipse](http://teachingkidspr
 
 If the standard install doesn't work, then there are a couple of possible reasons: 
    
-   a) You do not have Java installed, if this is the case and you have Windows, then run the 'Ninite JDK Installer', if you have Mac, then you should be prompted to install Java automatically
+   a) You do not have Java (6 or higher) installed, if this is the case and you have Windows, then run the 'Ninite JDK Installer'. After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it.
    
-   b) You do not have Eclipse installed, if this is the case and you have Windows, then run the 'Ninite Eclipse Installer', if you have Mac, then you will have to install Eclipse manually
+   b) You do not have Eclipse 4.3(Kepler) installed, if this is the case and you have Windows, then run the 'Ninite Eclipse Installer'. After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it.
+   
+   if you have Mac, then you will have to install Eclipse manually.  After you are done installing Eclipse, then double-click on the 'TKP_Launcher.jar' file to re-run it.
 
 When done your dir should include
 
@@ -24,8 +26,7 @@ When done your dir should include
    .metadata  
    TeachingKidsProgramming` 
 
-3) Install Eclipse (unzip it)
-We are using a specific version of eclipse, you can find it here
+3) You do not have the correct version of Eclipse installed.  Delete the version of Eclipse you have on your system.  Then install Eclipse 4.3 (Kepler) our courseware is dependant on this version because we customize the IDE as part of the courseware.  You can find Eclipse Kepler here
 
 [Eclipse 4.3](http://eclipse.org/downloads/packages/eclipse-standard-43/keplerr)  
 
