@@ -7,11 +7,13 @@ TeachingKidsProgramming.Java
 
 [![download zip button][2]][1]
  
-Right click the file and click on 'extract all'(Win) or 'unzip'(Mac) to unzip it.  Then open the upzipped folders and find the 'TKP_Launcher.jar' file.  Double-click the TKP_Launcher.jar file to run it.
+After the download completes, then right click the downloaded file and then click on 'extract all'(Win) or 'unzip'(Mac) to unzip it.  
 
-2) After the install is complete, Eclipse should open with the TKP courseware loaded. The courseware is a series of *.java files
+Next open the upzipped folders and find the 'TKP_Launcher.jar' file.  Double-click the TKP_Launcher.jar file to run it.
 
-The result should look like this (our sample has two lines of code completed 'Tortoise.show();' which can you run to test to make sure everything is working if you like: ![screenshot of Eclipse](http://teachingkidsprogramming.org/blog/wp-content/uploads/2012/04/Screen-shot-TKP-Java1.png)
+2) After the TKP_Launcher.jar runs successfully, then Eclipse should open with the TKP courseware loaded. The courseware is a series of *.java files.  If the 'TKP_Launcher.jar' file displays an error, read the error and see the section at the bottom of this page to complete the steps needed.
+
+A successful install should look like this (our sample has two lines of code completed 'Tortoise.show();' which can you run to test to make sure everything is working if you like: ![screenshot of Eclipse](http://teachingkidsprogramming.org/blog/wp-content/uploads/2012/04/Screen-shot-TKP-Java1.png)
 
 ## To Run the Courseware ##
 
