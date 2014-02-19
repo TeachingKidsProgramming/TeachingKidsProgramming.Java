@@ -3,10 +3,10 @@ TeachingKidsProgramming.Java
 
 ## To Install ##
 
-1) Download the zip file by clicking the 'Download ZIP' button on the middle right side of this page (shown below), or just click this link (https://github.com/TeachingKidsProgramming/TeachingKidsProgramming.Java/archive/master.zip)
+1) Download the zip file by clicking the 'Download ZIP' button on the middle right side of this page (shown below)
 
-![download zip button](https://dl.dropboxusercontent.com/u/41301272/downloadZip.png)
-
+[![download zip button][2]][1]
+ 
 Right click the file and click on 'extract all'(Win) or 'unzip'(Mac) to unzip it.  Then open the upzipped folders and find the 'TKP_Launcher.jar' file.  Double-click the TKP_Launcher.jar file to run it.
 
 2) After the install is complete, Eclipse should open with the TKP courseware loaded. The courseware is a series of *.java files
@@ -26,7 +26,7 @@ If the standard install doesn't work, then there are a couple of possible reason
    
    b1) Eclipse 4.3 (Kepler) not installed -> (Win) run the 'Ninite Eclipse Installer'. After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it.
    
-   b2) Eclipse 4.3 (Kepler) not installed -> (Mac) install Eclipse manually.  After you are done installing Eclipse, then double-click on the 'TKP_Launcher.jar' file to re-run it.
+   b2) Eclipse 4.3 (Kepler) not installed -> (Mac) install Eclipse manually.  Be sure to unzip Eclipse into your applications folder. After you are done installing Eclipse, then double-click on the 'TKP_Launcher.jar' file to re-run it.
 
    c1a) Some old version of Eclipse installed -> (Win/Mac) Delete the version of Eclipse you have on your system by finding the folder named Eclipse and deleting it.  Then install Eclipse 4.3 (Kepler).  You can find Eclipse Kepler here
 
@@ -42,6 +42,7 @@ When done your dir should include
    .metadata  
    TeachingKidsProgramming` 
 
-
+  [1]: https://github.com/TeachingKidsProgramming/TeachingKidsProgramming.Java/archive/master.zip
+  [2]: https://dl.dropboxusercontent.com/u/41301272/downloadZip.png
 
 
