@@ -3,7 +3,7 @@ TeachingKidsProgramming.Java
 
 ## To Install ##
 
-1) Download the zip file by clicking the 'Download ZIP' button on the middle right side of this page (shown below)
+1) Download the zip file by clicking the 'Download ZIP' button on the middle right side of this page (for your convenience we also copied that same link directly below this line)
 
 [![download zip button][2]][1]
  
