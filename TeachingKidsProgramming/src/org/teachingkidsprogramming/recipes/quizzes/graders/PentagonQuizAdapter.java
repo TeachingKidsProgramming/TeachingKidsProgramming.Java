@@ -1,10 +1,11 @@
 package org.teachingkidsprogramming.recipes.quizzes.graders;
 
-public class PentagonQuiz
+public class PentagonQuizAdapter
 {
   public PentagonCrazyQuizGrader grader;
-  public void thread()
+  public void callThread()
   {
+    HousesQuizAdapter.call(this, "thread");
   }
   public void question2()
   {

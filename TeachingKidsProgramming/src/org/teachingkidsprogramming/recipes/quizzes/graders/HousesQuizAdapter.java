@@ -2,49 +2,44 @@ package org.teachingkidsprogramming.recipes.quizzes.graders;
 
 import java.lang.reflect.Method;
 
-public class HousesQuizAdapter extends HousesQuiz
+public class HousesQuizAdapter
 {
-  private void call(String methodName)
+  public int length = 0;
+  public static void call(Object that, String methodName)
   {
     try
     {
-      Method method = this.getClass().getDeclaredMethod(methodName);
+      Method method = that.getClass().getDeclaredMethod(methodName);
       method.setAccessible(true);
-      method.invoke(this);
+      method.invoke(that);
     }
     catch (Throwable e)
     {
       // ignore this
     }
   }
-  @Override
   public void question1()
   {
-    call("small");
+    call(this, "small");
   }
-  @Override
   public void question2()
   {
-    call("medium");
+    call(this, "medium");
   }
-  @Override
   public void question3()
   {
-    call("large");
+    call(this, "large");
   }
-  @Override
   public void question4()
   {
-    call("moveTheLength");
+    call(this, "moveTheLength");
   }
-  @Override
   public void question5()
   {
-    call("turnTheCorner");
+    call(this, "turnTheCorner");
   }
-  @Override
   public void question6()
   {
-    call("drawASide");
+    call(this, "drawASide");
   }
 }
