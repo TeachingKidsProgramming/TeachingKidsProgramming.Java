@@ -15,9 +15,11 @@ Next open the upzipped folders and find the 'TKP_Launcher.jar' file.  Double-cli
 
 A successful install should look like this (our sample has two lines of code completed 'Tortoise.show();' which can you run to test to make sure everything is working if you like: ![screenshot of Eclipse](http://teachingkidsprogramming.org/blog/wp-content/uploads/2012/04/Screen-shot-TKP-Java1.png)
 
-## To Run the Courseware ##
+## To Run and Use the Courseware ##
 
-1) Double click the 'TKP_Launcher.jar' file.  This will open Eclipse and load the TKP workspace (courseware) into the customized IDE (Eclipse editor).
+1) Double click the 'TKP_Launcher.jar' file.  This will open Eclipse and load the TKP workspace (courseware) into the customized IDE (Eclipse editor) using the latest version of the TKP courseware.
+
+2) If you want to use the Lesson Plans, then download them as needed directly from the folder with the same name by clicking on the 'Raw' link for the lesson plan of interest.
 
 =============================
 ### If Standard Install Doesn't Work ###
