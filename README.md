@@ -17,9 +17,11 @@ A successful install should look like this (our sample has two lines of code com
 
 ## To Run and Use the Courseware ##
 
-1) Double click the 'TKP_Launcher.jar' file.  This will open Eclipse and load the TKP workspace (courseware) into the customized IDE (Eclipse editor) using the latest version of the TKP courseware.
+Double click the 'TKP_Launcher.jar' file.  This will open Eclipse and load the TKP workspace (courseware) into the customized IDE (Eclipse editor) using the latest version of the TKP courseware.
 
-2) If you want to use the Lesson Plans, then download them as needed directly from the folder with the same name by clicking on the 'Raw' link for the lesson plan of interest.
+## Lesson Plans ##
+
+You can download [Printable Lesson Plans] (https://www.penflip.com/lynnlangit/tkp-lesson-plans) to aid in teaching. We suggest the PDF format (Indexed and formatted better).
 
 =============================
 ### If Standard Install Doesn't Work ###
