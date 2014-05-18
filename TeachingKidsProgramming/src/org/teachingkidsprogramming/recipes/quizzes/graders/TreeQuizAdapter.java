@@ -1,11 +1,13 @@
 package org.teachingkidsprogramming.recipes.quizzes.graders;
 
 import java.lang.reflect.Method;
+import java.util.HashMap;
 
 public class TreeQuizAdapter
 {
-  public int length = 0;
-  public int turn   = 0;
+  public int                       length = 0;
+  public int                       turn   = 0;
+  public HashMap<Integer, Integer> angles  = new HashMap<Integer, Integer>();
   public static void call(Object that, String methodName)
   {
     try
@@ -33,6 +35,6 @@ public class TreeQuizAdapter
   }
   public void question4()
   {
-    call(this, "moveTheLength");
+    call(this, "angleFive");
   }
 }
