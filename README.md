@@ -9,7 +9,9 @@ TeachingKidsProgramming.Java
  
 After the download completes, then right click the downloaded file and then click on 'extract all'(Win) or 'unzip'(Mac) to unzip it.  
 
-Next open the upzipped folders and find the 'TKP_Launcher.jar' file.  Double-click the 'TKP_Launcher.jar file to run it.
+For Windows -- Next open the upzipped folders and find the 'TKP_Launcher.jar' file.  Double-click the 'TKP_Launcher.jar file to run it.
+
+For Mac -- download Eclipse and also download the Java SDK, then follow the instructions below.
 
 2) After the 'TKP_Launcher.jar' runs successfully, then Eclipse should open with the TKP courseware loaded. The courseware is a series of *.java files.  If the 'TKP_Launcher.jar' file displays an error, read the error and see the section at the bottom of this page to complete the steps needed.
 
