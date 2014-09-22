@@ -9,7 +9,7 @@ The next step is to download the TKP ZIP file from this site. Download this zip 
 
 [![download zip button][2]][1]
  
-After the download completes, drag the zip from your downloads folder to the **TKPSource** folder then right click the downloaded file and then click on 'extract all'(Win) or 'unzip'(Mac) to unzip it.  
+After the download completes, drag the zip from your **Downloads** folder to the **TKPSource** folder then right click the downloaded file and then click on 'extract all'(Win) or 'unzip'(Mac) to unzip it.  
 
 For Windows -- Next open the upzipped folders and find the 'TKP_Launcher.jar' file.  Double-click the 'TKP_Launcher.jar file to run it.
 
