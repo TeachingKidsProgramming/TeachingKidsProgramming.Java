@@ -3,7 +3,9 @@ TeachingKidsProgramming.Java
 
 ## To Install ##
 
-1) Download the zip file by clicking the 'Download ZIP' button on the middle right side of this page (for your convenience we also copied that same link directly below this line)
+1) Open your C: drive, Create a folder called 'TKPSource' (Do NOT put any blank spaces in the folder name).
+
+Download the zip file by clicking the 'Download ZIP' button on the middle right side of this page (for your convenience we also copied that same link directly below this line)
 
 [![download zip button][2]][1]
  
