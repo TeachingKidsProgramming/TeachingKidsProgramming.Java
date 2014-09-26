@@ -48,7 +48,7 @@ If the standard install doesn't work, then there are a couple of possible reason
 
 When done your dir should include
 
-   `.git  
+   `  
    .metadata  
    TeachingKidsProgramming` 
 
