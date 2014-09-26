@@ -32,15 +32,15 @@ You can download [Printable Lesson Plans] (https://www.penflip.com/lynnlangit/tk
 
 If the standard install doesn't work, then there are a couple of possible reasons: 
    
-   a) Java (6 or higher) not installed -> (Win) run the 'Ninite JDK Installer'.  After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it.
+   a) Java (6 or higher) not installed -> (for Windows) run the 'Ninite JDK Installer'.  After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it. (for Mac) download the JDK and install it.
    
-   b1) Eclipse 4.3 (Kepler) not installed -> (Win) run the 'Ninite Eclipse Installer'. After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it.
+   b1) Eclipse Luna not installed -> (for Windows) run the 'Ninite Eclipse Installer'. After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it. 
    
-   b2) Eclipse 4.3 (Kepler) not installed -> (Mac) install Eclipse manually.  Be sure to unzip Eclipse into your applications folder. After you are done installing Eclipse, then double-click on the 'TKP_Launcher.jar' file to re-run it.
+   b2) Eclipse Luna not installed -> (Mac) install Eclipse manually.  Be sure to unzip Eclipse into your applications folder. After you are done installing Eclipse, then double-click on the 'TKP_Launcher.jar' file to re-run it.  You may need to 'point to' the TKP workspace manually, see instruction c1b) (below)
 
-   c1a) Some old version of Eclipse installed -> (Win/Mac) Delete the version of Eclipse you have on your system by finding the folder named Eclipse and deleting it.  Then install Eclipse 4.3 (Kepler).  You can find Eclipse Kepler here
+   c1a) Some old version of Eclipse installed -> (Win/Mac) Delete the version of Eclipse you have on your system by finding the folder named Eclipse and deleting it.  Then install Eclipse Luna.  You can find Eclipse Luna here
 
-[Eclipse 4.3](http://eclipse.org/downloads/packages/eclipse-standard-43/keplerr)  
+[Eclipse Luna](https://projects.eclipse.org/releases/luna)  
 
    c1b) Open Eclipse and point it at the this directory, by going to File>Switch Workspace>Open 
 
