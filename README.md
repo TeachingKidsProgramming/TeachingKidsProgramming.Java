@@ -3,17 +3,17 @@ TeachingKidsProgramming.Java
 
 ## To Install ##
 
-1) Open your C: drive, Create a new folder called **TKPSource** (Do NOT put any blank spaces in the folder name).
+1a) Open your C: drive, Create a new folder called **TKPSource** (Do NOT put any blank spaces in the folder name).
 
-The next step is to download the TKP ZIP file from this site. Download this zip file by clicking the 'Download ZIP' button on the middle right side of this page (for your convenience we also copied that same link directly below this line)
+1b) Download the TKP ZIP file from this site. Download this zip file by clicking the 'Download ZIP' button on the middle right side of this page (for your convenience we also copied that same link directly below this line)
 
 [![download zip button][2]][1]
  
-After the download completes, drag the zip from your **Downloads** folder to the **TKPSource** folder then right click the downloaded file and then click on 'extract all'(Win) or 'unzip'(Mac) to unzip it.  
+1c) After the download completes, drag the zip from your **Downloads** folder to the **TKPSource** folder then right click the downloaded file and then click on 'extract all'(Win) or 'unzip'(Mac) to unzip it.  
 
-For Windows -- Next open the upzipped folders and find the 'TKP_Launcher.jar' file.  Double-click the 'TKP_Launcher.jar file to run it.
+      For Windows -- Next open the upzipped folders and find the 'TKP_Launcher.jar' file.  Double-click the 'TKP_Launcher.jar file to run it.
 
-For Mac -- download Eclipse and also download the Java SDK, then follow the instructions below.
+      For Mac -- download Eclipse and also download the Java SDK, then follow the instructions below.
 
 2) After the 'TKP_Launcher.jar' runs successfully, then Eclipse should open with the TKP courseware loaded. The courseware is a series of *.java files.  If the 'TKP_Launcher.jar' file displays an error, read the error and see the section at the bottom of this page to complete the steps needed.
 
