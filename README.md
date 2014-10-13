@@ -32,13 +32,13 @@ You can download [Printable Lesson Plans] (https://www.penflip.com/lynnlangit/tk
 
 If the standard install doesn't work, then there are a couple of possible reasons: 
    
-   a) Java (6 or higher) not installed -> (for Windows) run the 'Ninite JDK Installer'.  After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it. (for Mac) download the JDK and install it.
+   a) **Java (6 or higher) not installed** -> (for Windows) run the 'Ninite JDK Installer'.  After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it. (for Mac) download the JDK and install it.
    
-   b1) Eclipse Luna not installed -> (for Windows) run the 'Ninite Eclipse Installer'. After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it. 
+   b1) **Eclipse Luna not installed** -> (for Windows) run the 'Ninite Eclipse Installer'. After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it. 
    
-   b2) Eclipse Luna not installed -> (Mac) install Eclipse manually.  Be sure to unzip Eclipse into your applications folder. After you are done installing Eclipse, then double-click on the 'TKP_Launcher.jar' file to re-run it.  You may need to 'point to' the TKP workspace manually, see instruction c1b) (below)
+   b2) **Eclipse Luna not installed** -> (for Mac) install Eclipse manually.  Be sure to unzip Eclipse into your applications folder. After you are done installing Eclipse, then double-click on the 'TKP_Launcher.jar' file to re-run it.  You may need to 'point to' the TKP workspace manually, see instruction c1b) (below)
 
-   c1a) Some old version of Eclipse installed -> (Win/Mac) Delete the version of Eclipse you have on your system by finding the folder named Eclipse and deleting it.  Then install Eclipse Luna.  You can find Eclipse Luna here
+   c1a) Some **old version of Eclipse installed** -> (Win/Mac) Delete the version of Eclipse you have on your system by finding the folder named Eclipse and deleting it.  Then install Eclipse Luna.  You can find Eclipse Luna here
 
 [Eclipse Luna](https://projects.eclipse.org/releases/luna)  
 
@@ -51,6 +51,8 @@ When done your dir should include
    `  
    .metadata  
    TeachingKidsProgramming` 
+   
+   d) Failure due to **Unable to write to filesystem location(s)** -> some school districts apply various 'locking' permissions to student computer lab laptops.  Try to 'run as administrator' (for Windows) or 'run as root' (for Mac) so that the downloaded TKP files can be unzipped.  Another variation of this locked down state is that some schools create a virtual (and sometimes shared C:\ drive).  If this is the case, unzip Eclipse to the C:\ drive and then unzip the TKP.zip to each student's C:\temp directory.  
 
   [1]: https://github.com/TeachingKidsProgramming/TeachingKidsProgramming.Java/archive/master.zip
   [2]: https://dl.dropboxusercontent.com/u/41301272/downloadZip.png
