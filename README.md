@@ -3,29 +3,29 @@ TeachingKidsProgramming.Java
 
 ## To Install ##
 
-1a) Open your C: drive, Create a new folder called **TKPSource** (Do NOT put any blank spaces in the folder name).
+1a) **Create** a new folder named **TKPSource** (Do NOT put any blank spaces in the folder name) at C:\ -> C:\TKPSource.
 
-1b) Download the TKP ZIP file from this site. Download this zip file by clicking the 'Download ZIP' button on the middle right side of this page (for your convenience we also copied that same link directly below this line)
+1b) **Download** the TKP ZIP file from this site. Download this zip file by clicking the 'Download ZIP' button on the middle right side of this page (or use the link directly below this line). Wait for the download to complete.
 
 [![download zip button][2]][1]
  
-1c) After the download completes, drag the zip from your **Downloads** folder to the **TKPSource** folder then right click the downloaded file and then click on 'extract all'(Win) or 'unzip'(Mac) to unzip it.  
+1c) **Move** the zip file from your **Downloads** folder to the **TKPSource** folder.
 
-      For Windows -- Next open the upzipped folders and find the 'TKP_Launcher.jar' file.  Double-click the 'TKP_Launcher.jar file to run it.
+1d) **Unzip** by right clicking the downloaded file and then click on 'extract all'(Win) or 'unzip'(Mac) to unzip it.  
 
-      For Mac -- download Eclipse and also download the Java SDK, then follow the instructions below.
+1e) **Open** the upzipped TKP folders and find the **'TKP_Launcher.jar'** file.  
 
-2) After the 'TKP_Launcher.jar' runs successfully, then Eclipse should open with the TKP courseware loaded. The courseware is a series of *.java files.  If the 'TKP_Launcher.jar' file displays an error, read the error and see the section at the bottom of this page to complete the steps needed.
+1f) **Run** the 'TKP_Launcher.jar file by double-clicking it. Wait for it to complete.  If it's successful, Eclipse will launch with the TKP workspace open. If an error MessageBox pops up, read the message and go to the **Fixing Installation Errors** section at the bottom of this document.
 
-A successful install should look like this (our sample has two lines of code completed 'Tortoise.show();' which can you run to test to make sure everything is working if you like: ![screenshot of Eclipse](http://teachingkidsprogramming.org/blog/wp-content/uploads/2012/04/Screen-shot-TKP-Java1.png)
+A successful install should look like the screenshot below (our sample has two lines of code completed 'Tortoise.show();' which can you run to test the setup: 
 
-## To Run and Use the Courseware ##
+![screenshot of Eclipse](http://teachingkidsprogramming.org/blog/wp-content/uploads/2012/04/Screen-shot-TKP-Java1.png)
 
-Double click the 'TKP_Launcher.jar' file.  This will open Eclipse and load the TKP workspace (courseware) into the customized IDE (Eclipse editor) using the latest version of the TKP courseware.
+=============================
 
 ## Lesson Plans ##
 
-You can download [Printable Lesson Plans] (https://www.penflip.com/lynnlangit/tkp-lesson-plans) to aid in teaching. We suggest the PDF format (Indexed and formatted better).
+You can download [Printable Lesson Plans] (https://www.penflip.com/lynnlangit/tkp-lesson-plans) to aid in teaching. We suggest the PDF format (Indexed and formatted better).  These lesson plans include links to our YouTube channel, screencast videos of TKP lessons as well.
 
 =============================
 ### If Standard Install Doesn't Work ###
