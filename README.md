@@ -1,5 +1,5 @@
-##Setting up the TKPJava Courseware and customized Eclipse coding environment##
-============================
+###Setting up the TKPJava Courseware and customized Eclipse coding environment###
+
 1a) **Create** a new folder named **TKPSource** (Do NOT put any blank spaces in the folder name) at C:\ -> C:\TKPSource.
 
 1b) **Download** the TKP zip file from this site. Download this zip file by clicking the 'Download ZIP' button on the middle right side of this page (or use the link directly below this line). Wait for the download to complete.
@@ -27,7 +27,7 @@ A successful install should look like the screenshot below: (you can test with t
 =============================
 ## Lesson Plans ##
 
-####You can download [Printable Lesson Plans] (https://www.penflip.com/lynnlangit/tkp-lesson-plans) to aid in teaching. We suggest the PDF format (Indexed and formatted better).  These lesson plans include links to our YouTube channel, screencast videos of TKP lessons as well.####
+    You can download [Printable Lesson Plans] (https://www.penflip.com/lynnlangit/tkp-lesson-plans) to aid in teaching. We suggest the PDF format (Indexed and formatted better).  These lesson plans include links to our YouTube channel, screencast videos of TKP lessons as well.
 =============================
 ### Fixing Installation Errors ###
 
