@@ -5,11 +5,11 @@ TeachingKidsProgramming.Java
 
 1a) **Create** a new folder named **TKPSource** (Do NOT put any blank spaces in the folder name) at C:\ -> C:\TKPSource.
 
-1b) **Download** the TKP ZIP file from this site. Download this zip file by clicking the 'Download ZIP' button on the middle right side of this page (or use the link directly below this line). Wait for the download to complete.
+1b) **Download** the TKP zip file from this site. Download this zip file by clicking the 'Download ZIP' button on the middle right side of this page (or use the link directly below this line). Wait for the download to complete.
 
 [![download zip button][2]][1]
  
-1c) **Move** the zip file from your **Downloads** folder to the **TKPSource** folder.  The name of the downloaded file is 'TeachingkidsProgramming.Java-master.zip'.
+1c) **Move** the zip file from your **\Downloads** folder to the **C:\TKPSource** folder.  The name of the downloaded file is 'TeachingkidsProgramming.Java-master.zip'.
 
 1d) **Unzip** the downloaded file (by right clicking it) and then click on 'extract all'(Win) or 'unzip'(Mac) to unzip it.  
 
@@ -22,15 +22,15 @@ TeachingKidsProgramming.Java
     If an error MessageBox pops up, read the message and go to the **Fixing Installation Errors** 
     section at the bottom of this document.
 
-A successful install should look like the screenshot below (our sample has two lines of code completed 'Tortoise.show();' which can you run to test the setup: 
+A successful install should look like the screenshot below: (you can test with two lines of code below)
+
+    Tortoise.show();
 
 ![screenshot of Eclipse](http://teachingkidsprogramming.org/blog/wp-content/uploads/2012/04/Screen-shot-TKP-Java1.png)
-
 =============================
 ## Lesson Plans ##
 
 You can download [Printable Lesson Plans] (https://www.penflip.com/lynnlangit/tkp-lesson-plans) to aid in teaching. We suggest the PDF format (Indexed and formatted better).  These lesson plans include links to our YouTube channel, screencast videos of TKP lessons as well.
-
 =============================
 ### Fixing Installation Errors ###
 
