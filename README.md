@@ -43,7 +43,7 @@ If the standard install doesn't work, then there are a couple of possible reason
 
 [Eclipse Luna](https://projects.eclipse.org/releases/luna)  
 
-   c1b) Open Eclipse and change the default workspace directory, 
+   c1b) Customized **TKP workspace not open** in Eclipse.  Open Eclipse and change the default workspace directory, 
    by clicking on 'File>Switch Workspace>Open...' and navigating to the **\TeachingKidsProgramming.Java** folder.
 
   After you do this, then your working directory should include the following folders:
@@ -51,7 +51,7 @@ If the standard install doesn't work, then there are a couple of possible reason
     \.metadata & \TeachingKidsProgramming` 
      
    
-   d) Failure due to **Unable to write to file system location(s)** -> some school districts apply various 'locking' permissions to student computer lab laptops.  Try to 'run as administrator' (for Windows) or 'run as root' (for Mac) so that the downloaded TKP files can be unzipped.  Another variation of this locked down state is that some schools create a virtual (and sometimes shared C:\ drive).  If this is the case, unzip Eclipse to the C:\ drive and then unzip the TKP.zip to each student's **C:\temp** directory.  
+   d) General Installation Failure due to **Unable to write to file system location(s)** -> some school districts apply various 'locking' permissions to student computer lab laptops.  Try to 'run as administrator' (for Windows) or 'run as root' (for Mac) so that the downloaded TKP files can be unzipped.  Another variation of this locked down state is that some schools create a virtual (and sometimes shared C:\ drive).  If this is the case, unzip Eclipse to the C:\ drive and then unzip the TKP.zip to each student's **C:\temp** directory.  
 
   [1]: https://github.com/TeachingKidsProgramming/TeachingKidsProgramming.Java/archive/master.zip
   [2]: https://dl.dropboxusercontent.com/u/41301272/downloadZip.png
