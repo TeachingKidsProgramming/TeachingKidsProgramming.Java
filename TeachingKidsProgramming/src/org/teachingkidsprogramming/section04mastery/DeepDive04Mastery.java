@@ -19,10 +19,6 @@ public class DeepDive04Mastery
   //  Step 5: Advance to the next method
   //  Do not change anything except the blank (___)
   //
-  //    concepts to cover: types, scope
-  //    no inheritance,no new,  int->double, int->string
-  //    primitive types
-  //    possible auto-boxing
   @Test
   public void theseNumbersCount() throws Exception
   {
