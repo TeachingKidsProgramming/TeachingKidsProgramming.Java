@@ -1,10 +1,11 @@
-package org.teachingkidsprogramming.recipes.quizzes;
+package org.teachingkidsprogramming.section04mastery;
 
 import org.teachingkidsprogramming.recipes.quizzes.graders.SpiderQuiz;
 import org.teachingkidsprogramming.recipes.quizzes.graders.SpiderWebQuizGrader;
 
 public class SpiderWebQuiz extends SpiderQuiz
 {
+  //*this needs to be translated from the SmallBasic original into Java
   public void question1()
   {
     //         Do the following the current number of times

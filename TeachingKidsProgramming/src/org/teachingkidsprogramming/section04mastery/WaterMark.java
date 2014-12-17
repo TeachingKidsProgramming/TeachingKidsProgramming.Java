@@ -1,10 +1,11 @@
-package org.teachingkidsprogramming.recipes;
-
+package org.teachingkidsprogramming.section04mastery;
 
 public class WaterMark
 {
   public static void main(String[] args)
   {
+    //**this is the partially translated - from SmallBasic**
+    //**Flickr library needs to be implemented in Java
     //  Make the tortoise go as fast as possible --#3
     //  Get a picture of sand from Flickr --#7.1
     //  A side is 1 pixel long --#4.1

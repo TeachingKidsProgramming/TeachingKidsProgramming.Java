@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.recipes.deepdives;
+package org.teachingkidsprogramming.section09exceptions;
 
 import org.junit.Assert;
 import org.junit.Ignore;
@@ -7,7 +7,7 @@ import org.junit.Test;
 import com.spun.util.FormattedException;
 
 
-public class DeepDive09Exceptions
+public class DeepDive09exceptions
 {
   //  How to do deep dive:
   //  Step 1: Select the method name (doesABear on line 20) Press the Run Button

@@ -1,7 +1,8 @@
-package org.teachingkidsprogramming.recipes.quizzes;
+package org.teachingkidsprogramming.section07events;
 
 public class SimpleBubbleQuiz
 {
+  //this is the original quiz (from SmallBasic) - need to be translated to Java
   //Variables needed for Quiz
   //  action[1] = 15
   //  ball = 1
