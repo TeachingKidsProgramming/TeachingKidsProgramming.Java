@@ -2,14 +2,17 @@ package org.teachingkidsprogramming.section05recursion;
 
 import java.awt.Color;
 import java.awt.Cursor;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 
 import org.junit.Assert;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Tortoise;
 
-//
+
 public class DeepDive05Recursion
 {
   //  How to do deep dive:
@@ -22,24 +25,6 @@ public class DeepDive05Recursion
   //  Step 5: Advance to the next method
   //  Do not change anything except the blank (___)
   //
-  //    collections (hashmaps and more...)
-  //Hashmap = C# Dictionary
-  //   HashMap<K,V>
-  //Array = C# Array
-  //   Integer [ ] = {1,2,3};
-  //   Integer [ ] = new Integer [3];
-  // List = C# ArrayList
-  //    List = new ArrayLIst( );
-  //    concepts to cover: recursion
-  //    possible recursive ideas from lisp/clojure
-  //    (defn is-even? [n] (if (= n 0) (___ (is-even? (dec n)))))
-  //    (defn recursive-reverse [coll] __)
-  @Test
-  public void gettingStarted() throws Exception
-  {
-    int number = 2;
-    Assert.assertEquals(number, ____);
-  }
   @Test
   public void changeThePointer() throws Exception
   {
@@ -82,6 +67,31 @@ public class DeepDive05Recursion
     Assert.assertEquals(_______, colors.get(30));
   }
   @Test
+  public void getWhatsSecond() throws Exception
+  {
+    //get the second item on the list
+    List<String> messages = Arrays.asList("Hello", "World!", "How", "Are", "You");
+    String result = messages.get(____);
+    Assert.assertEquals("World!", result);
+  }
+  @Test
+  public void getWhatsLast() throws Exception
+  {
+    //get the last item on the list
+    List<String> messages = Arrays.asList("Hello", "World!", "How", "Are", "You");
+    String result = messages.get(4);
+    Assert.assertEquals(___, result);
+  }
+  @Test
+  public void whatIsLastNow() throws Exception
+  {
+    //get the last item on the list now
+    List<String> messages = Arrays.asList("Hello", "World!", "How", "Are", "You");
+    messages.set(4, ___);
+    String result = messages.get(4);
+    Assert.assertEquals("The rest of them", result);
+  }
+  @Test
   public void getThirdArrayItem() throws Exception
   {
     //get the third item from the right spot using the key
@@ -89,7 +99,7 @@ public class DeepDive05Recursion
     Assert.assertEquals(10, numbers[____]);
   }
   @Test
-  public void whatDoesItStartWith() throws Exception
+  public void whatIsThird() throws Exception
   {
     //put 25 at the third position
     int[] numbers = {1, 5, 10, ____};

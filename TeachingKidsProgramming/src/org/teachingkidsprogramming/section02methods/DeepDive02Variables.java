@@ -138,6 +138,7 @@ public class DeepDive02Variables
    */
   public String ___  = "You need to fill in the blank ___";
   public int    ____ = 10000;
+  public int    numberOfHarryPotterBooks;
   public String ___()
   {
     return ___;
