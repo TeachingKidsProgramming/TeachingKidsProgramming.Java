@@ -21,15 +21,24 @@ public class DeepDive06ModelViewController
   //  Step 5: Advance to the next method
   //  Do not change anything except the blank (___)
   //
-  //    concepts:
+  //   concepts:
   //   string concatenation
   //   MVC
   @Test
-  public void concatenateString() throws Exception
+  public void stringsCanBeArrays() throws Exception
   {
     //create a new string from the strings "happy " + "baby"
     String[] words = {"happy ", ___};
     Assert.assertEquals("happy baby", words);
+  }
+  @Test
+  public void canConcatenateVariables() throws Exception
+  {
+    //create a variable called words which equals "is to"
+    //create a variable called analogy which equals "Florida " + words + " America as appendix " + words + " body"
+    String words = "is to";
+    String analogy = "Florida " + ___ + " America as appendix " + ___ + " body";
+    Assert.assertEquals("Florida is to America as appendix is to body", analogy);
   }
   /**
    * Ignore the following, It's needed to run the homework
