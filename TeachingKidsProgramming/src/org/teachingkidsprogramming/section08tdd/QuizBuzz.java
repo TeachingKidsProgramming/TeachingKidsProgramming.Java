@@ -1,9 +1,9 @@
-package org.teachingkidsprogramming.section07events;
+package org.teachingkidsprogramming.section08tdd;
 
-import org.teachingkidsprogramming.recipes.quizzes.graders.SimpleBubbleQuizAdapter;
-import org.teachingkidsprogramming.recipes.quizzes.graders.SimpleBubbleQuizGrader;
+import org.teachingkidsprogramming.recipes.quizzes.graders.QuizBuzzAdapter;
+import org.teachingkidsprogramming.recipes.quizzes.graders.QuizBuzzGrader;
 
-public class SimpleBubbleQuiz extends SimpleBubbleQuizAdapter
+public class QuizBuzz extends QuizBuzzAdapter
 {
   //**THIS QUIZ IS IN PROGRESS
   public void question1(String letter1, String letter3)
@@ -24,6 +24,6 @@ public class SimpleBubbleQuiz extends SimpleBubbleQuizAdapter
   }
   public static void main(String[] args)
   {
-    new SimpleBubbleQuizGrader().grade(new SimpleBubbleQuiz());
+    new QuizBuzzGrader().grade(new QuizBuzz());
   }
 }
