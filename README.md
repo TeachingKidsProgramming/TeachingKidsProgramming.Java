@@ -1,5 +1,7 @@
 ##Set up TKPJava courseware and customized Eclipse##
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/TeachingKidsProgramming/TeachingKidsProgramming.Java?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 1a) **Create** a new folder named **TKPSource** (no spaces in the folder name) at C:\ -> C:\TKPSource.
 
 1b) **Download** the TKP zip file from this site. Download this zip file by clicking the 'Download ZIP' button on the middle right side of this page (or use the link directly below this line). Wait for the download to complete.
