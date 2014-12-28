@@ -22,7 +22,7 @@ public class DeepDive06ModelViewController
   //  Do not change anything except the blank (___)
   //
   //   concepts:
-  //   string concatenation
+  //   string concatenation, including int-> string conversions
   //   MVC
   @Test
   public void stringsCanBeArrays() throws Exception
@@ -32,13 +32,42 @@ public class DeepDive06ModelViewController
     Assert.assertEquals("happy baby", words);
   }
   @Test
-  public void canConcatenateVariables() throws Exception
+  public void trashtalkingFlorida() throws Exception
   {
-    //create a variable called words which equals "is to"
-    //create a variable called analogy which equals "Florida " + words + " America as appendix " + words + " body"
-    String words = "is to";
+    String compareThis = "is to";
     String analogy = "Florida " + ___ + " America as appendix " + ___ + " body";
     Assert.assertEquals("Florida is to America as appendix is to body", analogy);
+  }
+  @Test
+  public void sardinesFlyCoach() throws Exception
+  {
+    String fishReference = "The sardines were";
+    String airplaneStress = "the coach section of a 747.";
+    String analogy = fishReference + " packed as tight as " + airplaneStress;
+    Assert.assertEquals("The sardines were packed as tight as the coach section of a 747.", ___);
+  }
+  @Test
+  public void sanityProblems() throws Exception
+  {
+    String selfDeprecation = "The nerds who made this were";
+    String anAppleADay = "the doctors who complimented their mental stability.";
+    String analogy = selfDeprecation + " as sarcastic as " + anAppleADay;
+    Assert.assertEquals(___, analogy);
+  }
+  @Test
+  public void skydivingFrenchKings() throws Exception
+  {
+    String compareThis = ___;
+    String analogy = "Skydiving " + compareThis + " sensible as Louis XVI " + compareThis + " leadership";
+    Assert.assertEquals("Skydiving is to sensible as Louis XVI is to leadership", analogy);
+  }
+  @Test
+  public void infiniteB() throws Exception
+  {
+    String infinite = "B";
+    String analogy = "The " + ___ + " in " + ___ + "enoît " + ___ + ". Mandelbrot stands for " + ___ + "enoît "
+        + ___ + ". Mandelbrot.";
+    Assert.assertEquals("The B in Benoît B. Mandelbrot stands for Benoît B. Mandelbrot.", analogy);
   }
   /**
    * Ignore the following, It's needed to run the homework
