@@ -10,7 +10,7 @@ import you.need.to.fill.in.the.______;
 public class DeepDive04Mastery
 {
   //  How to do deep dive:
-  //  Step 1: Select the method name (doesABear on line 20) Press the Run Button
+  //  Step 1: Select the method name (theseNumbersCount on line 23) Press the Run Button
   //            PC: Ctrl+F11 
   //            Mac: Command+fn+F11
   //  Step 2: Read the name of the method that failed
