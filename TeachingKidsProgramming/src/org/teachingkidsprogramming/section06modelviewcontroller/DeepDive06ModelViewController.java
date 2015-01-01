@@ -2,6 +2,7 @@ package org.teachingkidsprogramming.section06modelviewcontroller;
 
 import java.awt.Color;
 import java.awt.Cursor;
+import java.util.HashMap;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -21,15 +22,18 @@ public class DeepDive06ModelViewController
   //  Step 5: Advance to the next method
   //  Do not change anything except the blank (___)
   //
-  //   concepts:
-  //   string concatenation, including int-> string conversions
-  //   MVC
   @Test
   public void stringsCanBeArrays() throws Exception
   {
-    //create a new string from the strings "happy " + "baby"
     String[] words = {"happy ", ___};
     Assert.assertEquals("happy baby", words);
+  }
+  @Test
+  public void numbersCanBeStrings() throws Exception
+  {
+    int numberOfBabies = ____;
+    String words = "" + numberOfBabies + " happy babies";
+    Assert.assertEquals("10 happy babies", words);
   }
   @Test
   public void trashtalkingFlorida() throws Exception
@@ -69,6 +73,46 @@ public class DeepDive06ModelViewController
         + ___ + ". Mandelbrot.";
     Assert.assertEquals("The B in Benoît B. Mandelbrot stands for Benoît B. Mandelbrot.", analogy);
   }
+  @Test
+  public void expectTheResult() throws Exception
+  {
+    numbers.put(12, "dozen");
+    numbers.put(144, "gross");
+    numbers.put(20, "score");
+    String aSomething = "A " + numbers.get(12) + ", a " + numbers.get(144) + ", and a " + numbers.get(20);
+    String aCalculation = aSomething
+        + " plus three times the square root of four, divided by seven, plus five times eleven";
+    String aResult = aCalculation + " is nine squared and not a bit more";
+    Assert.assertEquals("A dozen, a gross, and a score plus three times the square root of four,"
+        + " divided by seven, plus five times eleven is nine squared and not a bit more", ___);
+  }
+  @Test
+  public void lookUp() throws Exception
+  {
+    //    (12 + 144 + 20 + 3 x 4^1/2) / 7  +  5 x 11  =  9² + 0
+    numbers.put(12, "dozen");
+    numbers.put(144, "gross");
+    numbers.put(20, "score");
+    String aSomething = "A " + numbers.get(____) + ", a " + numbers.get(____) + ", and a " + numbers.get(____);
+    String aCalculation = aSomething
+        + " plus three times the square root of four, divided by seven, plus five times eleven";
+    String aResult = aCalculation + " is nine squared and not a bit more";
+    Assert.assertEquals("A dozen, a gross, and a score plus three times the square root of four,"
+        + " divided by seven, plus five times eleven is nine squared and not a bit more", aResult);
+  }
+  @Test
+  public void inYourOwnWords() throws Exception
+  {
+    numbers.put(12, ___);
+    numbers.put(144, ___);
+    numbers.put(20, ___);
+    String aSomething = "A " + numbers.get(12) + ", a " + numbers.get(144) + ", and a " + numbers.get(20);
+    String aCalculation = aSomething
+        + " plus three times the square root of four, divided by seven, plus five times eleven";
+    String aResult = aCalculation + " is nine squared and not a bit more";
+    Assert.assertEquals("A dozen, a gross, and a score plus three times the square root of four,"
+        + " divided by seven, plus five times eleven is nine squared and not a bit more", aResult);
+  }
   /**
    * Ignore the following, It's needed to run the homework
    * 
@@ -82,11 +126,12 @@ public class DeepDive06ModelViewController
    * 
    * 
    */
-  public boolean _____  = false;
-  public boolean ______ = true;
-  public String  ___    = "You need to fill in the blank ___";
-  public int     ____   = 0;
-  public Color   _______;
+  public boolean                  _____   = false;
+  public boolean                  ______  = true;
+  public String                   ___     = "You need to fill in the blank ___";
+  public HashMap<Integer, String> numbers = new HashMap<Integer, String>();
+  public int                      ____    = 0;
+  public Color                    _______;
   public String ___()
   {
     return ___;
