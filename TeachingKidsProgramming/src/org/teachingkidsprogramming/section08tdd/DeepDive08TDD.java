@@ -26,11 +26,11 @@ public class DeepDive08TDD
   //   type conversion
   //   autoboxing
   @Test
-  public void concatenateString() throws Exception
+  public void stringsCanBeArrays() throws Exception
   {
-    //create a new string from the strings "happy " + "baby"
     String[] words = {"happy ", ___};
-    Assert.assertEquals("happy baby", words);
+    String result = words[0] + words[1];
+    Assert.assertEquals("happy baby", result);
   }
   /**
    * Ignore the following, It's needed to run the homework

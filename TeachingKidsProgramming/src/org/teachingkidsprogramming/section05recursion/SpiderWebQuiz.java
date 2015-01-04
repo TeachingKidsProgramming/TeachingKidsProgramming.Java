@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section04mastery;
+package org.teachingkidsprogramming.section05recursion;
 
 import org.teachingkidsprogramming.recipes.quizzes.graders.SpiderQuiz;
 import org.teachingkidsprogramming.recipes.quizzes.graders.SpiderWebQuizGrader;

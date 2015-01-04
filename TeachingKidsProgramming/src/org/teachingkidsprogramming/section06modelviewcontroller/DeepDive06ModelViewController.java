@@ -24,7 +24,8 @@ public class DeepDive06ModelViewController
   public void stringsCanBeArrays() throws Exception
   {
     String[] words = {"happy ", ___};
-    Assert.assertEquals("happy baby", words);
+    String result = words[0] + words[1];
+    Assert.assertEquals("happy baby", result);
   }
   @Test
   public void numbersCanBeStrings() throws Exception

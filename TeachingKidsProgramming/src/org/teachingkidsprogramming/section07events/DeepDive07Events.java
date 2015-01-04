@@ -26,11 +26,11 @@ public class DeepDive07Events
   //   'this' - instance(s) - multiple Tortoises
   //    exploring Object methods other than Tortoise---Circle (TKP)...methods
   @Test
-  public void concatenateString() throws Exception
+  public void stringsCanBeArrays() throws Exception
   {
-    //create a new string from the strings "happy " + "baby"
     String[] words = {"happy ", ___};
-    Assert.assertEquals("happy baby", words);
+    String result = words[0] + words[1];
+    Assert.assertEquals("happy baby", result);
   }
   @Test
   public void twoTortoises() throws Exception
