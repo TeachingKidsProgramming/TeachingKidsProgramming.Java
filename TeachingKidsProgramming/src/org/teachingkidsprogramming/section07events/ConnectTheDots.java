@@ -1,5 +1,6 @@
 package org.teachingkidsprogramming.section07events;
 
+import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.windows.MouseLeftClickListener;
 import org.teachingextensions.windows.MouseRightClickListener;
 
@@ -8,11 +9,13 @@ public class ConnectTheDots implements MouseRightClickListener, MouseLeftClickLi
   public static void main(String[] args)
   {
     //Create a new 'Connect The Dots' window. --#1.1
+    ConnectTheDots dots = new ConnectTheDots();
   }
   public ConnectTheDots()
   {
     // Listen for right clicks on the window for the tortoise  --#20.2
     // Listen for left clicks on the window for the tortoise  --#1.2
+    Tortoise.getBackgroundWindow().addMouseRightClickListener(this);
     //Make the Tortoise go as fast as possible. --#4
     //  clearTheScreen (recipe below) --#19
     //  ------------- Recipe for clearTheScreen --#19
