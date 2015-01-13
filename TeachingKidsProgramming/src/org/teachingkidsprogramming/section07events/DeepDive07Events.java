@@ -6,6 +6,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.Turtle;
+import org.teachingextensions.logo.Turtle.Animals;
 //This deepdive is in progress!
 
 //
@@ -22,9 +23,9 @@ public class DeepDive07Events
   //  Do not change anything except the blank (___)
   //
   //   concepts:
-  //   events / multiple event listeners - right click 
   //   'this' - instance(s) - multiple Tortoises
   //    exploring Object methods other than Tortoise---Circle (TKP)...methods
+  //    events / multiple event listeners - right click - move events to new section?
   @Test
   public void stringsCanBeArrays() throws Exception
   {
@@ -57,15 +58,25 @@ public class DeepDive07Events
     boolean result = michealangelo.equals(anonymousNinja);
     Assert.assertEquals(true, result);
   }
-  //"this" Tortoise belongs here (to this Object)
+  //Turtle Leonardo belongs to "this" 
   private Turtle leonardo;
   @Test
-  public void sadTortoise() throws Exception
+  public void fatTrailTurtle() throws Exception
   {
-    this._______ = new Turtle();
-    //sorry, leonardo must die now - joking
-    this.leonardo.getPenWidth();
-    Assert.assertEquals(2, this.leonardo.getPenWidth());
+    Turtle ninja = new Turtle();
+    this.leonardo = _______;
+    ninja.setPenWidth(30);
+    Assert.assertEquals(30, this.leonardo.getPenWidth());
+  }
+  //Turtle Donatello belongs to "this" 
+  private Turtle donatello;
+  @Test
+  public void explodingTurtle() throws Exception
+  {
+    Turtle ninja = new Turtle();
+    this._______ = ninja;
+    this.donatello.setAnimal(Animals.ExplodedTurtle);
+    Assert.assertTrue("The ninja is still alive!", ninja.isDead());
   }
   /**
    * Ignore the following, It's needed to run the homework
@@ -80,11 +91,11 @@ public class DeepDive07Events
    * 
    * 
    */
-  public boolean  _____  = false;
-  public boolean  ______ = true;
-  public String   ___    = "You need to fill in the blank ___";
-  public int      ____   = 0;
-  public Turtle   _______;
+  public boolean  _____   = false;
+  public boolean  ______  = true;
+  public String   ___     = "You need to fill in the blank ___";
+  public int      ____    = 0;
+  public Turtle   _______ = new Turtle();
   public Tortoise ________;
   public String ___()
   {
@@ -94,5 +105,10 @@ public class DeepDive07Events
   {
     Cursor cursor = Tortoise.getBackgroundWindow().getCursor();
     return cursor;
+  }
+  public DeepDive07Events()
+  {
+    this.leonardo = new Turtle();
+    this.donatello = new Turtle();
   }
 }
