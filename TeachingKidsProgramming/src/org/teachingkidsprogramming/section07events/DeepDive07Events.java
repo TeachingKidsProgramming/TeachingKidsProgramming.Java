@@ -4,6 +4,8 @@ import java.awt.Cursor;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.teachingextensions.logo.Pizza;
+import org.teachingextensions.logo.Topping;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.Turtle.Animals;
@@ -78,6 +80,17 @@ public class DeepDive07Events
     this.donatello.setAnimal(Animals.ExplodedTurtle);
     Assert.assertTrue("The ninja is still alive!", ninja.isDead());
   }
+  //fix comparitor 
+  @Test
+  public void feedTheNinja() throws Exception
+  {
+    Tortoise michealangelo = new Tortoise();
+    michealangelo.likesTopping(Topping.Pepperoni);
+    Pizza pizza = new Pizza();
+    pizza.addTopping(_________);
+    boolean likedIt = michealangelo.eatPizza(pizza);
+    Assert.assertTrue("Michealangelo barfs! Wrong pizza!", likedIt);
+  }
   /**
    * Ignore the following, It's needed to run the homework
    * 
@@ -91,12 +104,13 @@ public class DeepDive07Events
    * 
    * 
    */
-  public boolean  _____   = false;
-  public boolean  ______  = true;
-  public String   ___     = "You need to fill in the blank ___";
-  public int      ____    = 0;
-  public Turtle   _______ = new Turtle();
+  public boolean  _____     = false;
+  public boolean  ______    = true;
+  public String   ___       = "You need to fill in the blank ___";
+  public int      ____      = 0;
+  public Turtle   _______   = new Turtle();
   public Tortoise ________;
+  public Topping  _________ = Topping.NoTopping;
   public String ___()
   {
     return ___;
