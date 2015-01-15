@@ -80,7 +80,6 @@ public class DeepDive07Events
     this.donatello.setAnimal(Animals.ExplodedTurtle);
     Assert.assertTrue("The ninja is still alive!", ninja.isDead());
   }
-  //fix comparitor 
   @Test
   public void feedTheNinja() throws Exception
   {
