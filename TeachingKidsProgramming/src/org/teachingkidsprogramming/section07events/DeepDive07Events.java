@@ -96,7 +96,7 @@ public class DeepDive07Events
     pizza.addTopping(Topping.Cheese);
     pizza.____();
     boolean likedIt = cecil.eatPizza(pizza);
-    Assert.assertTrue("Cecil sends it back! Wrong pizza!", likedIt);
+    Assert.assertTrue("Cecil sends it back, raw pizza!", likedIt);
   }
   @Test
   public void feedAllTheNinjas() throws Exception
