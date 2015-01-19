@@ -9,13 +9,11 @@ import org.teachingextensions.logo.Topping;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.Turtle.Animals;
-//This deepdive is in progress!
 
-//
 public class DeepDive07Events
 {
   //  How to do deep dive:
-  //  Step 1: Select the method name (xxx on line xx) Press the Run Button
+  //  Step 1: Select the method name (twoTortoises on line 30) Press the Run Button
   //            PC: Ctrl+F11 
   //            Mac: Command+fn+F11
   //  Step 2: Read the name of the method that failed
@@ -24,17 +22,6 @@ public class DeepDive07Events
   //  Step 5: Advance to the next method
   //  Do not change anything except the blank (___)
   //
-  //   concepts:
-  //   'this' - instance(s) - multiple Tortoises
-  //    exploring Object methods other than Tortoise---Circle (TKP)...methods
-  //    events / multiple event listeners - right click - move events to new section?
-  @Test
-  public void stringsCanBeArrays() throws Exception
-  {
-    String[] words = {"happy ", ___};
-    String result = words[0] + words[1];
-    Assert.assertEquals("happy baby", result);
-  }
   @Test
   public void twoTortoises() throws Exception
   {
@@ -98,7 +85,50 @@ public class DeepDive07Events
     Pizza pizza = new Pizza();
     pizza.addTopping(Topping.Anchovy);
     boolean likedIt = karai.eatPizza(pizza);
-    Assert.assertTrue("Karai starves! Wrong pizza!", _____);
+    Assert.assertTrue("Karai turns greener! Wrong pizza!", _____);
+  }
+  @Test
+  public void checkOutThePizza() throws Exception
+  {
+    Tortoise cecil = new Tortoise();
+    cecil.likesTopping(Topping.Cheese);
+    Pizza pizza = new Pizza();
+    pizza.addTopping(Topping.Cheese);
+    pizza.____();
+    boolean likedIt = cecil.eatPizza(pizza);
+    Assert.assertTrue("Cecil sends it back! Wrong pizza!", likedIt);
+  }
+  @Test
+  public void feedAllTheNinjas() throws Exception
+  {
+    Tortoise[] tortoises = throwPizzaParty();
+    Pizza pizza = new Pizza();
+    pizza.____();
+    for (Tortoise tortoise : tortoises)
+    {
+      gotASlice = tortoise.eatPizza(pizza);
+      if (!gotASlice)
+      {
+        break;
+      }
+    }
+    Assert.assertTrue("The ninja flips out - not enough pizza!", gotASlice);
+  }
+  @Test
+  public void feedAllTheNinjasAgain() throws Exception
+  {
+    Tortoise[] tortoises = throwPizzaParty();
+    Pizza pizza = new Pizza();
+    pizza.superSizeIt();
+    for (Tortoise tortoise : tortoises)
+    {
+      _____ = tortoise.eatPizza(pizza);
+      if (!this.gotASlice)
+      {
+        break;
+      }
+    }
+    Assert.assertTrue("The ninja flips out - not enough pizza!", this.gotASlice);
   }
   /**
    * Ignore the following, It's needed to run the homework
@@ -113,6 +143,16 @@ public class DeepDive07Events
    * 
    * 
    */
+  private Tortoise[] throwPizzaParty()
+  {
+    Tortoise karai = new Tortoise();
+    Tortoise cecil = new Tortoise();
+    Tortoise michealangelo = new Tortoise();
+    Tortoise fred = new Tortoise();
+    Tortoise[] tortoises = {karai, cecil, michealangelo, fred};
+    return tortoises;
+  }
+  private boolean gotASlice;
   public boolean  _____     = false;
   public boolean  ______    = true;
   public String   ___       = "You need to fill in the blank ___";
