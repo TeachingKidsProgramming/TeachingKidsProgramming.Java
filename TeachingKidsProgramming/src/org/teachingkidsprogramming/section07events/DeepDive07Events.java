@@ -90,6 +90,16 @@ public class DeepDive07Events
     boolean likedIt = michealangelo.eatPizza(pizza);
     Assert.assertTrue("Michealangelo barfs! Wrong pizza!", likedIt);
   }
+  @Test
+  public void feedTheNinjaTwo() throws Exception
+  {
+    Tortoise karai = new Tortoise();
+    karai.likesTopping(Topping.Anchovy);
+    Pizza pizza = new Pizza();
+    pizza.addTopping(Topping.Anchovy);
+    boolean likedIt = karai.eatPizza(pizza);
+    Assert.assertTrue("Karai starves! Wrong pizza!", _____);
+  }
   /**
    * Ignore the following, It's needed to run the homework
    * 
