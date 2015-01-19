@@ -21,7 +21,7 @@ public class DeepDive07Events
   //  Step 4: Consider at least one thing you just learned
   //  Step 5: Advance to the next method
   //  Do not change anything except the blank (___)
-  //
+  //  HINT: If you are stuck, look at the JavaDoc
   @Test
   public void twoTortoises() throws Exception
   {
