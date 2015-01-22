@@ -22,7 +22,7 @@ public class TreeQuiz extends TreeQuizAdapter
     //   Question 3 
     //   setNinety (recipe below) 
     //   ------------- Recipe for setNinety 
-    //       sets the angle of the current turn to 90
+    //       set the current turn angle to 90, HINT: Use angles
     //   ------------- End of setNinety recipe
     //
     //   Question 4 

@@ -42,9 +42,9 @@ public class DeepDive07Events
   public void twoTortoisesYetAgain() throws Exception
   {
     Tortoise rafael = new Tortoise();
-    Tortoise michealangelo = new Tortoise();
+    Tortoise michelangelo = new Tortoise();
     Tortoise anonymousNinja = ________;
-    boolean result = michealangelo.equals(anonymousNinja);
+    boolean result = michelangelo.equals(anonymousNinja);
     Assert.assertEquals(true, result);
   }
   //Turtle Leonardo belongs to "this" 
@@ -70,12 +70,12 @@ public class DeepDive07Events
   @Test
   public void feedTheNinja() throws Exception
   {
-    Tortoise michealangelo = new Tortoise();
-    michealangelo.likesTopping(Topping.Pepperoni);
+    Tortoise michelangelo = new Tortoise();
+    michelangelo.likesTopping(Topping.Pepperoni);
     Pizza pizza = new Pizza();
     pizza.addTopping(_________);
-    boolean likedIt = michealangelo.eatPizza(pizza);
-    Assert.assertTrue("Michealangelo barfs! Wrong pizza!", likedIt);
+    boolean likedIt = michelangelo.eatPizza(pizza);
+    Assert.assertTrue("Michelangelo barfs! Wrong pizza!", likedIt);
   }
   @Test
   public void feedTheNinjaTwo() throws Exception

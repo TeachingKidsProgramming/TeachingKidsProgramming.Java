@@ -9,8 +9,8 @@ import org.teachingextensions.logo.ColorWheel;
 import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Paintable;
 import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.Wheel;
+import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.utils.TortoiseUtils;
 
 import com.spun.util.NumberUtils;
@@ -75,7 +75,7 @@ public class PentagonCrazyQuizGrader implements Paintable
   {
     ColorWheel.removeAllColors();
     quiz.question3();
-    return getSafeColor() == Colors.Greens.Lime;
+    return Colors.Greens.Lime.equals(getSafeColor());
   }
   public Color getSafeColor()
   {
@@ -85,14 +85,14 @@ public class PentagonCrazyQuizGrader implements Paintable
     }
     catch (Exception e)
     {
-      return null;
+      return Colors.Yellows.Yellow;
     }
   }
   private boolean grade4Red()
   {
     ColorWheel.removeAllColors();
     quiz.question4();
-    return getSafeColor() == Colors.Reds.Red;
+    return Colors.Reds.Red.equals(getSafeColor());
   }
   public void setColors()
   {
