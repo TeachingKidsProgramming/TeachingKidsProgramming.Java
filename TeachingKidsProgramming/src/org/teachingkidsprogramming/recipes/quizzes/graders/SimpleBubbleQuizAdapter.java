@@ -1,24 +1,39 @@
 package org.teachingkidsprogramming.recipes.quizzes.graders;
 
+import org.teachingextensions.logo.Tortoise;
+
 public class SimpleBubbleQuizAdapter
 {
-  public static class Pieces
+  public int counter = 0;
+  public void drawNextBase()
   {
-    public String beginning;
-    public String middle;
-    public String end;
+    goToNextBase(100);
+    drawDiamond(10);
   }
-  public String word1;
-  public String word2;
-  public String word3;
-  public String template4;
-  public void question1(String letter1, String letter3)
+  public void goToNextBase(int size)
+  {
+    Tortoise.turn(-90);
+    Tortoise.move(size);
+    Tortoise.turn(-135);
+  }
+  public void drawDiamond(int size)
+  {
+    Tortoise.turn(45);
+    Tortoise.move(size);
+    Tortoise.turn(-90);
+    Tortoise.move(size);
+    Tortoise.turn(-90);
+    Tortoise.move(size);
+    Tortoise.turn(-90);
+    Tortoise.move(size);
+  }
+  public void question1()
   {
   }
   public void question2(String letter1)
   {
   }
-  public void question3(String templateText, Object model)
+  public void question3()
   {
   }
   public void question4(org.teachingkidsprogramming.recipes.quizzes.graders.AdLibsQuizAdapter.Pieces pieces)

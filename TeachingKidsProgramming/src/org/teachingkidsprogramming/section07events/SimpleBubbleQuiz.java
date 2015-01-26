@@ -1,34 +1,56 @@
 package org.teachingkidsprogramming.section07events;
 
+import org.teachingextensions.logo.Tortoise;
+import org.teachingextensions.windows.MouseLeftClickListener;
+import org.teachingextensions.windows.MouseRightClickListener;
 import org.teachingkidsprogramming.recipes.quizzes.graders.SimpleBubbleQuizAdapter;
 import org.teachingkidsprogramming.recipes.quizzes.graders.SimpleBubbleQuizGrader;
 
 public class SimpleBubbleQuiz extends SimpleBubbleQuizAdapter
+    implements
+      MouseLeftClickListener,
+      MouseRightClickListener
 {
   //**THIS QUIZ IS IN PROGRESS
-  // Grader could listen for events
-  // students wire up events, then grader listens (draws)
-  // student must click for final reward FAIL-> PASS (toggle) 
-  // Tortoise on baseball diamond - click on first base, second base
-  // click order - change from fail to pass
-  public void question1(String letter1, String letter3)
+  public void question1()
   {
-    //set current value of word1 to be letter1 + 'o' + letter3
+    //code: wire up left click to draw first base
+    Tortoise.getBackgroundWindow().addMouseLeftClickListener(this);
+    //action: tortoise move to corner and draw a base
   }
   public void question2(String letter1)
   {
-    //add the letter1 to the end of word2 
+    //code: add text 'You got a single' and then click on the first base
+    //action: fail first in all case, draw base and pass after click
   }
-  public void question3(String templateText, Object model)
+  public void question3()
   {
-    //use the parser to combine the template and the model as word3
+    //wire up right click to get a home run
+    Tortoise.getBackgroundWindow().addMouseRightClickListener(this);
+    //so that when you click the Tortoise will move to home plate and draw it
   }
-  public void question4(Pieces pieces)
+  public void question4()
   {
-    //set template4 to the template which does'g' + pieces.middle + 'e'
+    //code: add text 'You got a home run' and then click on the home plate
+    //action: fail first in all case, draw base and pass after click
   }
   public static void main(String[] args)
   {
     new SimpleBubbleQuizGrader().grade(new SimpleBubbleQuiz());
+  }
+  @Override
+  public void onLeftMouseClick(int x, int y)
+  {
+    if (counter < 3)
+    {
+      drawNextBase();
+      counter = counter + 1;
+    }
+  }
+  @Override
+  public void onRightMouseClick(int x, int y)
+  {
+    if (counter != 3) { return; }
+    drawNextBase();
   }
 }
