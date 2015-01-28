@@ -20,7 +20,7 @@ public class SimpleBubbleQuiz extends SimpleBubbleQuizAdapter
   }
   public void question2(String letter1)
   {
-    //code: add text 'You got a single' and then click on the first base
+    //code: add text 'You got a single' and then left click on the first base
     //action: fail first in all case, draw base and pass after click
   }
   public void question3()
@@ -31,7 +31,7 @@ public class SimpleBubbleQuiz extends SimpleBubbleQuizAdapter
   }
   public void question4()
   {
-    //code: add text 'You got a home run' and then click on the home plate
+    //code: add text 'You got a home run' and then right click on the home plate
     //action: fail first in all case, draw base and pass after click
   }
   public static void main(String[] args)
