@@ -6,7 +6,7 @@ public class KnottedRing
   {
     //      Make the tortoise move as fast as possible --#4
     //      createColorPalette (recipe below) --#7
-    //      ------------- Recipe for createColorPalette --#7
+    //      ------------- Recipe for createColorPalette (HINT: Use PenColors)--#7
     //      Add hot pink to the color wheel --#6
     //      Add red to the color wheel --#13
     //      Add fuchsia to the color wheel --#14
@@ -17,7 +17,7 @@ public class KnottedRing
     //      Add tomato to the color wheel --#19
     //      ------------- End of createColorPalette recipe --#7
     //      Do the following 30 times --#11
-    //              Change the color of the line the tortoise draws to a random color from the color wheel --#5
+    //              Change the pen color of the line the tortoise draws to a random color from the color wheel --#5
     //              drawOctagonWithOverlap (recipe below) --#9
     //              ------------- Recipe for drawOctagonWithOverlap --#8
     //              Do the following 8 + 1 times --#3

@@ -6,7 +6,7 @@ public class DigiFlower
   {
     //    Show the tortoise --#1
     //    Make the tortoise move as fast as possible --#7
-    //    Make the background silver --#8
+    //    Make the background silver (HINT: Use PenColors) --#8
     //    Make the line the tortoise draws 3 pixels wide --#20
     //    createColorPalette (recipe below) --#9
     //    Do the following 15 times --#19.1
@@ -14,10 +14,11 @@ public class DigiFlower
     //      Turn the tortoise 1/15th of 360 degrees to the right --#18
     //    Repeat --#19.2
     //    ------------- Recipe for createColorPalette --#9
-    //    Color 1 is red --#3
-    //    Color 2 is dark orange --#11
-    //    Color 3 is gold --#12
-    //    Color 4 is yellow --#13
+    //    Pen Color 1 is red --#3
+    //    Pen Color 2 is dark orange --#11
+    //    Pen Color 3 is gold --#12
+    //    Pen Color 4 is yellow --#13
+    //
     //    Add color 1 to the color wheel --#3.1
     //    Add color 2 to the color wheel --#11.1
     //    Add color 3 to the color wheel --#12.1
@@ -28,7 +29,7 @@ public class DigiFlower
     //    Add color 1 to the color wheel --#17
     //    ------------- Recipe for drawOctogon --#10
     //    Do the following 8 times --#6.1
-    //      Change the color of the line the tortoise draws to the next color on the color wheel --#4
+    //      Change the pen color of the line the tortoise draws to the next color on the color wheel --#4
     //      Move the tortoise 50 pixels --#2
     //      Turn the tortoise 1/8th of 360 degrees to the right --#5
     //    Repeat --#6.2 

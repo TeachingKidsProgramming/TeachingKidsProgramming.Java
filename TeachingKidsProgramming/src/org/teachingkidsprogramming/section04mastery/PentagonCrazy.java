@@ -6,7 +6,7 @@ public class PentagonCrazy
   {
     //    Make the tortoise move as fast as possible --#3
     //    createColorPalette (recipe below) --#8
-    //    ------------- Recipe for createColorPalette --#8
+    //    ------------- Recipe for createColorPalette (HINT: Use PenColors)--#8
     //    Add steel blue to the color wheel --#7
     //    Add dark orchid to the color wheel --#11
     //    Add dark slate blue to the color wheel --#12
@@ -18,7 +18,7 @@ public class PentagonCrazy
     //    Do the following 200 times --#2
     //        adjustPen (recipe below) --#9
     //        ------------- Recipe for adjustPen --#9
-    //        Change the color of the line the tortoise draws to the next color on the color wheel --#6
+    //        Change the pen color of the line the tortoise draws to the next color on the color wheel --#6
     //        Increase the tortoises pen width by 1 --#15                                              
     //        If the tortoises pen width is greater than 4, then --#17
     //            Reset it to 1 --#16

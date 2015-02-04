@@ -9,7 +9,7 @@ import java.util.List;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.teachingextensions.logo.Colors;
+import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
 
 
@@ -41,24 +41,24 @@ public class DeepDive05Recursion
   public void setColorUsingKey() throws Exception
   {
     HashMap<Integer, Color> colors = new HashMap<Integer, Color>();
-    colors.put(10, Colors.Greens.Lime);
-    colors.put(____, Colors.Greens.DarkGreen);
-    Assert.assertEquals(Colors.Greens.DarkGreen, colors.get(20));
+    colors.put(10, PenColors.Greens.Lime);
+    colors.put(____, PenColors.Greens.DarkGreen);
+    Assert.assertEquals(PenColors.Greens.DarkGreen, colors.get(20));
   }
   @Test
   public void findTheGreenKey() throws Exception
   {
     HashMap<Integer, Color> colors = new HashMap<Integer, Color>();
-    colors.put(20, Colors.Greens.DarkGreen);
-    colors.put(30, Colors.Greens.Green);
-    Assert.assertEquals(Colors.Greens.Green, colors.get(___));
+    colors.put(20, PenColors.Greens.DarkGreen);
+    colors.put(30, PenColors.Greens.Green);
+    Assert.assertEquals(PenColors.Greens.Green, colors.get(___));
   }
   @Test
   public void findTheColorForTheBananaKey() throws Exception
   {
     HashMap<String, Color> colors = new HashMap<String, Color>();
-    colors.put("banana", Colors.Yellows.Yellow);
-    colors.put("apple", Colors.Reds.Red);
+    colors.put("banana", PenColors.Yellows.Yellow);
+    colors.put("apple", PenColors.Reds.Red);
     Assert.assertEquals(_______, colors.get("banana"));
   }
   @Test

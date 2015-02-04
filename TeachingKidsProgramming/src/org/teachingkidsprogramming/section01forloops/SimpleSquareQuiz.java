@@ -15,7 +15,7 @@ public class SimpleSquareQuiz implements SquareQuiz
   }
   public void question3()
   {
-    //  Change the color the tortoise draws to yellow
+    //  Change the pen color the tortoise draws to yellow
   }
   public void question4()
   {

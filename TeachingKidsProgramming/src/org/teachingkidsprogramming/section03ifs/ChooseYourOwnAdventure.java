@@ -10,10 +10,10 @@ public class ChooseYourOwnAdventure
     //      animateStartStory (recipe below) --#38
     //      ------------- Recipe for animateStartStory --#38
     //         Show the Tortoise --#37
-    //         The current color is black --#39.2
+    //         The current pen color is black --#39.2
     //         Do the following 25 times --#41
-    //         Turn the background to the current color --#39.1
-    //         lighten the current color --#42
+    //         Turn the background to the current pen color --#39.1
+    //         lighten the current pen color --#42
     //         wait for 100 milliseconds --#40  
     //         Repeat --#41
     //      ------------- End of animateStartStory recipe --#38

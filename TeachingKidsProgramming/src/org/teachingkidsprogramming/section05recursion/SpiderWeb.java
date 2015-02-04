@@ -7,7 +7,7 @@ public class SpiderWeb
     //    Make the tortoise go as fast as possible --#6
     //    Change the width of the line the tortoise draws to 1 pixel --#12
     //    Change the Tortoise to a Spider --#14
-    //    Change the color of the line the tortoise draws to silver --#13
+    //    Change the pen color of the line the tortoise draws to silver --#13
     //    The current length of a line is 10.5 pixels --#1.2                  
     //    The current zoom is 1.1 --#8.2
     //    Do the following 10 times --#10
