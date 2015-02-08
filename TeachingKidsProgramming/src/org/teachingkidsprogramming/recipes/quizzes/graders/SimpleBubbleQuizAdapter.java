@@ -4,7 +4,8 @@ import org.teachingextensions.logo.Tortoise;
 
 public class SimpleBubbleQuizAdapter
 {
-  public int counter = 0;
+  public int     counter = 0;
+  public boolean leftClickWiredUp;
   public void drawNextBase()
   {
     goToNextBase(100);
@@ -30,13 +31,17 @@ public class SimpleBubbleQuizAdapter
   public void question1()
   {
   }
-  public void question2(String letter1)
+  public void question2()
   {
   }
   public void question3()
   {
   }
-  public void question4(org.teachingkidsprogramming.recipes.quizzes.graders.AdLibsQuizAdapter.Pieces pieces)
+  public void question4()
   {
+  }
+  public void answerQuestion1()
+  {
+    this.leftClickWiredUp = true;
   }
 }

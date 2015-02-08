@@ -1,6 +1,8 @@
 package org.teachingkidsprogramming.section07events;
 
+import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
+import org.teachingextensions.logo.shapes.Text;
 import org.teachingextensions.windows.MouseLeftClickListener;
 import org.teachingextensions.windows.MouseRightClickListener;
 import org.teachingkidsprogramming.recipes.quizzes.graders.SimpleBubbleQuizAdapter;
@@ -18,10 +20,15 @@ public class SimpleBubbleQuiz extends SimpleBubbleQuizAdapter
     Tortoise.getBackgroundWindow().addMouseLeftClickListener(this);
     //action: tortoise move to corner and draw a base
   }
-  public void question2(String letter1)
+  public void question2()
   {
-    //code: add text 'You got a single' and then left click on the first base
-    //action: fail first in all case, draw base and pass after click
+    //code: add text 'You got a single'
+    //action: left click on the first base
+    //grader: fail first in all case, draw base and pass after click
+    //   Write "Single!" in yellow on the screen at position 155,135
+    Text baseHit = new Text("Single!");
+    baseHit.setPenColor(PenColors.Yellows.Yellow);
+    baseHit.setTopLeft(155, 135).addTo(Tortoise.getBackgroundWindow());
   }
   public void question3()
   {
@@ -33,6 +40,9 @@ public class SimpleBubbleQuiz extends SimpleBubbleQuizAdapter
   {
     //code: add text 'You got a home run' and then right click on the home plate
     //action: fail first in all case, draw base and pass after click
+    Text baseHit = new Text("Home Run!");
+    baseHit.setPenColor(PenColors.Greens.LimeGreen);
+    baseHit.setTopLeft(105, 235).addTo(Tortoise.getBackgroundWindow());
   }
   public static void main(String[] args)
   {
@@ -43,6 +53,14 @@ public class SimpleBubbleQuiz extends SimpleBubbleQuizAdapter
   {
     if (counter < 3)
     {
+      if (counter == 0)
+      {
+        this.answerQuestion1();
+        question2();
+        Text baseHit = new Text("Keep Running!");
+        baseHit.setPenColor(PenColors.Oranges.Orange);
+        baseHit.setTopLeft(105, 35).addTo(Tortoise.getBackgroundWindow());
+      }
       drawNextBase();
       counter = counter + 1;
     }
@@ -51,6 +69,7 @@ public class SimpleBubbleQuiz extends SimpleBubbleQuizAdapter
   public void onRightMouseClick(int x, int y)
   {
     if (counter != 3) { return; }
+    question4();
     drawNextBase();
   }
 }

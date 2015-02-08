@@ -5,8 +5,8 @@ import java.awt.Font;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 
-import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Paintable;
+import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.utils.TortoiseUtils;
@@ -15,7 +15,7 @@ public class QuizUtils
 {
   public static void displayScores(Graphics2D g, int x, boolean[] answers)
   {
-    g.setColor(Colors.Blues.CornflowerBlue);
+    g.setColor(PenColors.Blues.CornflowerBlue);
     g.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
     g.setRenderingHint(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON);
     g.setFont(new Font("Tahoma", Font.BOLD, 14));
@@ -33,16 +33,16 @@ public class QuizUtils
     {
       boolean b = answers[i];
       y += 25;
-      g.setColor(Colors.Blues.LightBlue);
+      g.setColor(PenColors.Blues.LightBlue);
       g.drawString(String.format("Question %s - ", i + 1), x, y);
       if (b)
       {
-        g.setColor(Colors.Greens.ForestGreen);
+        g.setColor(PenColors.Greens.ForestGreen);
         g.drawString("Pass", x + 90, y);
       }
       else
       {
-        g.setColor(Colors.Reds.Red);
+        g.setColor(PenColors.Reds.Red);
         g.drawString("Fail", x + 90, y);
       }
     }
