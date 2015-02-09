@@ -13,36 +13,23 @@ public class SimpleBubbleQuiz extends SimpleBubbleQuizAdapter
       MouseLeftClickListener,
       MouseRightClickListener
 {
-  //**THIS QUIZ IS IN PROGRESS
   public void question1()
   {
-    //code: wire up left click to draw first base
-    Tortoise.getBackgroundWindow().addMouseLeftClickListener(this);
-    //action: tortoise move to corner and draw a base
+    //code: In the Tortoise background window, have this quiz listen for when the left mouse button is clicked  
+    //action: YOU must left click on the first base to pass this question
   }
   public void question2()
   {
-    //code: add text 'You got a single'
-    //action: left click on the first base
-    //grader: fail first in all case, draw base and pass after click
-    //   Write "Single!" in yellow on the screen at position 155,135
-    Text baseHit = new Text("Single!");
-    baseHit.setPenColor(PenColors.Yellows.Yellow);
-    baseHit.setTopLeft(155, 135).addTo(Tortoise.getBackgroundWindow());
+    //code: Write "Single!" on the screen in yellow at position 155,135
   }
   public void question3()
   {
-    //wire up right click to get a home run
-    Tortoise.getBackgroundWindow().addMouseRightClickListener(this);
-    //so that when you click the Tortoise will move to home plate and draw it
+    //code: In the Tortoise background window, have this quiz listen for when the right mouse button is clicked  
+    //action: YOU must right click on the home plate (4th base)  to pass this question
   }
   public void question4()
   {
-    //code: add text 'You got a home run' and then right click on the home plate
-    //action: fail first in all case, draw base and pass after click
-    Text baseHit = new Text("Home Run!");
-    baseHit.setPenColor(PenColors.Greens.LimeGreen);
-    baseHit.setTopLeft(105, 235).addTo(Tortoise.getBackgroundWindow());
+    //code: Write "Home Run!" on the screen in lime green at position 105,235
   }
   public static void main(String[] args)
   {
@@ -69,6 +56,7 @@ public class SimpleBubbleQuiz extends SimpleBubbleQuizAdapter
   public void onRightMouseClick(int x, int y)
   {
     if (counter != 3) { return; }
+    this.answerQuestion3();
     question4();
     drawNextBase();
   }

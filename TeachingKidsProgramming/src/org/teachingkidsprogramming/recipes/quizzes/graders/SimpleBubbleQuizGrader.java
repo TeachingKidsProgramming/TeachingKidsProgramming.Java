@@ -7,6 +7,7 @@ import javax.swing.JPanel;
 import org.teachingextensions.logo.Paintable;
 import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
+import org.teachingextensions.logo.shapes.Text;
 
 public class SimpleBubbleQuizGrader implements Paintable
 {
@@ -32,8 +33,42 @@ public class SimpleBubbleQuizGrader implements Paintable
   public void paint(Graphics2D g, JPanel caller)
   {
     this.answers[0] = quiz.leftClickWiredUp;
+    this.answers[2] = quiz.rightClickWiredUp;
+    for (Paintable p : Tortoise.getBackgroundWindow().additional)
+    {
+      try
+      {
+        Text t = (Text) p;
+        if (isAnswerToQuestion2(t))
+        {
+          this.answers[1] = true;
+        }
+        else if (isAnswerToQuestion4(t))
+        {
+          this.answers[3] = true;
+        }
+      }
+      catch (Exception e)
+      {
+        //do nothing
+      }
+    }
     QuizUtils.displayScores(g, 300, answers);
     drawRewardShape(g);
+  }
+  private boolean isAnswerToQuestion2(Text t)
+  {
+    if (t.getContent() != "Single!") { return false; }
+    if (t.getPenColor() != PenColors.Yellows.Yellow) { return false; }
+    if (t.getX() != 155 || t.getY() != 135) { return false; }
+    return true;
+  }
+  private boolean isAnswerToQuestion4(Text t)
+  {
+    if (t.getContent() != "Home Run!") { return false; }
+    if (t.getPenColor() != PenColors.Greens.LimeGreen) { return false; }
+    if (t.getX() != 105 || t.getY() != 235) { return false; }
+    return true;
   }
   public void drawRewardShape(Graphics2D g)
   {

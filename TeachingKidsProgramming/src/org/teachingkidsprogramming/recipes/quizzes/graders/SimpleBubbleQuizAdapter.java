@@ -6,6 +6,7 @@ public class SimpleBubbleQuizAdapter
 {
   public int     counter = 0;
   public boolean leftClickWiredUp;
+  public boolean rightClickWiredUp;
   public void drawNextBase()
   {
     goToNextBase(100);
@@ -43,5 +44,9 @@ public class SimpleBubbleQuizAdapter
   public void answerQuestion1()
   {
     this.leftClickWiredUp = true;
+  }
+  public void answerQuestion3()
+  {
+    this.rightClickWiredUp = true;
   }
 }
