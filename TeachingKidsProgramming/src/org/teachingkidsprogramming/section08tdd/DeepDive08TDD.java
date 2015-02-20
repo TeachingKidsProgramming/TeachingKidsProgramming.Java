@@ -1,18 +1,16 @@
 package org.teachingkidsprogramming.section08tdd;
 
-import java.awt.Color;
 import java.awt.Cursor;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.teachingextensions.logo.Tortoise;
-//This deepdive is in progress!
 
-//
+//This deepdive is in progress!
 public class DeepDive08TDD
 {
   //  How to do deep dive:
-  //  Step 1: Select the method name (doesABear on line 20) Press the Run Button
+  //  Step 1: Select the method name (stringsCanBeArrays on line XX) Press the Run Button
   //            PC: Ctrl+F11 
   //            Mac: Command+fn+F11
   //  Step 2: Read the name of the method that failed
@@ -32,6 +30,15 @@ public class DeepDive08TDD
     String result = words[0] + words[1];
     Assert.assertEquals("happy baby", result);
   }
+  @Test
+  public void stringsCanBePartOfStringBuilder() throws Exception
+  {
+    StringBuilder sb = new StringBuilder();
+    sb.append("happy");
+    sb.append(" baby");
+    String result = sb.toString();
+    Assert.assertEquals("happy baby", ___);
+  }
   /**
    * Ignore the following, It's needed to run the homework
    * 
@@ -49,7 +56,6 @@ public class DeepDive08TDD
   public boolean ______ = true;
   public String  ___    = "You need to fill in the blank ___";
   public int     ____   = 0;
-  public Color   _______;
   public String ___()
   {
     return ___;
