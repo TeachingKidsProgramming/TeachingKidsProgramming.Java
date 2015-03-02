@@ -56,6 +56,17 @@ public class DeepDive08TDD
     String result = sb.toString();
     Assert.assertEquals(___, result);
   }
+  @Test
+  public void numbersCanBeStrings() throws Exception
+  {
+    StringBuilder sb = new StringBuilder();
+    for (int i = 97; i <= 99; i++)
+    {
+      sb.append(convertArray(i));
+    }
+    String result = sb.toString();
+    Assert.assertEquals(___, result);
+  }
   /**
    * Ignore the following, It's needed to run the homework
    * 
@@ -81,5 +92,9 @@ public class DeepDive08TDD
   {
     Cursor cursor = Tortoise.getBackgroundWindow().getCursor();
     return cursor;
+  }
+  public static String convertArray(int i)
+  {
+    return " " + i;
   }
 }
