@@ -29,9 +29,6 @@ public class PuzzleSolver
     PuzzleBoard jboard = new PuzzleBoard();
     jboard.addTo(programWindow);
     programWindow.setVisible(true);
-    //Image batGirl = batGirl.drawImage(batGirl, 0,0,100,100, null);
-    //programWindow
-    //    .setBackgroundImage("http://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Batgirl.gif/120px-Batgirl.gif");
   }
   public static void main(String[] args)
   {
