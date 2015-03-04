@@ -1,7 +1,5 @@
 package org.teachingkidsprogramming.section08tdd;
 
-import org.teachingextensions.windows.ProgramWindow;
-
 public class PuzzleSolver
 {
   //this problem is an ArraySort w/ custom rules 
@@ -22,16 +20,17 @@ public class PuzzleSolver
   //complex example -- http://www.brian-borowski.com/software/puzzle/
   //http://en.wikipedia.org/wiki/File:Batgirl.gif
   //
-  public ProgramWindow programWindow;
+  public PuzzleWindow puzzleWindow;
   public PuzzleSolver()
   {
-    programWindow = new ProgramWindow("Puzzle");
+    puzzleWindow = new PuzzleWindow("BatGirl Puzzle");
     PuzzleBoard jboard = new PuzzleBoard();
-    jboard.addTo(programWindow);
-    programWindow.setVisible(true);
+    jboard.addTo(puzzleWindow);
+    puzzleWindow.setVisible(true);
   }
   public static void main(String[] args)
   {
     new PuzzleSolver();
   }
+  //repaint the window every second
 }
