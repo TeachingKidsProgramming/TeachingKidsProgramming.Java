@@ -68,6 +68,17 @@ public class DeepDive08TDD
     Assert.assertEquals(___, result);
   }
   @Test
+  public void numbersCanBeStringsAgain() throws Exception
+  {
+    StringBuilder sb = new StringBuilder();
+    for (int i = 99; i > ____; i--)
+    {
+      sb.append(convertArray(i));
+    }
+    String result = sb.toString();
+    Assert.assertEquals(" 99 98 97", result);
+  }
+  @Test
   public void theLineEndsWhenItEnds() throws Exception
   {
     StringBuilder sb = new StringBuilder("one end ");
@@ -75,6 +86,16 @@ public class DeepDive08TDD
     sb.append(" another end");
     String result = sb.toString();
     Assert.assertEquals(___, result);
+  }
+  @Test
+  public void theLineEndsReally() throws Exception
+  {
+    StringBuilder sb = new StringBuilder("one end ");
+    sb.append("\n");
+    sb.append(" another end ");
+    sb.append(___);
+    String result = sb.toString();
+    Assert.assertEquals("one end \n another end \n", result);
   }
   /**
    * Ignore the following, It's needed to run the homework
@@ -89,10 +110,11 @@ public class DeepDive08TDD
    * 
    * 
    */
-  public boolean _____  = false;
-  public boolean ______ = true;
-  public String  ___    = "You need to fill in the blank ___";
-  public int     ____   = 0;
+  public boolean   _____  = false;
+  public boolean   ______ = true;
+  public Character _______;
+  public String    ___    = "You need to fill in the blank ___";
+  public int       ____   = 0;
   public String ___()
   {
     return ___;
