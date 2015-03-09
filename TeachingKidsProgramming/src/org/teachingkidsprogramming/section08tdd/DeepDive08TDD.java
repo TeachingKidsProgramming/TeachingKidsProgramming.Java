@@ -97,6 +97,13 @@ public class DeepDive08TDD
     String result = sb.toString();
     Assert.assertEquals("one end \n another end \n", result);
   }
+  @Test
+  public void chainThoseMethods() throws Exception
+  {
+    StringBuilder sb = new StringBuilder("method");
+    String result = sb.reverse().toString();
+    Assert.assertEquals(___, result);
+  }
   /**
    * Ignore the following, It's needed to run the homework
    * 

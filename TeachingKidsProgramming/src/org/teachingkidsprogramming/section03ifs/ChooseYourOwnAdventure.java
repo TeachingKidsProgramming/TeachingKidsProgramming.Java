@@ -16,6 +16,7 @@ public class ChooseYourOwnAdventure
     //         lighten the current pen color --#42
     //         wait for 100 milliseconds --#40  
     //         Repeat --#41
+    //
     //      ------------- End of animateStartStory recipe --#38
     //      Ask the user "Do you want to 'wake up' or 'explore' the dream?" --#3
     //      If they answer "wake up" --#6

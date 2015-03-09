@@ -10,6 +10,7 @@ public class TriangleShell
     //    Do the following 60 times --#8.1
     //          Change the pen color of the line the tortoise draws to a random color --#10
     //          Increase the current length of the side by 4 pixels --#9
+    //
     //          drawTriangle (recipe below) --#6
     //          ------------- Recipe for drawTriangle --#5
     //              Do the following 3 times --#3.1
@@ -17,6 +18,7 @@ public class TriangleShell
     //                      Turn the tortoise 1/3rd of 360 degrees --#2
     //              Repeat --#3.2 
     //          ------------- End of drawTriangle recipe --#5
+    //
     //          Turn the tortoise 1/60th of 360 degrees to the right --#11
     //    Repeat --#8.2
   }
