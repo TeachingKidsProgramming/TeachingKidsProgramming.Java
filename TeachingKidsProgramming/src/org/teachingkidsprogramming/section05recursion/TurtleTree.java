@@ -1,5 +1,8 @@
 package org.teachingkidsprogramming.section05recursion;
 
+import java.awt.Color;
+import java.util.HashMap;
+
 public class TurtleTree
 {
   public static void main(String[] args)
@@ -12,13 +15,14 @@ public class TurtleTree
     //    ------------- Recipe for drawBranch --#2.2
     //        If the current branch length is greater than zero, do the rest of this recipe --#5
     //        adjustColor (recipe below)--#15.1
-    //        ------------- Recipe for adjustColor --#15.2
+    //        ------------- Recipe for adjustColor --#15.2 (this recipe uses the HashMap)
+    HashMap<Integer, Color> colors = new HashMap<Integer, Color>();
     //            A 10 pixel long branch is lime --#20
     //            A 20 pixel long branch is forest green --#19
     //            A 30 pixel long branch is dark green --#18
     //            A 40 pixel long branch is olive --#17
     //            A 50 pixel long branch is sienna --#14
-    //            A 60 pixel long branch is saddle brown --#13
+    //            A 60 pixel long branch is saddle brown --#13 (TIP: put the values into the HashMap)
     //        ------------- End of adjustColor --#15.3
     //
     //        Move the tortoise the length of the current branch --#1.1
