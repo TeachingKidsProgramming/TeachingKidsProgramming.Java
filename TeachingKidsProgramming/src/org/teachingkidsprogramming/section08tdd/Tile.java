@@ -2,48 +2,71 @@ package org.teachingkidsprogramming.section08tdd;
 
 import java.awt.Graphics2D;
 import java.awt.Image;
+import java.awt.Point;
 import java.net.URL;
 
 import javax.swing.ImageIcon;
-import javax.swing.JPanel;
 
-import org.teachingextensions.logo.Paintable;
-
-public class Tile implements Paintable
+public class Tile
 {
-  private String image;
-  private int    x;
-  private int    y;
-  private int    w = 122;
-  private int    h = 122;
-  public Tile(String image, int x, int y)
+  private final static String[] resources = {"Batgirl1a.png",
+      "Batgirl1b.png",
+      "Batgirl1c.png",
+      "Batgirl2a.png",
+      "Batgirl2b.png",
+      "Batgirl2c.png",
+      "Batgirl3a.png",
+      "Batgirl3b.png",
+      "Batgirl3c.png"                     };
+  private final static int      width     = 122;
+  private final static int      height    = 122;
+  private Image                 image;
+  private Point                 position;
+  private Point                 target;
+  public Tile(int imageIdx, Point position)
   {
-    this.image = image;
-    this.setX(x);
-    this.setY(y);
+    this.position = new Point(position.x, position.y);
+    URL resource = this.getClass().getResource(resources[imageIdx]);
+    if (resource == null) { throw new IllegalStateException("Could not find tile image"); }
+    this.image = new ImageIcon(resource).getImage();
   }
-  @Override
-  public void paint(Graphics2D g, JPanel caller)
+  public void paint(Graphics2D g2d)
   {
-    URL imagePicture = this.getClass().getResource(this.image);
-    Image img = new ImageIcon(imagePicture).getImage();
-    g.drawImage(img, getX(), getY(), w, h, null);
+    g2d.drawImage(this.image, this.position.x, this.position.y, width, height, null);
   }
-  private int getX()
+  public boolean isAt(Point point)
   {
-    return x;
+    return this.position.x == point.x && this.position.y == point.y;
   }
-  private void setX(int x)
+  public void moveTo(Point target)
   {
-    this.x = x;
+    this.target = target;
   }
-  private int getY()
+  public boolean isMovingTo(Point target)
   {
-    return y;
+    return this.target != null && this.target.x == target.x && this.target.y == target.y;
   }
-  private void setY(int y)
+  public void step()
   {
-    this.y = y;
+    int x = this.position.x;
+    int size = 1;
+    if (x < this.target.x)
+    {
+      x += size;
+    }
+    if (this.target.x < x)
+    {
+      x -= size;
+    }
+    int y = this.position.y;
+    if (y < this.target.y)
+    {
+      y += size;
+    }
+    if (this.target.y < y)
+    {
+      y -= size;
+    }
+    this.position = new Point(x, y);
   }
 }
-// use 're-paint' over and over on each move (use awt to loop)

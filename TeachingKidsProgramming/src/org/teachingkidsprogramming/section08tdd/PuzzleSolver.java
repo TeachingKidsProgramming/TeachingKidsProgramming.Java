@@ -1,36 +1,45 @@
 package org.teachingkidsprogramming.section08tdd;
 
-public class PuzzleSolver
+import java.awt.Point;
+
+import javax.swing.SwingUtilities;
+
+public class PuzzleSolver implements Runnable
 {
-  //this problem is an ArraySort w/ custom rules 
-  //the ArraySort (square) controls which positions can be swapped with each other 
-  //must determine 'where is the blank (square)?'
-  //must determine 'where to move the blank to get the array more sorted than it is?'
-  //this is a type A* problem (AI) - 
-  //generate all permutations and check to see which ones are valid (evaluate costs)
-  //throw away all non-valid choices (highest costs)
-  //keep track of the history of cost
-  //develop a heuristic for estimated cost of possible actions
-  //
-  //NOTE: this is a kata (higher level instructions)
-  //part of the exercise is to translate into line-by-line English, THEN Java
-  //
-  //for more complete directions see this page
-  //https://www.penflip.com/lynnlangit/tkp-lesson-plans/blob/master/course09.txt
-  //complex example -- http://www.brian-borowski.com/software/puzzle/
-  //http://en.wikipedia.org/wiki/File:Batgirl.gif
-  //
-  public PuzzleWindow puzzleWindow;
-  public PuzzleSolver()
+  private PuzzleBoard board;
+  public PuzzleSolver(PuzzleBoard board)
   {
-    puzzleWindow = new PuzzleWindow("BatGirl Puzzle");
-    PuzzleBoard jboard = new PuzzleBoard();
-    jboard.addTo(puzzleWindow);
-    puzzleWindow.setVisible(true);
+    this.board = board;
   }
-  public static void main(String[] args)
+  public void run()
   {
-    new PuzzleSolver();
+    final PuzzleBoard b = this.board;
+    Point target = b.getPositions().get(8);
+    while (b.isVisible())
+    {
+      SwingUtilities.invokeLater(new Runnable()
+      {
+        public void run()
+        {
+          b.repaint();
+        }
+      });
+      Tile piece = b.getPiece(7);
+      if (!piece.isMovingTo(target))
+      {
+        piece.moveTo(target);
+      }
+      if (!piece.isAt(target))
+      {
+        piece.step();
+      }
+      try
+      {
+        Thread.sleep(10);
+      }
+      catch (InterruptedException e)
+      {
+      }
+    }
   }
-  //repaint the window every second
 }
