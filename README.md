@@ -35,7 +35,7 @@ A successful install should look like the screenshot below: (you can test with t
 
 If the standard install doesn't work, then there are a couple of possible reasons: 
    
-   a) **Java (8 or higher) not installed** -> (for Windows) run the 'Ninite JDK Installer'.  After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it. (for Mac) download the JDK and install it.  To validate the version of Java that is installed, go to [this website](http://java.com/en/download/installed8.jsp) and click the 'validate' button - 
+   a) **Java (7 or higher) not installed** -> (for Windows) run the 'Ninite JDK Installer'.  After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it. (for Mac) download the JDK and install it.  To validate the version of Java that is installed, go to [this website](http://java.com/en/download/installed8.jsp) and click the 'validate' button - 
    
    b1) **Eclipse Luna not installed** -> (for Windows) run the 'Ninite Eclipse Installer'. After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it. 
    
