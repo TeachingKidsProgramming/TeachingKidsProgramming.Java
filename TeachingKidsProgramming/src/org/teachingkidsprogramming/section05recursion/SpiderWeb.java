@@ -19,17 +19,17 @@ public class SpiderWeb
     //
     //            ------------- Recipe for drawTriangle --#4.2
     //            Do the following 3 times --#3
-    //                Move the tortoise the length of a line --#1.1
+    //                Move the tortoise the current length (of the line) --#1.1
     //                Turn the tortoise 1/3rd of 360 degrees --#2
     //            Repeat
     //            ------------- End of drawTriangle recipe --#4.3
     //
     //            Turn the tortoise 1/6th of 360 degrees to the right --#7
-    //            Increase the length of the line by the current zoom --#8.1
+    //            Increase the current length (of the line) by the current zoom --#8.1
     //        Repeat --#5.2
-    //        ------------- End of weaveOneLayer recipe --#9.2
+    //        ------------- End of weaveOneLayer recipe --#9.3
     //
-    //        Change the zoom so it is multiplied by 1.3 --#11
+    //        Change the current zoom so it is multiplied by 1.3 --#11
     //    Repeat
   }
 }
