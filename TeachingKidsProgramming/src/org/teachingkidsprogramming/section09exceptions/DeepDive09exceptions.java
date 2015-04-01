@@ -3,8 +3,7 @@ package org.teachingkidsprogramming.section09exceptions;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Test;
-
-import com.spun.util.FormattedException;
+import org.teachingextensions.approvals.lite.util.FormattedException;
 
 
 public class DeepDive09exceptions

@@ -5,11 +5,10 @@ import java.awt.Graphics2D;
 
 import javax.swing.JPanel;
 
+import org.teachingextensions.approvals.lite.util.NumberUtils;
 import org.teachingextensions.logo.Paintable;
 import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.utils.TortoiseUtils;
-
-import com.spun.util.NumberUtils;
 
 public class SimpleSquareQuizGrader implements Paintable
 {
