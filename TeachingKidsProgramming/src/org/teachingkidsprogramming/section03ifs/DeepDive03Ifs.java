@@ -5,6 +5,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 
+@SuppressWarnings("unused")
 public class DeepDive03Ifs
 {
   //  How to do deep dive:

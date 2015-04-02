@@ -40,7 +40,6 @@ public class SimplePuzzle implements Runnable
     this.setLookAndFeel();
     //  Do this until the player finds the solution -- #6.1
     //  Create a Message Box that shows the message "Looking for puzzle solution..." -- #4
-    //  Try to create a solvable puzzle -- #5.1
     //  Create an array of integers named 'shuffled' which shuffles the cell array -- #2.1
     //  Make the puzzle use the cells array, run it, then use the shuffled array -- #2.2 
     puzzle = new Puzzle(cells);

@@ -6,6 +6,7 @@ import org.junit.Test;
 import org.teachingextensions.approvals.lite.util.FormattedException;
 
 
+@SuppressWarnings("unused")
 public class DeepDive09exceptions
 {
   //  How to do deep dive:
@@ -146,6 +147,7 @@ public class DeepDive09exceptions
   }
   private static class _____ extends Exception
   {
+    private static final long serialVersionUID = 7013264013388843231L;
     public _____(String message, Exception originalException)
     {
       super(message, originalException);

@@ -5,8 +5,8 @@ import java.awt.Graphics2D;
 import javax.swing.JPanel;
 
 import org.teachingextensions.logo.ColorWheel;
-import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Paintable;
+import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.utils.TortoiseUtils;
 
@@ -37,9 +37,9 @@ public class SpiderWebQuizGrader implements Paintable
     TortoiseUtils.setOrientation(150, 200, 0);
     Tortoise.setPenWidth(15);
     ColorWheel.removeAllColors();
-    ColorWheel.addColor(Colors.Grays.Black);
-    ColorWheel.addColor(Colors.Whites.White);
-    Tortoise.getBackgroundWindow().setBackground(Colors.Grays.Silver);
+    ColorWheel.addColor(PenColors.Grays.Black);
+    ColorWheel.addColor(PenColors.Whites.White);
+    Tortoise.getBackgroundWindow().setBackground(PenColors.Grays.Silver);
     quiz.number = 16;
     quiz.length = 15;
   }

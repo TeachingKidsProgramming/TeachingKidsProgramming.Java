@@ -10,6 +10,7 @@ import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.Turtle.Animals;
 
+@SuppressWarnings("unused")
 public class DeepDive07Events
 {
   //  How to do deep dive:

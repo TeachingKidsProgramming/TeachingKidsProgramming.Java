@@ -6,8 +6,8 @@ import java.awt.geom.Line2D;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Paintable;
+import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.utils.TortoiseUtils;
 
@@ -67,7 +67,7 @@ public class TreeQuizGrader implements Paintable
     TortoiseUtils.setOrientation(xTop - 15, yTop + 15, 90);
     quiz.length = 15;
     quiz.question1();
-    Tortoise.setPenColor(Colors.Greens.Lime);
+    Tortoise.setPenColor(PenColors.Greens.Lime);
     Tortoise.setPenWidth(2);
     int[] turns = {
         0, 90, 0, -90, 90 - 36, -90, 0, 90, -90, 0, 0, 0, -90, -90, 0, 0, 90, 0, 0, 90, 0, 0, 0, 0, 90, 90, -90,
@@ -101,7 +101,7 @@ public class TreeQuizGrader implements Paintable
   }
   private void drawMaze(Graphics2D g)
   {
-    g.setColor(Colors.Grays.DarkGray);
+    g.setColor(PenColors.Grays.DarkGray);
     g.setStroke(new BasicStroke(4, BasicStroke.CAP_BUTT, BasicStroke.JOIN_MITER));
     int[][] verticalLines = {
         {1, 4}, {0, 2, 3, 1}, {2, 1}, {0, 1}, {1, 3}, {1, 2}, {2, 1}, new int[0], {1, 1, 3, 2}, {2, 1}, {0, 4}};

@@ -5,6 +5,7 @@ import java.util.HashMap;
 
 public class TurtleTree
 {
+  @SuppressWarnings("unused")
   public static void main(String[] args)
   {
     //    Make the tortoise go as fast as possible --#10

@@ -5,14 +5,15 @@ import java.awt.Graphics2D;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.approvals.lite.util.NumberUtils;
 import org.teachingextensions.logo.ColorWheel;
-import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Paintable;
+import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.logo.Wheel;
 import org.teachingextensions.logo.Turtle;
+import org.teachingextensions.logo.Wheel;
 import org.teachingextensions.logo.utils.TortoiseUtils;
+
+import org.teachingextensions.approvals.lite.util.NumberUtils;
 
 public class PentagonCrazyQuizGrader implements Paintable
 {
@@ -74,7 +75,7 @@ public class PentagonCrazyQuizGrader implements Paintable
   {
     ColorWheel.removeAllColors();
     quiz.question3();
-    return Colors.Greens.Lime.equals(getSafeColor());
+    return PenColors.Greens.Lime.equals(getSafeColor());
   }
   public Color getSafeColor()
   {
@@ -84,14 +85,14 @@ public class PentagonCrazyQuizGrader implements Paintable
     }
     catch (Exception e)
     {
-      return Colors.Yellows.Yellow;
+      return PenColors.Yellows.Yellow;
     }
   }
   private boolean grade4Red()
   {
     ColorWheel.removeAllColors();
     quiz.question4();
-    return Colors.Reds.Red.equals(getSafeColor());
+    return PenColors.Reds.Red.equals(getSafeColor());
   }
   public void setColors()
   {

@@ -8,6 +8,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.teachingextensions.logo.Tortoise;
 
+@SuppressWarnings("unused")
 public class DeepDive06ModelViewController
 {
   //  How to do deep dive:

@@ -4,8 +4,8 @@ import java.awt.Graphics2D;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Paintable;
+import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.utils.TortoiseUtils;
 import org.teachingextensions.windows.MessageBox;
@@ -35,7 +35,7 @@ public class HiLowQuizGrader implements Paintable
         70, 85, 25, 43, 40, 18, 26, 50, 113, 25, 85, 40, 30, 30, 20, 20, 20, 10, 20, 10, 10, 20, 10, 10, 30, 30,
         60, 183};
     Tortoise.setX(20);
-    Tortoise.setPenColor(Colors.Greens.LawnGreen);
+    Tortoise.setPenColor(PenColors.Greens.LawnGreen);
     for (int i = 0; i < lengths.length; i++)
     {
       Tortoise.turn(angles[i]);

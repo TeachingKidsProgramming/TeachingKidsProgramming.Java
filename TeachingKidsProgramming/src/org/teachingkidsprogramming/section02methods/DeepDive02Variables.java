@@ -5,6 +5,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 
+@SuppressWarnings("unused")
 public class DeepDive02Variables
 {
   //  How to do deep dive:

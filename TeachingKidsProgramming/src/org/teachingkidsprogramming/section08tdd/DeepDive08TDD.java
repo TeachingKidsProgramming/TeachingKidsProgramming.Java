@@ -7,6 +7,7 @@ import org.junit.Test;
 import org.teachingextensions.logo.Tortoise;
 
 //This deepdive is in progress!
+@SuppressWarnings("unused")
 public class DeepDive08TDD
 {
   //  How to do deep dive:
