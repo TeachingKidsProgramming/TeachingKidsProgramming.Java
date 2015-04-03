@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section09exceptions;
+package org.teachingkidsprogramming.recipes.inDevelopment;
 
 import org.junit.Assert;
 import org.junit.Ignore;
