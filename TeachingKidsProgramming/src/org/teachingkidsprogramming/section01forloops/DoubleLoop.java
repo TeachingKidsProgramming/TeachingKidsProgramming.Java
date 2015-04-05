@@ -1,27 +1,43 @@
 package org.teachingkidsprogramming.section01forloops;
 
+import org.teachingextensions.logo.ColorWheel;
+import org.teachingextensions.logo.PenColors;
+import org.teachingextensions.logo.Tortoise;
+
 
 public class DoubleLoop
 {
   public static void main(String[] args)
   {
-    //    Show the tortoise --#1
-    //    Set the tortoise speed to 9 --#4
-    //    Add Crimson to the Color Wheel --#6.1
-    //    Add Red to the Color Wheel --#6.2
-    //    Add Fire Brick to the Color Wheel --#6.3
-    //    Do the following 6 times --#3.1
-    //         Change the pen color of the line the tortoise draws the next color on the Color Wheel --#7
-    //         Move the tortoise 4 times the current line number you are drawing --#5
-    //         Turn the tortoise 1/6 of 360 degrees to the left --#2
-	// 
-	//    	    Do the following 15 times --#3.1 (HINT: Use a new 'j' not 'i'!) --#8.1
-    //         		Set the pen width of the line the tortoise draws to 17 --#11
-    //         		Move the tortoise 8 times the current line number you are drawing --#9
-    //         		Turn the tortoise 1/5 of 360 degrees to the right --#10
-    //    		Repeat --#8.2 
-	//  
-	//    Hide the Tortoise --#12
-    //    Repeat --#3.2
+//  Set the tortoise x position to 225 --#1.1
+  //    Set the tortoise y position to 150 --#1.2
+  //    UPDATE the tortoise speed to 10 --#8.2
+    Tortoise.setSpeed(5);
+  //  
+    ColorWheel.addColor(PenColors.Reds.Crimson);
+    ColorWheel.addColor(PenColors.Reds.DarkRed);
+    ColorWheel.addColor(PenColors.Reds.FireBrick);
+  //    Do the following 6 times --#3.1
+  //         Change the pen color of the line the tortoise draws to the next color on the Color Wheel --#5
+  //         Move the tortoise 4 times the current line number you are drawing --#4
+  //         Turn the tortoise 1/6 of 360 degrees to the left --#2
+  // 
+  //          Do the following 15 times --#3.1 (HINT: The new line number is j) --#7.1
+  //              Set the pen width of the line the tortoise draws to 17 --#9
+  //              Move the tortoise 8 times the current line number you are drawing --#8.1
+  //              Turn the tortoise 1/5 of 360 degrees to the right --#6
+  //          Repeat --#7.2 
+  //  
+  //    Hide the Tortoise --#10
+    Tortoise.getBackgroundWindow().setBackground(PenColors.Yellows.PeachPuff);
+  //    Set the tortoise x position to 300 --#15.1
+  //    Set the tortoise y position to 200 --#15.2
+  //    Do the following 5 times --#12.1
+  //        Change the pen color of the line the tortoise draws to black --#14 
+  //        Move the Tortoise 25 pixels --#11
+  //        Turn the tortoise 1/5 of 360 degrees to the right --#13  
+  //    Repeat --#12.2
+  //  
+  //    Repeat --#3.2
   }
 }
