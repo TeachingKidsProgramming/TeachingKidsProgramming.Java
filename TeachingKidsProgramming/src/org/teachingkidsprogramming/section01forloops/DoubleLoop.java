@@ -30,6 +30,7 @@ public class DoubleLoop
   //  
   //    Hide the Tortoise --#10
     Tortoise.getBackgroundWindow().setBackground(PenColors.Yellows.PeachPuff);
+  //    Repeat --#3.2
   //    Set the tortoise x position to 300 --#15.1
   //    Set the tortoise y position to 200 --#15.2
   //    Do the following 5 times --#12.1
@@ -38,6 +39,5 @@ public class DoubleLoop
   //        Turn the tortoise 1/5 of 360 degrees to the right --#13  
   //    Repeat --#12.2
   //  
-  //    Repeat --#3.2
   }
 }
