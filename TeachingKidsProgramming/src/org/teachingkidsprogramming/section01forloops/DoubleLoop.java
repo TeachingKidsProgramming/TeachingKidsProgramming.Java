@@ -22,7 +22,7 @@ public class DoubleLoop
   //         Move the tortoise 4 times the current line number you are drawing --#4
   //         Turn the tortoise 1/6 of 360 degrees to the left --#2
   // 
-  //          Do the following 15 times --#3.1 (HINT: The new line number is j) --#7.1
+  //          Do the following 15 times --(HINT: The new line number is j) --#7.1
   //              Set the pen width of the line the tortoise draws to 17 --#9
   //              Move the tortoise 8 times the current line number you are drawing --#8.1
   //              Turn the tortoise 1/5 of 360 degrees to the right --#6
