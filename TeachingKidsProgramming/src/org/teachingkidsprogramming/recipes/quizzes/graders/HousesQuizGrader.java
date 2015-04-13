@@ -4,12 +4,13 @@ import java.awt.Graphics2D;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.approvals.lite.util.NumberUtils;
 import org.teachingextensions.logo.Paintable;
 import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.utils.TortoiseUtils;
+
+import org.teachingextensions.approvals.lite.util.NumberUtils;
 
 public class HousesQuizGrader implements Paintable
 {
