@@ -100,14 +100,14 @@ public class SpiderWebQuizGrader implements Paintable
       Tortoise.setPenColor(ColorWheel.getNextColor());
       Tortoise.turn(angle);
       Tortoise.move(quiz.length);
-      Tortoise.penUp();
+      Tortoise.setPenUp();
       Tortoise.move(-quiz.length);
       Tortoise.turn(-angle);
       Tortoise.move(quiz.length);
       quiz.shrink();
       Tortoise.move(quiz.length);
       quiz.grow();
-      Tortoise.penDown();
+      Tortoise.setPenDown();
       Tortoise.turn(360.0 / quiz.number);
     }
   }
@@ -122,9 +122,9 @@ public class SpiderWebQuizGrader implements Paintable
       angle *= -1;
       Tortoise.setPenColor(ColorWheel.getNextColor());
       Tortoise.turn(-90);
-      Tortoise.penUp();
+      Tortoise.setPenUp();
       Tortoise.move(42);
-      Tortoise.penDown();
+      Tortoise.setPenDown();
       Tortoise.turn(90);
       quiz.expand();
     }

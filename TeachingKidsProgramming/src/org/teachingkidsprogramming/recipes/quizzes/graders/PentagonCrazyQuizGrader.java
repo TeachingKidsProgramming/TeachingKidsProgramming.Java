@@ -109,9 +109,9 @@ public class PentagonCrazyQuizGrader implements Paintable
     {
       Tortoise.setPenColor(getSafeColor());
       Tortoise.turn(wheel.next());
-      Tortoise.penDown();
+      Tortoise.setPenDown();
       quiz.callThread();
-      Tortoise.penUp();
+      Tortoise.setPenUp();
       quiz.callThread();
     }
   }

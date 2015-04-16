@@ -88,11 +88,11 @@ public class HousesQuizGrader implements Paintable
   }
   private void drawTriangle()
   {
-    Tortoise.penUp();
+    Tortoise.setPenUp();
     quiz.question2();
     quiz.question3();
     Tortoise.move(quiz.length);
-    Tortoise.penDown();
+    Tortoise.setPenDown();
     quiz.question5();
     for (int i = 0; i < 2; i++)
     {
@@ -106,10 +106,10 @@ public class HousesQuizGrader implements Paintable
       drawSmallerLine();
       quiz.question5();
     }
-    Tortoise.penUp();
+    Tortoise.setPenUp();
     quiz.question3();
     quiz.question4();
-    Tortoise.penDown();
+    Tortoise.setPenDown();
     Tortoise.turn(180);
     quiz.question5();
   }
