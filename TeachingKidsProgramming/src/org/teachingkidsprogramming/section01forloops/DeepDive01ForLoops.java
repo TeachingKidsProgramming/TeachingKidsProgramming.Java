@@ -109,7 +109,7 @@ public class DeepDive01ForLoops
   public void combiningTextInALoop() throws Exception
   {
     String sound = "A";
-    for (int i = 1; i <= 3; i++)
+    for (int i = 0; i < 3; i++)
     {
       sound += "H";
     }
@@ -119,18 +119,18 @@ public class DeepDive01ForLoops
   public void forLoopsEndAtTheEnd() throws Exception
   {
     String numbers = "# ";
-    for (int i = 1; i <= ____; i++)
+    for (int i = 0; i < ____; i++)
     {
       numbers += i;
       preventInfiniteLoops();
     }
-    Assert.assertEquals("# 12345", numbers);
+    Assert.assertEquals("# 012345", numbers);
   }
   @Test
   public void forLoopsCanStartAnywhere() throws Exception
   {
     String answer = "Because ";
-    for (int i = ____; i <= 9; i++)
+    for (int i = ____; i < 10; i++)
     {
       answer += i;
       preventInfiniteLoops();
@@ -142,7 +142,7 @@ public class DeepDive01ForLoops
   public void forLoopsCanSkip() throws Exception
   {
     String numbers = "# ";
-    for (int i = 1; i <= 20; i += ____)
+    for (int i = 1; i < 20; i += ____)
     {
       numbers = numbers + i + ",";
       preventInfiniteLoops();
@@ -153,7 +153,7 @@ public class DeepDive01ForLoops
   public void forLoopsCanSkipUpAndDown() throws Exception
   {
     String numbers = "# ";
-    for (int i = 20; 0 < i && i <= 40; i += ____)
+    for (int i = 20; 0 < i && i < 40; i += ____)
     {
       numbers = numbers + i + ",";
       preventInfiniteLoops();
@@ -175,7 +175,7 @@ public class DeepDive01ForLoops
   public void semicolonsMessUpForLoops() throws Exception
   {
     String sound = "A";
-    for (int i = 1; i <= 13; i++);
+    for (int i = 0; i < 13; i++);
     {
       sound += "H";
     }
