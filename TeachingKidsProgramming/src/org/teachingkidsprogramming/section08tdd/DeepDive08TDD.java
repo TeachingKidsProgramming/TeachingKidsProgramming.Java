@@ -20,10 +20,6 @@ public class DeepDive08TDD
   //  Step 5: Advance to the next method
   //  Do not change anything except the blank (___)
   //
-  //    concepts:
-  //   unit tests
-  //   type conversion
-  //   autoboxing
   @Test
   public void stringsCanBeArrays() throws Exception
   {
@@ -106,7 +102,7 @@ public class DeepDive08TDD
     Assert.assertEquals(___, result);
   }
   /**
-   * Ignore the following, It's needed to run the homework
+   * Ignore the following, It's needed to run the deep dive
    * 
    * 
    * 

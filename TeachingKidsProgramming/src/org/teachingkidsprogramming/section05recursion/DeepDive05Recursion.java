@@ -109,7 +109,7 @@ public class DeepDive05Recursion
     Assert.assertEquals(50, coins[0]);
   }
   /**
-   * Ignore the following, It's needed to run the homework
+   * Ignore the following, It's needed to run the deep dive
    * 
    * 
    * 

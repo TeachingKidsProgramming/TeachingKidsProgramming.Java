@@ -182,7 +182,7 @@ public class DeepDive01ForLoops
     Assert.assertEquals(sound, ___);
   }
   /**
-   * Ignore the following, it's needed to run the homework
+   * Ignore the following, it's needed to run the deep dive
    * 
    * 
    * 

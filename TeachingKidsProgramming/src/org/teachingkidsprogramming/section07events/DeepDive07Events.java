@@ -132,7 +132,7 @@ public class DeepDive07Events
     Assert.assertTrue("The ninja flips out - not enough pizza!", this.gotASlice);
   }
   /**
-   * Ignore the following, It's needed to run the homework
+   * Ignore the following, It's needed to run the deep dive
    * 
    * 
    * 

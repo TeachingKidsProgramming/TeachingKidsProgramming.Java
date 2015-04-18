@@ -114,7 +114,7 @@ public class DeepDive06ModelViewController
         + " divided by seven, plus five times eleven is nine squared and not a bit more", aResult);
   }
   /**
-   * Ignore the following, It's needed to run the homework
+   * Ignore the following, It's needed to run the deep dive
    * 
    * 
    * 
