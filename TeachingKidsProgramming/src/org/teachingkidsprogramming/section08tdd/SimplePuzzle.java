@@ -41,23 +41,31 @@ public class SimplePuzzle implements Runnable
   public void run()
   {
     this.setLookAndFeel();
-    //  Do this until the player finds the solution -- #6.1
-    //      Create a Message Box that shows the message "Looking for puzzle solution..." -- #4
-    //      Create an array of integers named 'shuffled' which shuffles the cell array -- #2.1
-    //      Make the puzzle use the cells array, run it, then use the shuffled array -- #2.2 
-    puzzle = new Puzzle(cells);
-    //      Create a AStarPlayer named 'player' which uses the current puzzle -- #3.1
-    //      Create a solution by telling the player to solve it -- #3.2 TIP: Not all puzzles can be solved! 
-    //      NOTE for teacher - have kids run it multiple times here to see that sometimes it fails
+    //  Do this until the player finds a solution --#6.1
+    //      Create a Message Box that shows the message "Looking for puzzle solution..." --#4
     //
+    //      Try to solve the puzzle --#5.1
+    //          Create an array of integers named 'shuffled' which shuffles the cell array --#2.1
+    //          Run the new puzzle (uses the cells array), Then update it to use the shuffled array --#2.2 
+    //
+    puzzle = new Puzzle(cells);
+    //            
+    //          Create a new AStarPlayer named player (of type PuzzlePlayer) which uses the current puzzle -- #3.1
+    //          NOTE for teacher - have kids run it multiple times here to see that sometimes it fails
+    //          Create a solution (of type PuzzleState) by telling the player to solve it (TIP: Not all puzzles can be solved!) --#3.2  
+    // 
+    PuzzleBoard board = new PuzzleBoard(puzzle, solution);
+    // 
+    //           Create a new Puzzle Window that takes a parameter named board -- #1.1
+    //            
+    new Thread(new PuzzleAnimation(board)).start();
+    //           Set the current puzzle window visibility to be true --#1.2             
+    //            
     //      End of try --#5.2
-    //          Create a Message Box that shows the message "This puzzle is not solvable, click ok to try again" -- #5.4
+    //          Create a Message Box that shows the message "This puzzle is not solvable, click ok to try again" --#5.4
     //      End of catch --#5.3
     //
     //  End of while --#6.2
-    PuzzleBoard board = new PuzzleBoard(puzzle, solution);
-    //  Create a new Puzzle Window that takes a parameter named board -- #1
-    new Thread(new PuzzleAnimation(board)).start();
   }
   //
   private void setLookAndFeel()
