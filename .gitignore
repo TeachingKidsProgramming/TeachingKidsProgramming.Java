@@ -9,3 +9,4 @@ bin
 *.war
 *.ear
 TeachingKidsProgramming/.virtual_proctor.txt
+target/
