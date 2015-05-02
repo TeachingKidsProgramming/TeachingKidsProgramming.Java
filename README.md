@@ -24,6 +24,7 @@
 A successful install should look like the screenshot below: (you can test with two lines of code below)
 
     Tortoise.show();
+    Tortoise.move(50);
 
 ![screenshot of Eclipse](http://teachingkidsprogramming.org/blog/wp-content/uploads/2012/04/Screen-shot-TKP-Java1.png)
 =============================
