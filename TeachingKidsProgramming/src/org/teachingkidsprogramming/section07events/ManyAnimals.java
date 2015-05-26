@@ -17,14 +17,14 @@ public class ManyAnimals
     //  Add your three turtles HINT: FOR loop which 'does an action' --#2.2
     //  Create your turtle --#2.4
     //  Add your turtles to your turtle container --#2.5
-    //  Repeat --#2.2
+    //  Repeat --#2.3
     //
     //  Add your turtles to your window HINT: Use a foreach loop --#3.1
     //  HINT: Must call addTurtle BEFORE calling other methods --INFO
     //  Add your turtles to your window --#3.3
     //  Repeat --#3.2
     //
-    //  Teleport your turtles around your window HINT: Use a FOR loop and ZERO --#4.1
+    //  Teleport your turtles around your window HINT: Use a FOR loop --#4.1
     //  Get your turtle's current position and then set the X position to i*100 + 350 --#4.3
     //  Get your turtle's current position and then set the Y position to i*100 + 100 --#4.4
     //  Repeat --#4.2

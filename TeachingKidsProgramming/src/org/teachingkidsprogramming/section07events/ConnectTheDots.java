@@ -22,7 +22,7 @@ public class ConnectTheDots implements MouseRightClickListener, MouseLeftClickLi
     //    ------------- End of clearTheScreen Recipe --#19.3
     //
     //    prepareColorPalette (recipe below) --#17.1
-    //    ------------- Recipe for prepareColorPalette (HINT: use PenColors)--#17.2
+    //    ------------- Recipe for prepareColorPalette --#17.2
     //       Add red to the color wheel --#6
     //       Add green to the color wheel --#12
     //       Add blue to the color wheel --#13
@@ -45,7 +45,7 @@ public class ConnectTheDots implements MouseRightClickListener, MouseLeftClickLi
     //        addACircle (recipe below) --#10.1
     //
     //        ------------- Recipe for addACircle --#10.2
-    //           Create a circle with a radius of 7 which is the same color as the next color on the colorwheel --#5
+    //           Create a circle with a radius of 7 which is the same color as the next color on the color wheel --#5
     //           Change the circle to be 40% opaque --#9
     //           Move the circle so that it's center is at the current position of the mouse --#8
     //           Place the circle on the tortoise's window. --#7
