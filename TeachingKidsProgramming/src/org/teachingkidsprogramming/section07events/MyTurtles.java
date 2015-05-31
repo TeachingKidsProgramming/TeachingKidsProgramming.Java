@@ -1,15 +1,11 @@
 package org.teachingkidsprogramming.section07events;
 
-import java.util.ArrayList;
-
-import org.teachingextensions.logo.MultiTurtleWindow;
-import org.teachingextensions.logo.Turtle;
 
 public class MyTurtles
 {
   //Uncomment the two lines of code below to create a container and a window for your turtles --#1
-  public ArrayList<Turtle> turtles = new ArrayList<Turtle>();
-  public MultiTurtleWindow mtw     = new MultiTurtleWindow();
+  //public ArrayList<Turtle> turtles = new ArrayList<Turtle>();
+  //public MultiTurtleWindow mtw     = new MultiTurtleWindow();
   //
   public MyTurtles()
   {
@@ -24,6 +20,7 @@ public class MyTurtles
     //Repeat --#4.2
     //Create a variable to count the number of turtles in the container --#3.1
     //Uncomment to Show the number of turtles in the container on the window --#3.2
+    //new Text("There are " + numberOfTurtles + " turtles in the turtle container").setTopLeft(50, 50).setPenColor(PenColors.Yellows.Gold).addTo(mtw);
     //
     //Use a FOREACH loop to add your turtles to your window --#5.1
     //Add and Show your turtles on your window --#5.3
