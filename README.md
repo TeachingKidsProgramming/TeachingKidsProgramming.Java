@@ -1,5 +1,4 @@
 #Get Started With TKP And Customized Eclipse#
---
 
 ####Need help?  Click "Join Chat" below:
 
@@ -8,15 +7,22 @@
 
 ##Setup Your Computer
 
+### Windows
+
 1. **Create** a new folder named `TKPSource` (no spaces in the folder name) at the top level of your `C:` drive.  Example: `C:\TKPSource`.
 
     ![Create C:\TKPSource](/images/01CreateFolder.png?raw=true)
 
-1b) **Download** the TKP zip file from this site. Download this zip file by clicking the 'Download ZIP' button on the middle right side of this page (or use the link directly below this line). Wait for the download to complete.
+1. **Download** the TKP zip file from this site by clicking the `Download ZIP` button on the middle right side of this page (or use the link directly below this line). Wait for the download to complete.
 
-[![download zip button][2]][1]
+    [![download zip button][2]][1]
  
-1c) **Move** the zip file from your **\Downloads** folder to the **C:\TKPSource** folder.  The name of the downloaded file is 'TeachingkidsProgramming.Java-master.zip'.
+1. **Move** the zip file from your **Downloads** folder to the **C:\TKPSource** folder.  The name of the downloaded file is `TeachingkidsProgramming.Java-master.zip`
+
+    ![Move zip to C:\TKPSource](/images/02MoveZip.png?raw=true)
+
+
+
 
 1d) **Unzip** the downloaded file (by right clicking it) and then click on 'extract all'(Win) or 'unzip'(Mac) to unzip it.  
 
