@@ -21,26 +21,46 @@
 
     ![Move zip to C:\TKPSource](/images/02MoveZip.png?raw=true)
 
+1. **Unzip** the downloaded file.  Right click on the zip file, and choose `Extract All...`.  Next click `Extract` to create the TKP folder.
 
+    ![Extract Zip](/images/03ExtractAll.png?raw=true)
 
+1. **Open** the unzipped TKP folders and find the **'TKP_Launcher.jar'** file.  
 
-1d) **Unzip** the downloaded file (by right clicking it) and then click on 'extract all'(Win) or 'unzip'(Mac) to unzip it.  
+    ![TKP Launcher](/images/04TKPLauncher.png?raw=true)
 
-1e) **Open** the unzipped TKP folders and find the **'TKP_Launcher.jar'** file.  
+1. **Run** the `TKP_Launcher.jar` file by double-clicking it. Wait for it to run.  
 
-1f) **Run** the 'TKP_Launcher.jar file by double-clicking it. Wait for it to run.  
+    If the jar file runs ok, then Eclipse will launch with the TKP workspace open. A successful install should look like the screenshot below: (you can test with two lines of code below)
 
-    If the jar file runs ok, then Eclipse will launch with the TKP workspace open. 
-    
-    If an error MessageBox pops up, read the message and go to 
-    the 'Fixing Installation Errors' section at the bottom of this document.
-
-A successful install should look like the screenshot below: (you can test with two lines of code below)
-
+    ```java
     Tortoise.show();
     Tortoise.move(50);
+    ```
 
-![screenshot of Eclipse](http://teachingkidsprogramming.org/blog/wp-content/uploads/2012/04/Screen-shot-TKP-Java1.png)
+    ![screenshot of Eclipse](http://teachingkidsprogramming.org/blog/wp-content/uploads/2012/04/Screen-shot-TKP-Java1.png)
+
+     If an error MessageBox pops up, you probably just need a little more setup, keep reading.
+    
+
+    ![Java Missing](/images/05NoJava.png?raw=true)
+        
+1. **Run** the "Ninite" installer for Java.  There are two, but only one is appropriate for your computer.  Look in the `C:\` folder.  Do you have a folder called `Program Files (x86)`?  
+
+    ![64-bit](/images/06_64bit.png?raw=true)
+    
+    If so, then double-click `Ninite JDK x64 8 Installer.exe`.  Otherwise, double-click `Ninite JDK 8 Installer.exe`.  (If you see a `Security Warning` click `Run`. If you see a `User Account Control` prompt click `Yes`).  When the Ninite Java install finishes, try double-clicking the `TKP_Launcher.jar` again.  
+    
+    If it works, great!  Otherwise, you might see a message like the one below.  Keep reading for more setup.
+
+    ![Eclipse Missing](/images/07NoEclipse.png?raw=true)
+    
+1. **Run** the "Ninite" installer for Eclipse.  There is only one installer for eclipse, called `Ninite Eclipse Installer.exe`.  Double-click the eclipse installer (If you see a `Security Warning` click `Run`. If you see a `User Account Control` prompt click `Yes`). When the Ninite Java install finishes, try double-clicking the `TKP_Launcher.jar` again.  
+    
+    If it works, great!  Otherwise, visit the `Fixing Installation Errors` section below for more tips.
+   
+
+
 =============================
 ## Lesson Plans ##
 
@@ -52,11 +72,10 @@ If the standard install doesn't work, then there are a couple of possible reason
    
 a) **Java (7 or higher) not installed** -> 
 
-(for Windows) run the Ninite installer appropriate for your computer.  If your computer is newer it probably uses a 64-bit CPU, and you should install 'Ninite JDK x64 8 Installer'.  If you have an older computer, it probably uses a 32-bit CPU, and you should install 'Ninite JDK 8 Installer'.  If you need help determining what kind of Windows XP/Vista/7 you are running, check [this website](http://windows.microsoft.com/en-us/windows7/find-out-32-or-64-bit); otherwise check [this website](https://support.microsoft.com/en-us/kb/827218) for Windows 8.  After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it. 
+
 
 (for Mac) download the JDK and install it.  To validate the version of Java that is installed, go to [this website](http://java.com/en/download/installed8.jsp) and click the 'validate' button - 
-   
-   b1) **Eclipse Luna not installed** -> (for Windows) run the 'Ninite Eclipse Installer'. After the installer finishes, then double-click on the 'TKP_Launcher.jar' file to re-run it. 
+
    
    b2) **Eclipse Luna not installed** -> (for Mac) install Eclipse manually.  Be sure to unzip Eclipse into your applications folder. After you are done installing Eclipse, then double-click on the 'TKP_Launcher.jar' file to re-run it.  You may need to 'point to' the TKP workspace manually, see instruction c1b) (below)
 
