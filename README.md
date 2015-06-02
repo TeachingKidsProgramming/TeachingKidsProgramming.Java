@@ -27,7 +27,7 @@ Setup your computer
 
     ![TKP Launcher](/images/04TKPLauncher.png?raw=true)
 
-1. **Run** the `TKP_Launcher.jar` file by double-clicking it. Wait for it to run.  
+1. **Run** the `TKP_Launcher.jar` file by double-clicking it. Wait for it to run.  *Tip* if the jar wont run, double check that you are double-clicking it from the extracted **folder** and not inside the **zip**. 
 
     If the jar file runs ok, then Eclipse will launch with the TKP workspace open. A successful install should look like the screenshot below: (you can test with two lines of code below)
 
@@ -79,7 +79,7 @@ Setup your computer
 
     ![TKP Launcher](/images/11TKPLauncher.png?raw=true)
 
-1. **Run** the `TKP_Launcher.jar` file by double-clicking it. Wait for it to run.  
+1. **Run** the `TKP_Launcher.jar` file by double-clicking it. Wait for it to run.  *Tip* if the jar wont run, double check that you are double-clicking it from the extracted **folder** and not inside the **zip**.
 
     If the jar file runs ok, then Eclipse will launch with the TKP workspace open. A successful install should look like the screenshot below: (you can test with two lines of code below)
 
