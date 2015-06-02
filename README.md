@@ -1,6 +1,9 @@
 #Get Started With TKP
 
-##Setup Your Computer: [Windows](#windows) or [Mac](#mac)
+Setup your computer
+
+* [Windows](#windows) 
+* [Mac](#mac)
 
 ### <a name="windows"></a>Windows
 
