@@ -9,7 +9,7 @@ public class TurtleTree
   public static void main(String[] args)
   {
     //    Make the tortoise go as fast as possible --#10
-    //    Turn the background black (HINT: Use PenColors) --#21
+    //    Turn the background black  --#21
     //    The current branch length = 60 --#1.2
     //    drawBranch(recipe below) --#2.1
     //

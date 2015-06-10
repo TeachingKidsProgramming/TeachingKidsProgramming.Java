@@ -10,7 +10,7 @@ public class SimpleBubble implements MouseLeftClickListener
     //    Have SimpleBubble listen for when the left mouse button is clicked in your program window --#2.2
     //    prepareColorPalette (recipe below) --#7.1
     //
-    //    ------------- Recipe for prepareColorPalette (HINT: Use PenColors)--#7.2
+    //    ------------- Recipe for prepareColorPalette --#7.2
     //         Add purple to the color wheel --#2.3
     //         Add alice blue to the color wheel --#4
     //         Add blue to the color wheel --#5

@@ -7,7 +7,7 @@ public class PentagonCrazy
     //    Make the tortoise move as fast as possible --#3
     //    createColorPalette (recipe below) --#8.1
     //
-    //    ------------- Recipe for createColorPalette (HINT: Use PenColors)--#8.2
+    //    ------------- Recipe for createColorPalette --#8.2
     //    Add steel blue to the color wheel --#7
     //    Add dark orchid to the color wheel --#11
     //    Add dark slate blue to the color wheel --#12
@@ -35,6 +35,4 @@ public class PentagonCrazy
     //    Repeat --#2.2
     //    ------------- End of drawPentagon recipe --#10.3
   }
-  // Related Videos:
-  // Sub recipe-> Method : http://youtu.be/C6fnqjceVcs
 }

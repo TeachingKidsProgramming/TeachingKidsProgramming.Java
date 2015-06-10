@@ -23,10 +23,4 @@ public class Houses
     //   drawHouse with height 90 (recipe below) --#12
     //   drawHouse with height 20 (recipe below) --#13
   }
-  /*
-   * After you finish, watch the video recap at http://youtu.be/nQlsrnaMeuw
-   * 
-   * Other Related Videos:
-   * Sub recipe-> Method : http://youtu.be/C6fnqjceVcs
-   */
 }

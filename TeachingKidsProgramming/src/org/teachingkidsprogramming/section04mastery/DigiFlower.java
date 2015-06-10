@@ -6,7 +6,7 @@ public class DigiFlower
   {
     //    Show the tortoise --#1
     //    Make the tortoise move as fast as possible --#7
-    //    Make the background silver (HINT: Use PenColors) --#8
+    //    Make the background silver  --#8
     //    Make the line the tortoise draws 3 pixels wide --#20
     //    createColorPalette (recipe below) --#9.1
     //        Do the following 15 times --#19.1

@@ -18,6 +18,4 @@ public class FourSquare
     //      Turn the tortoise 90 degrees to the right --#9
     //  Repeat --#8.2
   }
-  // Related Videos:
-  // Sub recipe-> Method : http://youtu.be/C6fnqjceVcs
 }

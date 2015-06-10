@@ -7,7 +7,7 @@ public class KnottedRing
     //      Make the tortoise move as fast as possible --#4
     //      createColorPalette (recipe below) --#7.1
     //
-    //      ------------- Recipe for createColorPalette (HINT: Use PenColors)--#7.2
+    //      ------------- Recipe for createColorPalette --#7.2
     //      Add hot pink to the color wheel --#6
     //      Add red to the color wheel --#13
     //      Add fuchsia to the color wheel --#14
@@ -30,6 +30,4 @@ public class KnottedRing
     //       Turn the tortoise 5 more degrees to the right --#12
     //       Repeat --#11.2
   }
-  // Related Videos:
-  // Sub recipe-> Method : http://youtu.be/C6fnqjceVcs
 }
