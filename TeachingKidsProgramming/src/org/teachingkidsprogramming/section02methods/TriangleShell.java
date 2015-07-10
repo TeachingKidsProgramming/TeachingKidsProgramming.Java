@@ -3,14 +3,14 @@ package org.teachingkidsprogramming.section02methods;
 @SuppressWarnings("unused")
 public class TriangleShell
 {
-  private static int length;
+  private static int length = 1;
   public static void main(String[] args)
   {
     // Show the tortoise --#1
-    // Make the tortoise go as fast as possible --#6
+    // Make the tortoise go as fast as possible --#8
     // Do the following 60 times --#7.1
     //      Change the pen color of the line the tortoise draws to a random color --#9
-    //      Increase the current length of the side by 4 pixels --#8
+    //      Increase the current length of the side by 4 pixels --#6
     //      drawTriangle (recipe below) --#5.1
     //
     //      ------------- Recipe for drawTriangle --#5.2
