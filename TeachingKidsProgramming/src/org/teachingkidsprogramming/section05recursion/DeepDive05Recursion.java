@@ -7,7 +7,6 @@ import java.util.HashMap;
 import java.util.List;
 
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
