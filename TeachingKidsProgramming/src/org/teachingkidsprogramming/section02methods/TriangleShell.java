@@ -3,7 +3,7 @@ package org.teachingkidsprogramming.section02methods;
 @SuppressWarnings("unused")
 public class TriangleShell
 {
-  private static int length;
+  private static int length = 1;
   public static void main(String[] args)
   {
     // Show the tortoise --#1
