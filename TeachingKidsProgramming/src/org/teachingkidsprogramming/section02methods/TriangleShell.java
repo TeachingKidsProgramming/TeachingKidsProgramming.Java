@@ -1,5 +1,6 @@
 package org.teachingkidsprogramming.section02methods;
 
+
 @SuppressWarnings("unused")
 public class TriangleShell
 {
@@ -15,7 +16,7 @@ public class TriangleShell
     //
     //      ------------- Recipe for drawTriangle --#5.2
     //          Do the following 3 times --#3.1
-    //              Move the tortoise the current length of a side --#4
+    //              Move the tortoise using the current length --#4
     //              Turn the tortoise 1/3rd of 360 degrees --#2
     //          Repeat --#3.2
     //      ------------- End of drawTriangle recipe --#5.3
