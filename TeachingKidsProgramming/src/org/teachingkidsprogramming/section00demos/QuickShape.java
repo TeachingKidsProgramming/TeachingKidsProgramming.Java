@@ -8,8 +8,8 @@ public class QuickShape
 {
   public static void main(String[] args) throws Exception
   {
-    //  Tip: Use the Tortoise to draw shapes!
     Tortoise.setX(150);
+    //  Tip: Use the Tortoise to draw shapes!
     //  Draw a red square that is 50 pixels per side with a line that's 2 pixels thick -- #1
     //
     Tortoise.setX(425);
@@ -18,8 +18,9 @@ public class QuickShape
     Tortoise.setX(250);
     Tortoise.setY(375);
     Random r = new Random();
-    int sides = r.nextInt(10) + 1; //  use this to generate a random number of sides
+    int sides = r.nextInt(10) + 1;
     //  Draw a purple shape that is 50 pixel on each side with a line that's 10 pixels thick -- #3
     //
   }
+  //See "your" work at http://virtualproctor.tkpjava.org
 }

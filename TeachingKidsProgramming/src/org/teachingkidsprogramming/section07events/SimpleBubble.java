@@ -12,7 +12,7 @@ public class SimpleBubble implements MouseLeftClickListener
     //
     //    ------------- Recipe for prepareColorPalette --#7.2
     //         Add purple to the color wheel --#2.3
-    //         Add alice blue to the color wheel --#4
+    //         Add light steel blue to the color wheel --#4
     //         Add blue to the color wheel --#5
     //         Add dark blue to the color wheel --#6
     //    ------------- End of prepareColorPalette recipe --#7.3
