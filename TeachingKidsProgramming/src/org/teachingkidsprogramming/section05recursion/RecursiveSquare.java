@@ -7,6 +7,7 @@ public class RecursiveSquare
 {
   public static void main(String[] args) throws Exception
   {
+    Tortoise.show();
     Tortoise.getBackgroundWindow().setBackground(PenColors.Greens.DarkGreen);
     Tortoise.setPenColor(PenColors.Yellows.Gold);
     //

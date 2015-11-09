@@ -8,6 +8,7 @@ public class QuickShape
 {
   public static void main(String[] args) throws Exception
   {
+    Tortoise.show();
     Tortoise.setX(150);
     //  Tip: Use the Tortoise to draw shapes!
     //  Draw a red square that is 50 pixels per side with a line that's 2 pixels thick -- #1

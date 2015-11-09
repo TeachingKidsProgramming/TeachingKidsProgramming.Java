@@ -1,9 +1,12 @@
 package org.teachingkidsprogramming.section04mastery;
 
+import org.teachingextensions.logo.Tortoise;
+
 public class PentagonCrazy
 {
   public static void main(String[] args)
   {
+    Tortoise.show();
     //    Make the tortoise move as fast as possible --#3
     //    createColorPalette (recipe below) --#8.1
     //

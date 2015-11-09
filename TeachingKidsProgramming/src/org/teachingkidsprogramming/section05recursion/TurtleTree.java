@@ -3,11 +3,14 @@ package org.teachingkidsprogramming.section05recursion;
 import java.awt.Color;
 import java.util.HashMap;
 
+import org.teachingextensions.logo.Tortoise;
+
 public class TurtleTree
 {
   @SuppressWarnings("unused")
   public static void main(String[] args)
   {
+    Tortoise.show();
     //    Make the tortoise go as fast as possible --#10
     //    Turn the background black  --#21
     //    The current branch length = 60 --#1.2

@@ -1,9 +1,12 @@
 package org.teachingkidsprogramming.section03ifs;
 
+import org.teachingextensions.logo.Tortoise;
+
 public class ConcentricLoop
 {
   public static void main(String[] args)
   {
+    Tortoise.show();
     //  Set the tortoise x position to 150 --#4.1
     //  Set the tortoise y position to 200 --#4.2
     //  Set the tortoise speed to 10  --#4.3

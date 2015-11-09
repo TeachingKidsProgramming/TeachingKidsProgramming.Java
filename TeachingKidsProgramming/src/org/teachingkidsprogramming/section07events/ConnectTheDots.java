@@ -1,5 +1,6 @@
 package org.teachingkidsprogramming.section07events;
 
+import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.windows.MouseLeftClickListener;
 import org.teachingextensions.windows.MouseRightClickListener;
 
@@ -11,6 +12,7 @@ public class ConnectTheDots implements MouseRightClickListener, MouseLeftClickLi
   }
   public ConnectTheDots()
   {
+    Tortoise.show();
     //    Listen for right clicks on the window for the tortoise  --#20.2
     //    Listen for left clicks on the window for the tortoise  --#1.2
     //    Make the Tortoise go as fast as possible. --#4

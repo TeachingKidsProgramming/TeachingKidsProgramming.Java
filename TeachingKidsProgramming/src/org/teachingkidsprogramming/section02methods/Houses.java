@@ -1,9 +1,12 @@
 package org.teachingkidsprogramming.section02methods;
 
+import org.teachingextensions.logo.Tortoise;
+
 public class Houses
 {
   public static void main(String[] args)
   {
+    Tortoise.show();
     //   Make the tortoise move as fast as possible --#11
     //   Have the tortoise start at 200 pixels in on the X axis --#14
     //   The current height is 40 --#1.2

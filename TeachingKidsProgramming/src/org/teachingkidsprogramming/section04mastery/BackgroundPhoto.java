@@ -1,9 +1,12 @@
 package org.teachingkidsprogramming.section04mastery;
 
+import org.teachingextensions.logo.Tortoise;
+
 public class BackgroundPhoto
 {
   public static void main(String[] args)
   {
+    Tortoise.show();
     //  Make the tortoise go as fast as possible --#3
     //  Set the current picture to this url "http://img2.timeinc.net/ew/dynamic/imgs/101110/sonny-cher_240.jpg" --#7.1
     //  Set the background image to the current picture--#7.2

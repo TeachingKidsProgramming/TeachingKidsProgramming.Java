@@ -1,9 +1,12 @@
 package org.teachingkidsprogramming.section05recursion;
 
+import org.teachingextensions.logo.Tortoise;
+
 public class SpiderWeb
 {
   public static void main(String[] args)
   {
+    Tortoise.show();
     //    Make the tortoise go as fast as possible --#6
     //    Change the width of the line the tortoise draws to 1 pixel --#12
     //    Change the Tortoise to a Spider --#14

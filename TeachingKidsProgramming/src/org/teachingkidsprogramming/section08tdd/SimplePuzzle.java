@@ -41,6 +41,7 @@ public class SimplePuzzle implements Runnable
   public void run()
   {
     this.setLookAndFeel();
+    PuzzleState solution = null;
     //  Do this until the player finds a solution --#6.1
     //      Create a Message Box that shows the message "Looking for puzzle solution..." --#4
     //

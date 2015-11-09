@@ -8,6 +8,7 @@ public class DoubleLoop
 {
   public static void main(String[] args)
   {
+    Tortoise.show();
     //  Set the tortoise x position to 225 --#1.1
     //    Set the tortoise y position to 150 --#1.2
     //    UPDATE the tortoise speed to 10 --#8.2
