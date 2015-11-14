@@ -4,12 +4,12 @@ import java.awt.Graphics2D;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.logo.Paintable;
-import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.utils.TortoiseUtils;
-import org.teachingextensions.windows.MessageBox;
-import org.teachingextensions.windows.MessageBox.MessageBoxInstance;
+import org.teachingextensions.logo.utils.ColorUtils.PenColors;
+import org.teachingextensions.logo.utils.EventUtils.MessageBox;
+import org.teachingextensions.logo.utils.EventUtils.MessageBox.MessageBoxInstance;
+import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
 
 public class HiLowQuizGrader implements Paintable
 {
@@ -22,18 +22,69 @@ public class HiLowQuizGrader implements Paintable
     QuizUtils.prepareScoringScreen(answers, this, TURTLE_SPEED);
     drawRewardShape();
   }
+  @Override
   public void paint(Graphics2D g, JPanel caller)
   {
     QuizUtils.displayScores(g, 300, answers);
   }
   private void drawRewardShape()
   {
-    int[] angles = {
-        90, -90, -90, 135, -45, 90, 90, -135, 90, 135, -90, 90, 90, 90, -90, -90, -90, -90, -90, 90, 90, 90, -90,
-        90, 90, -90, -90, -90};
-    int[] lengths = {
-        70, 85, 25, 43, 40, 18, 26, 50, 113, 25, 85, 40, 30, 30, 20, 20, 20, 10, 20, 10, 10, 20, 10, 10, 30, 30,
-        60, 183};
+    int[] angles = {90,
+        -90,
+        -90,
+        135,
+        -45,
+        90,
+        90,
+        -135,
+        90,
+        135,
+        -90,
+        90,
+        90,
+        90,
+        -90,
+        -90,
+        -90,
+        -90,
+        -90,
+        90,
+        90,
+        90,
+        -90,
+        90,
+        90,
+        -90,
+        -90,
+        -90};
+    int[] lengths = {70,
+        85,
+        25,
+        43,
+        40,
+        18,
+        26,
+        50,
+        113,
+        25,
+        85,
+        40,
+        30,
+        30,
+        20,
+        20,
+        20,
+        10,
+        20,
+        10,
+        10,
+        20,
+        10,
+        10,
+        30,
+        30,
+        60,
+        183};
     Tortoise.setX(20);
     Tortoise.setPenColor(PenColors.Greens.LawnGreen);
     for (int i = 0; i < lengths.length; i++)

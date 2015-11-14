@@ -1,8 +1,8 @@
 package org.teachingkidsprogramming.section07events;
 
 import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.windows.MouseLeftClickListener;
-import org.teachingextensions.windows.MouseRightClickListener;
+import org.teachingextensions.logo.utils.EventUtils.MouseLeftClickListener;
+import org.teachingextensions.logo.utils.EventUtils.MouseRightClickListener;
 
 public class ConnectTheDots implements MouseRightClickListener, MouseLeftClickListener
 {

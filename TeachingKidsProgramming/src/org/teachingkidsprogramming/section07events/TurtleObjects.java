@@ -1,6 +1,6 @@
 package org.teachingkidsprogramming.section07events;
 
-import org.teachingextensions.logo.MultiTurtleWindow;
+import org.teachingextensions.WindowUtils.MultiTurtleWindow;
 import org.teachingextensions.logo.Turtle;
 //
 //NOTE: This recipe is in development and will be updated as it goes through our testing process

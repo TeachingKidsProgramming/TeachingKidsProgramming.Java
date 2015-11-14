@@ -1,6 +1,6 @@
 package org.teachingkidsprogramming.recipes.quizzes.graders;
 
-import org.teachingextensions.windows.MessageBox.MessageBoxInstance;
+import org.teachingextensions.logo.utils.EventUtils.MessageBox.MessageBoxInstance;
 
 public class MessageBoxMock extends MessageBoxInstance
 {

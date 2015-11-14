@@ -4,11 +4,11 @@ import java.awt.Graphics2D;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.logo.ColorWheel;
-import org.teachingextensions.logo.Paintable;
-import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.utils.TortoiseUtils;
+import org.teachingextensions.logo.utils.ColorUtils.ColorWheel;
+import org.teachingextensions.logo.utils.ColorUtils.PenColors;
+import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
 
 public class SpiderWebQuizGrader implements Paintable
 {
@@ -85,6 +85,7 @@ public class SpiderWebQuizGrader implements Paintable
     quiz.expand();
     return quiz.number == -100;
   }
+  @Override
   public void paint(Graphics2D g, JPanel caller)
   {
     QuizUtils.displayScores(g, 400, answers);

@@ -4,10 +4,10 @@ import java.awt.Graphics2D;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.logo.Paintable;
-import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.logo.shapes.Text;
+import org.teachingextensions.logo.utils.ColorUtils.PenColors;
+import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
+import org.teachingextensions.logo.utils.LineAndShapeUtils.Text;
 
 public class SimpleBubbleQuizGrader implements Paintable
 {
@@ -30,6 +30,7 @@ public class SimpleBubbleQuizGrader implements Paintable
     this.quiz = quiz;
     displayScreen();
   }
+  @Override
   public void paint(Graphics2D g, JPanel caller)
   {
     this.answers[0] = quiz.leftClickWiredUp;

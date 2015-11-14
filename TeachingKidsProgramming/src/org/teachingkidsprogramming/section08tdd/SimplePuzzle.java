@@ -7,10 +7,10 @@ import java.util.Random;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-import org.teachingextensions.logo.Puzzle;
-import org.teachingextensions.logo.PuzzleAnimation;
-import org.teachingextensions.logo.PuzzleBoard;
-import org.teachingextensions.logo.PuzzleState;
+import org.teachingextensions.logo.utils.PuzzleUtils.Puzzle;
+import org.teachingextensions.logo.utils.PuzzleUtils.PuzzleAnimation;
+import org.teachingextensions.logo.utils.PuzzleUtils.PuzzleBoard;
+import org.teachingextensions.logo.utils.PuzzleUtils.PuzzleState;
 
 public class SimplePuzzle implements Runnable
 {

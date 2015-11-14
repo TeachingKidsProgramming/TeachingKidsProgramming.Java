@@ -6,10 +6,10 @@ import java.awt.geom.Line2D;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.logo.Paintable;
-import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.utils.TortoiseUtils;
+import org.teachingextensions.logo.utils.ColorUtils.PenColors;
+import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
 
 public class TreeQuizGrader implements Paintable
 {
@@ -29,6 +29,7 @@ public class TreeQuizGrader implements Paintable
     answers = new boolean[]{grade1DoubleLength(), grade2DecreaseTurn(), grade3SetNinety(), grade4AngleFive()};
     displayScreen();
   }
+  @Override
   public void paint(Graphics2D g, JPanel caller)
   {
     QuizUtils.displayScores(g, 380, answers);
@@ -69,9 +70,37 @@ public class TreeQuizGrader implements Paintable
     quiz.question1();
     Tortoise.setPenColor(PenColors.Greens.Lime);
     Tortoise.setPenWidth(2);
-    int[] turns = {
-        0, 90, 0, -90, 90 - 36, -90, 0, 90, -90, 0, 0, 0, -90, -90, 0, 0, 90, 0, 0, 90, 0, 0, 0, 0, 90, 90, -90,
-        0, -90, 90, -90};
+    int[] turns = {0,
+        90,
+        0,
+        -90,
+        90 - 36,
+        -90,
+        0,
+        90,
+        -90,
+        0,
+        0,
+        0,
+        -90,
+        -90,
+        0,
+        0,
+        90,
+        0,
+        0,
+        90,
+        0,
+        0,
+        0,
+        0,
+        90,
+        90,
+        -90,
+        0,
+        -90,
+        90,
+        -90};
     for (int i = 0; i < turns.length; i++)
     {
       if (i == 4)
@@ -103,10 +132,23 @@ public class TreeQuizGrader implements Paintable
   {
     g.setColor(PenColors.Grays.DarkGray);
     g.setStroke(new BasicStroke(4, BasicStroke.CAP_BUTT, BasicStroke.JOIN_MITER));
-    int[][] verticalLines = {
-        {1, 4}, {0, 2, 3, 1}, {2, 1}, {0, 1}, {1, 3}, {1, 2}, {2, 1}, new int[0], {1, 1, 3, 2}, {2, 1}, {0, 4}};
-    int[][] horizontalLines = {
-        {0, 10}, {2, 1, 5, 4}, {1, 1, 3, 1, 7, 1}, {0, 1, 2, 2, 5, 3, 9, 1}, {1, 2, 4, 3, 8, 1}, {0, 10}};
+    int[][] verticalLines = {{1, 4},
+        {0, 2, 3, 1},
+        {2, 1},
+        {0, 1},
+        {1, 3},
+        {1, 2},
+        {2, 1},
+        new int[0],
+        {1, 1, 3, 2},
+        {2, 1},
+        {0, 4}};
+    int[][] horizontalLines = {{0, 10},
+        {2, 1, 5, 4},
+        {1, 1, 3, 1, 7, 1},
+        {0, 1, 2, 2, 5, 3, 9, 1},
+        {1, 2, 4, 3, 8, 1},
+        {0, 10}};
     drawLines(horizontalLines, g, true);
     drawLines(verticalLines, g, false);
   }

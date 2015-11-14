@@ -4,11 +4,11 @@ import java.awt.Cursor;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.teachingextensions.logo.Pizza;
-import org.teachingextensions.logo.Topping;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.Turtle.Animals;
+import org.teachingextensions.logo.utils.PizzaUtils.Pizza;
+import org.teachingextensions.logo.utils.PizzaUtils.Topping;
 
 @SuppressWarnings("unused")
 public class DeepDive07Events

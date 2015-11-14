@@ -6,13 +6,13 @@ import java.awt.Graphics2D;
 import javax.swing.JPanel;
 
 import org.teachingextensions.approvals.lite.util.NumberUtils;
-import org.teachingextensions.logo.ColorWheel;
-import org.teachingextensions.logo.Paintable;
-import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.Turtle;
-import org.teachingextensions.logo.Wheel;
 import org.teachingextensions.logo.utils.TortoiseUtils;
+import org.teachingextensions.logo.utils.ColorUtils.ColorWheel;
+import org.teachingextensions.logo.utils.ColorUtils.PenColors;
+import org.teachingextensions.logo.utils.ColorUtils.Wheel;
+import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
 
 public class PentagonCrazyQuizGrader implements Paintable
 {
@@ -35,6 +35,7 @@ public class PentagonCrazyQuizGrader implements Paintable
     answers = new boolean[]{gradeThread(), grade2Stitch76(), grade3Lime(), grade4Red()};
     displayScreen();
   }
+  @Override
   public void paint(Graphics2D g, JPanel caller)
   {
     QuizUtils.displayScores(g, 300, answers);

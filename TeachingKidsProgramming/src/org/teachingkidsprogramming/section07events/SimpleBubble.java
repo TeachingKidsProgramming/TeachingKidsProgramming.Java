@@ -1,6 +1,6 @@
 package org.teachingkidsprogramming.section07events;
 
-import org.teachingextensions.windows.MouseLeftClickListener;
+import org.teachingextensions.logo.utils.EventUtils.MouseLeftClickListener;
 
 public class SimpleBubble implements MouseLeftClickListener
 {

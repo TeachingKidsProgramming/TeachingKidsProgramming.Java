@@ -5,11 +5,11 @@ import java.awt.Graphics2D;
 import javax.swing.JPanel;
 
 import org.teachingextensions.approvals.lite.util.NumberUtils;
-import org.teachingextensions.logo.Paintable;
-import org.teachingextensions.logo.PenColors;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.utils.TortoiseUtils;
+import org.teachingextensions.logo.utils.ColorUtils.PenColors;
+import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
 
 public class HousesQuizGrader implements Paintable
 {
@@ -24,11 +24,15 @@ public class HousesQuizGrader implements Paintable
   public void grade(HousesQuizAdapter quiz)
   {
     this.quiz = quiz;
-    answers = new boolean[]{
-        grade1Small(), grade2Medium(), grade3Large(), grade4moveTheLength(), grade5turnTheCorner(),
+    answers = new boolean[]{grade1Small(),
+        grade2Medium(),
+        grade3Large(),
+        grade4moveTheLength(),
+        grade5turnTheCorner(),
         grade6drawASide()};
     displayScreen();
   }
+  @Override
   public void paint(Graphics2D g, JPanel caller)
   {
     QuizUtils.displayScores(g, 300, answers);
