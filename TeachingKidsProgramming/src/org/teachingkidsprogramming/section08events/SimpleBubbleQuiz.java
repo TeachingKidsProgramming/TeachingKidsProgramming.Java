@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section07events;
+package org.teachingkidsprogramming.section08events;
 
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors;

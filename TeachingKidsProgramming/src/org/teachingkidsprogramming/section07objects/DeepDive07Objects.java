@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section07events;
+package org.teachingkidsprogramming.section07objects;
 
 import java.awt.Cursor;
 
@@ -11,7 +11,7 @@ import org.teachingextensions.logo.utils.PizzaUtils.Pizza;
 import org.teachingextensions.logo.utils.PizzaUtils.Topping;
 
 @SuppressWarnings("unused")
-public class DeepDive07Events
+public class DeepDive07Objects
 {
   //  How to do deep dive:
   //  Step 1: Select the method name (twoTortoises on line 30) Press the Run Button
@@ -170,7 +170,7 @@ public class DeepDive07Events
     Cursor cursor = Tortoise.getBackgroundWindow().getCursor();
     return cursor;
   }
-  public DeepDive07Events()
+  public DeepDive07Objects()
   {
     this.leonardo = new Turtle();
     this.donatello = new Turtle();

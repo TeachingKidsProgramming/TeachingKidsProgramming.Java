@@ -1,6 +1,6 @@
 package org.teachingkidsprogramming.section01forloops;
 
-import org.teachingextensions.windows.MessageBox;
+import org.teachingextensions.logo.utils.EventUtils.MessageBox;
 
 public class Spiral
 {

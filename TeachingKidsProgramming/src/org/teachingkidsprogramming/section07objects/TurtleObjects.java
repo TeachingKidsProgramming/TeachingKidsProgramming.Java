@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section07events;
+package org.teachingkidsprogramming.section07objects;
 
 import org.teachingextensions.WindowUtils.MultiTurtleWindow;
 import org.teachingextensions.logo.Turtle;

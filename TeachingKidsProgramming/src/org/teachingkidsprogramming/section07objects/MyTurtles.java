@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section07events;
+package org.teachingkidsprogramming.section07objects;
 
 public class MyTurtles
 {
