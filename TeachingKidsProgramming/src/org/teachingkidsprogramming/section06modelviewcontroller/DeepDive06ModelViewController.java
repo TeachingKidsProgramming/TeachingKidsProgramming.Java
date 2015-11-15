@@ -12,7 +12,7 @@ import org.teachingextensions.logo.Tortoise;
 public class DeepDive06ModelViewController
 {
   //  How to do deep dive:
-  //  Step 1: Select the method name (stringsCanBeArrays on line 24) Press the Run Button
+  //  Step 1: Select the method name (stringsCanBeArrays on line 25) Press the Run Button
   //            PC: Ctrl+F11 
   //            Mac: Command+fn+F11
   //  Step 2: Read the name of the method that failed

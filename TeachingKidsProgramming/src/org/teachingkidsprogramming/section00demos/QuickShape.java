@@ -10,7 +10,7 @@ public class QuickShape
   {
     Tortoise.show();
     Tortoise.setX(150);
-    //  Tip: Use the Tortoise to draw shapes!
+    //  Tip: Use the Tortoise object to draw shapes!
     //  Draw a red square that is 50 pixels per side with a line that's 2 pixels thick -- #1
     //
     Tortoise.setX(425);
@@ -23,5 +23,5 @@ public class QuickShape
     //  Draw a purple shape that is 50 pixel on each side with a line that's 10 pixels thick -- #3
     //
   }
-  //See "your" work at http://virtualproctor.tkpjava.org
+  //    See "your" work at http://virtualproctor.tkpjava.org
 }

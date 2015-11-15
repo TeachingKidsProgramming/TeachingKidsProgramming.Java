@@ -6,7 +6,7 @@ public class SimpleBubble implements MouseLeftClickListener
 {
   public SimpleBubble()
   {
-    //    Create a ProgramWindow titled Bubbles --#1.1
+    //    Create a ProgramWindow titled My Bubble --#1.1
     //    Uncomment the line below -- #1.2
     //    programWindow.setWindowVisible(true);
     //    Have SimpleBubble listen for when the left mouse button is clicked in your program window --#2.2

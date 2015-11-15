@@ -14,7 +14,7 @@ import org.teachingextensions.logo.utils.PizzaUtils.Topping;
 public class DeepDive07Objects
 {
   //  How to do deep dive:
-  //  Step 1: Select the method name (twoTortoises on line 30) Press the Run Button
+  //  Step 1: Select the method name (twoTortoises on line 27) Press the Run Button
   //            PC: Ctrl+F11 
   //            Mac: Command+fn+F11
   //  Step 2: Read the name of the method that failed

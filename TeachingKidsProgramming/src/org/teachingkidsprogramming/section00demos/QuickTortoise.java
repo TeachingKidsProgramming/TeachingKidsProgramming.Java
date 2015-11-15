@@ -7,6 +7,6 @@ public class QuickTortoise
   public static void main(String[] args) throws Exception
   {
     Tortoise.show();
-    // Use the Tortoise to draw a Tortoise!
+    // Use the Tortoise object to draw a Tortoise!
   }
 }
