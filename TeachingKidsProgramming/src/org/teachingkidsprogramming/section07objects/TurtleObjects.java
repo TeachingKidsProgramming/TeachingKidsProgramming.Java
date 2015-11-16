@@ -19,8 +19,8 @@ public class TurtleObjects
     //  ------------- Recipe for makeSpeedyTurtle --#1.0
     //        Create a new speedyTurtle instance  
     //        Add your speedyTurtle to your MultiTurtleWindow
-    //        Have your speedyTurtle draw a triangle with 100 pixel sides
     //        Set the speed of your speedyTurtle to the fastest possible    
+    //        Have your speedyTurtle draw a triangle with 100 pixel sides
     //  ------------- End of makeSpeedyTurtle --#1.1 
     //  makeSlowTurtle (recipe below) --#4.0
     //  ------------- Recipe for makeSlowTurtle --#3.0
