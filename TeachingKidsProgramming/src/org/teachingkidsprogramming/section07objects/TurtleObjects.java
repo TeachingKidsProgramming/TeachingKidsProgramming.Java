@@ -15,27 +15,24 @@ public class TurtleObjects
   }
   private void showSomeTurtles()
   {
-    //  Call the makeSpeedyTurtle method --#2
-    //  Call the makeSlowTurtle method --#4
-    //  Call the makeCrazyTurtle method --#6
+    //  makeSpeedyTurtle (recipe below) --#2.0
+    //  ------------- Recipe for makeSpeedyTurtle --#1.0
+    //        Create a new speedyTurtle instance  
+    //        Add your speedyTurtle to your MultiTurtleWindow
+    //        Have your speedyTurtle draw a triangle with 100 pixel sides
+    //        Set the speed of your speedyTurtle to the fastest possible    
+    //  ------------- End of makeSpeedyTurtle --#1.1 
+    //  makeSlowTurtle (recipe below) --#4.0
+    //  ------------- Recipe for makeSlowTurtle --#3.0
+    //        Create a new slowTurtle instance 
+    //        Add your slowTurtle to your MultiTurtleWindow
+    //        Have your slowTurtle draw a upside down triangle with 50 pixel sides
+    //  ------------- End of makeSlowTurtle --#2.2
+    //  makeCrazyTurtle (recipe below) --#6.0
+    //  ------------- Recipe for makeCrazyTurtle --#5.1
+    //        Create a new crazyTurtle instance  
+    //        Add your crazyTurtle to your MultiTurtleWindow
+    //        Have your crazyTurtle draw a 55 pixel long lightning bolt
+    //  ------------- End of makeCrazyTurtle --#5.2
   }
-  //
-  //    Create the makeSpeedyTurtle method --#1.0
-  //        Create a new speedyTurtle instance  
-  //        Set the speed of your speedyTurtle to the fastest possible    
-  //        Add your speedyTurtle to your MultiTurtleWindow
-  //        Have your speedyTurtle draw a triangle with 100 pixel sides
-  //    End of makeSpeedyTurtle method --#1.1 
-  //
-  //    Create the makeSlowTurtle method --#3.0
-  //        Create a new slowTurtle instance 
-  //        Add your slowTurtle to your MultiTurtleWindow
-  //        Have your slowTurtle draw a upside down triangle with 50 pixel sides
-  //    End of makeSlowTurtle method --#3.1
-  //
-  //    Create the makeCrazyTurtle method --#5.0
-  //        Create a new crazyTurtle instance  
-  //        Add your crazyTurtle to your MultiTurtleWindow
-  //        Have your crazyTurtle draw a 55 pixel long lightning bolt
-  //    End of makeCrazyTurtle method --#5.1
 }
