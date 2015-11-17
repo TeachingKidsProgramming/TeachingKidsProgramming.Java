@@ -88,7 +88,7 @@ Setup your computer
     Tortoise.move(50);
     ```
 
-    ![screenshot of Eclipse](/images/20Success.png?raw=true)
+    ![screenshot of Eclipse](https://www.penflip.com/lynnlangit/tkp-lesson-plans/blob/master/images/TKP_Courseware_SmokeTest.png/?raw=true)
 
      If an error MessageBox pops up, you probably just need a little more setup, keep reading.
 
