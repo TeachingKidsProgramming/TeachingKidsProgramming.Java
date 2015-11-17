@@ -36,7 +36,7 @@ Setup your computer
     Tortoise.move(50);
     ```
 
-    ![screenshot of Eclipse](http://teachingkidsprogramming.org/blog/wp-content/uploads/2012/04/Screen-shot-TKP-Java1.png)
+    ![screenshot of Eclipse](/images/20Success.png?raw=true)
 
      If an error MessageBox pops up, you probably just need a little more setup, keep reading.
     
