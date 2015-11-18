@@ -21,7 +21,7 @@ public class KnottedRing
     //      Add tomato to the color wheel --#19
     //      ------------- End of createColorPalette recipe --#7.3
     //          Do the following 30 times --#11.1
-    //              Change the pen color of the line the tortoise draws to a random color from the color wheel --#5
+    //              Change the pen color of the line the tortoise draws to the next color from the color wheel --#5
     //              drawOctagonWithOverlap (recipe below) --#9
     //              ------------- Recipe for drawOctagonWithOverlap --#8.1
     //                  Do the following 8 + 1 times --#3.1

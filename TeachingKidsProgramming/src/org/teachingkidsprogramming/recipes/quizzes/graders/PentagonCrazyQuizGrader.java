@@ -61,7 +61,7 @@ public class PentagonCrazyQuizGrader implements Paintable
     Turtle turtle = QuizUtils.createTestTurtle();
     TortoiseUtils.setTurtle(turtle);
     TortoiseUtils.setOrientation(0, 0, 90);
-    quiz.callThread();
+    quiz.callCreateAStitch();
     return NumberUtils.equals(TortoiseUtils.getTurtle().getX(), 6, 0.005);
   }
   private boolean grade2Stitch76()
@@ -111,9 +111,9 @@ public class PentagonCrazyQuizGrader implements Paintable
       Tortoise.setPenColor(getSafeColor());
       Tortoise.turn(wheel.next());
       Tortoise.setPenDown();
-      quiz.callThread();
+      quiz.callCreateAStitch();
       Tortoise.setPenUp();
-      quiz.callThread();
+      quiz.callCreateAStitch();
     }
   }
 }

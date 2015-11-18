@@ -8,21 +8,24 @@ public class PentagonCrazyQuiz extends PentagonQuizAdapter
   public void question1()
   {
     // Question 1 
-    //   thread (recipe below) 
-    //   ------------- Recipe for thread
-    //       that moves the tortoise 6 pixels
-    //   ------------- End of thread recipe
+    //   createAStitch (recipe below) 
+    //   ------------- Recipe for createAStitch
+    //   Move the tortoise 6 pixels
+    //   ------------- End of createAStitch recipe
   }
+  @Override
   public void question2()
   {
     //        Do the following 76 times
-    //           call stitch
+    //        Call sewAStitch
     //        Repeat
   }
+  @Override
   public void question3()
   {
     //        Add lime to the color wheel
   }
+  @Override
   public void question4()
   {
     //        Add red to the color wheel

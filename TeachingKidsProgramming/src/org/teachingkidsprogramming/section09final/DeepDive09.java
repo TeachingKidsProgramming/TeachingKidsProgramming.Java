@@ -8,7 +8,7 @@ import org.teachingextensions.logo.Tortoise;
 
 //This deepdive is in progress!
 @SuppressWarnings("unused")
-public class DeepDive08TDD
+public class DeepDive09
 {
   //  How to do deep dive:
   //  Step 1: Select the method name (stringsCanBeArrays on line 24) Press the Run Button

@@ -3,9 +3,9 @@ package org.teachingkidsprogramming.recipes.quizzes.graders;
 public class PentagonQuizAdapter
 {
   public PentagonCrazyQuizGrader grader;
-  public void callThread()
+  public void callCreateAStitch()
   {
-    HousesQuizAdapter.call(this, "thread");
+    HousesQuizAdapter.call(this, "createAStitch");
   }
   public void question2()
   {
@@ -16,7 +16,7 @@ public class PentagonQuizAdapter
   public void question4()
   {
   }
-  public void stitch()
+  public void sewAStitch()
   {
     grader.stitch();
   }
