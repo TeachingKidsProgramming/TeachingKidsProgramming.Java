@@ -2,13 +2,13 @@ package org.teachingkidsprogramming.section01forloops;
 
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.utils.TortoiseUtils;
 
-
+//
+@SuppressWarnings("unused")
 public class DeepDive01ForLoops
 {
   //  How to do deep dive:

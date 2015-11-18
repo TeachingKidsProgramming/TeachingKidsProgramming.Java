@@ -7,12 +7,11 @@ import java.util.HashMap;
 import java.util.List;
 
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors;
 
-
+@SuppressWarnings("unused")
 public class DeepDive05Recursion
 {
   //  How to do deep dive:

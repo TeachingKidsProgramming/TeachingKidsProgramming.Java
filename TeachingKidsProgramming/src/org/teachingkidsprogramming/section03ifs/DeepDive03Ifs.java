@@ -1,9 +1,7 @@
 package org.teachingkidsprogramming.section03ifs;
 
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Test;
-
 
 @SuppressWarnings("unused")
 public class DeepDive03Ifs

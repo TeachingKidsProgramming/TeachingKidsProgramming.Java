@@ -1,12 +1,11 @@
 package org.teachingkidsprogramming.section04mastery;
 
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import you.need.to.fill.in.the.______;
 
-
+@SuppressWarnings("unused")
 public class DeepDive04Mastery
 {
   //  How to do deep dive:
