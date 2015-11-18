@@ -1,5 +1,10 @@
 package org.teachingkidsprogramming.section04mastery;
 
+import java.awt.Color;
+
+import org.teachingextensions.logo.utils.ColorUtils.ColorWheel;
+import org.teachingextensions.logo.utils.ColorUtils.PenColors;
+
 public class DigiFlower
 {
   public static void main(String[] args)
@@ -7,26 +12,25 @@ public class DigiFlower
     //    Show the tortoise --#1
     //    Make the tortoise move as fast as possible --#7
     //    Make the background silver  --#8
-    //    Make the line the tortoise draws 3 pixels wide --#20
+    //    Make the line the tortoise draws 3 pixels wide --#15
     //    createColorPalette (recipe below) --#9.1
-    //        Do the following 15 times --#19.1
+    //        Do the following 15 times --#13.1
     //          drawOctogon (recipe below) --#10.1
-    //          Turn the tortoise 1/15th of 360 degrees to the right --#18
-    //        Repeat --#19.2
+    //          Turn the tortoise 1/15th of 360 degrees to the right --#12
+    //        Repeat --#14.2
     //    ------------- Recipe for createColorPalette --#9.2
-    //    Pen Color 1 is red --#3
-    //    Pen Color 2 is dark orange --#11
-    //    Pen Color 3 is gold --#12
-    //    Pen Color 4 is yellow --#13
-    //
-    //    Add color 1 to the color wheel --#3.1
-    //    Add color 2 to the color wheel --#11.1
-    //    Add color 3 to the color wheel --#12.1
-    //    Add color 4 to the color wheel --#13.1
-    //    Add color 4 to the color wheel --#14
-    //    Add color 3 to the color wheel --#15
-    //    Add color 2 to the color wheel --#16
-    //    Add color 1 to the color wheel --#17
+    Color color1 = PenColors.Reds.Red;
+    Color color2 = PenColors.Oranges.DarkOrange;
+    Color color3 = PenColors.Yellows.Gold;
+    Color color4 = PenColors.Yellows.Yellow;
+    ColorWheel.addColor(color1);
+    ColorWheel.addColor(color2);
+    ColorWheel.addColor(color3);
+    ColorWheel.addColor(color4);
+    ColorWheel.addColor(color4);
+    ColorWheel.addColor(color3);
+    ColorWheel.addColor(color2);
+    ColorWheel.addColor(color1);
     //    ------------- End of createColorPalette recipe --#9.3
     //
     //    ------------- Recipe for drawOctogon --#10.2
