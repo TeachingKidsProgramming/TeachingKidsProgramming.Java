@@ -113,7 +113,7 @@ public class DeepDive04Mastery
   {
     Number number = 1.0 / 5;
     Assert.assertEquals(number.getClass(), ______.class);
-    Assert.assertEquals(number, .2);
+    Assert.assertEquals(number, ___);
   }
   @Test
   public void dividingIntegers() throws Exception
@@ -155,6 +155,7 @@ public class DeepDive04Mastery
   public boolean ______ = true;
   public String  ___    = "You need to fill in the blank ___";
   public Integer ____   = null;
+  private Double _______;
   public String ___()
   {
     return ___;
