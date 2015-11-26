@@ -7,20 +7,18 @@ import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.utils.TortoiseUtils;
 
-//
 @SuppressWarnings("unused")
 public class DeepDive01ForLoops
 {
-  //  How to do deep dive:
-  //  Step 1: Select the method name (numbersDoNotNeedQuotes on line 25) Press the Run Button
-  //            PC: Ctrl+F11 
-  //            Mac: Command+fn+F11
-  //  Step 2: Read the name of the method that failed
-  //  Step 3: Fill in the blank (___) to make it pass
-  //  Step 4: Consider at least one thing you just learned
-  //  Step 5: Advance to the next method
-  //  Do not change anything except the blank (___)
-  //
+  //  Step 1: SELECT the method name (numbersDoNotNeedQuotes on line 23), then click the Run Button
+  //            Keyboard shortcut to run ->  PC: Ctrl+F11 or Mac: Command+fn+F11
+  //  Step 2: READ the name of the method that failed
+  //  Step 3: FILL IN the blank (___) to make that method pass
+  //  Step 4: SAY at least one thing you just learned
+  //  Step 5: GO to the next method
+  //  
+  //  NOTE:   Do not change anything except the blank (___)
+  //  
   @Test
   public void numbersDoNotNeedQuotes()
   {
