@@ -7,7 +7,6 @@ import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.utils.TortoiseUtils;
 
-@SuppressWarnings("unused")
 public class DeepDive01ForLoops
 {
   //  Step 1: SELECT the method name (numbersDoNotNeedQuotes on line 23), then click the Run Button

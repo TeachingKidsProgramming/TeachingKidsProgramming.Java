@@ -11,7 +11,6 @@ import org.junit.Test;
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors;
 
-@SuppressWarnings("unused")
 public class DeepDive05Recursion
 {
   //  Step 1: SELECT the method name (changeThePointerToAHand on line 27), then click the Run Button

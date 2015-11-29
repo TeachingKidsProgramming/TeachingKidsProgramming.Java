@@ -3,10 +3,9 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="src/jars/TeachingKidsProgramming.jar"/>
-	<classpathentry kind="lib" path="src/jars/httpclient-4.3.5.jar"/>
-	<classpathentry kind="lib" path="src/jars/httpcore-4.4.1.jar"/>
-	<classpathentry kind="lib" path="src/jars/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="src/jars/httpmime-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/lynnlangit/Documents/workspace/TeachingKidsProgramming.Java/TeachingKidsProgramming/src/jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/lynnlangit/Documents/workspace/TeachingKidsProgramming.Java/TeachingKidsProgramming/src/jars/httpclient-4.3.5.jar"/>
+	<classpathentry kind="lib" path="/Users/lynnlangit/Documents/workspace/TeachingKidsProgramming.Java/TeachingKidsProgramming/src/jars/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/lynnlangit/Documents/workspace/TeachingKidsProgramming.Java/TeachingKidsProgramming/src/jars/httpmime-4.4.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

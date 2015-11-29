@@ -4,6 +4,7 @@ import java.util.Random;
 
 import org.teachingextensions.logo.Tortoise;
 
+@SuppressWarnings("unused")
 public class QuickShape
 {
   public static void main(String[] args) throws Exception
