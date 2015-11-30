@@ -1,12 +1,12 @@
 package org.teachingkidsprogramming.section07objects;
 
-public class MyTurtles
+public class CloneTurtles
 {
   // Uncomment the two lines of code below to create a container and a window for your turtles --#1
   // public ArrayList<Turtle> turtles = new ArrayList<Turtle>();
   // public MultiTurtleWindow mtw     = new MultiTurtleWindow();
   //
-  public MyTurtles()
+  public CloneTurtles()
   {
     showSomeTurtles();
   }
@@ -40,6 +40,6 @@ public class MyTurtles
   //
   public static void main(String[] args)
   {
-    new MyTurtles();
+    new CloneTurtles();
   }
 }

@@ -2,16 +2,16 @@ package org.teachingkidsprogramming.section07objects;
 
 import org.teachingextensions.WindowUtils.MultiTurtleWindow;
 
-public class TurtleObjects
+public class SuperTurtles
 {
   public MultiTurtleWindow mtw = new MultiTurtleWindow();
-  public TurtleObjects()
+  public SuperTurtles()
   {
     showSomeTurtles();
   }
   public static void main(String[] args)
   {
-    new TurtleObjects();
+    new SuperTurtles();
   }
   private void showSomeTurtles()
   {
@@ -27,7 +27,7 @@ public class TurtleObjects
     //        Create a new slowTurtle instance 
     //        Add your slowTurtle to your MultiTurtleWindow
     //        Have your slowTurtle draw a upside down triangle with 50 pixel sides
-    //  ------------- End of makeSlowTurtle --#2.2
+    //  ------------- End of makeSlowTurtle --#3.1
     //  makeCrazyTurtle (recipe below) --#6.0
     //  ------------- Recipe for makeCrazyTurtle --#5.1
     //        Create a new crazyTurtle instance  
