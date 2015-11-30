@@ -7,5 +7,6 @@
 	<classpathentry kind="lib" path="/Users/lynnlangit/Documents/workspace/TeachingKidsProgramming.Java/TeachingKidsProgramming/src/jars/httpclient-4.3.5.jar"/>
 	<classpathentry kind="lib" path="/Users/lynnlangit/Documents/workspace/TeachingKidsProgramming.Java/TeachingKidsProgramming/src/jars/httpcore-4.4.1.jar"/>
 	<classpathentry kind="lib" path="/Users/lynnlangit/Documents/workspace/TeachingKidsProgramming.Java/TeachingKidsProgramming/src/jars/httpmime-4.4.1.jar"/>
+	<classpathentry kind="src" path="/TeachingKidsProgramming.Source.Java"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

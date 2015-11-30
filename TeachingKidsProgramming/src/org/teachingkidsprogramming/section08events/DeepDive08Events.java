@@ -1,10 +1,7 @@
 package org.teachingkidsprogramming.section08events;
 
-import java.awt.Cursor;
-
 import org.junit.Assert;
 import org.junit.Test;
-import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors;
 import org.teachingextensions.logo.utils.LineAndShapeUtils.Circle;
 
@@ -21,7 +18,7 @@ public class DeepDive08Events
   //  NOTE:   Do not change anything except the blank (___)
   // 
   //*****************In Progress************************//
-  //Looking at testing types of Asserts - more http://junit.sourceforge.net/javadoc/org/junit/Assert.html
+  //Looking at testing object instances and properties
   //Also testing more events
   //NOTE for Deep Dive Authors: Copy 'answer' to TKPJava answer section when done
   //
@@ -61,10 +58,5 @@ public class DeepDive08Events
   public String ___()
   {
     return ___;
-  }
-  private Cursor getCursor()
-  {
-    Cursor cursor = Tortoise.getBackgroundWindow().getCursor();
-    return cursor;
   }
 }
