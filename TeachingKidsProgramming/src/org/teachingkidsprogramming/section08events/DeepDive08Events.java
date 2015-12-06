@@ -5,7 +5,6 @@ import org.junit.Test;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors;
 import org.teachingextensions.logo.utils.LineAndShapeUtils.Circle;
 
-@SuppressWarnings("unused")
 public class DeepDive08Events
 {
   //  Step 1: SELECT the method name (twoTortoises on line 26), then click the Run Button
