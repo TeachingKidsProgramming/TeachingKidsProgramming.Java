@@ -6,9 +6,9 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import org.teachingkidsprogramming.recipes.completed.section09final.FizzBuzzTDD;
 
-public class SquareKataTDD
+public class RectangleKataTDD
 {
-  //    Draw a square 
+  //    Draw a rectangle 
   //    HINT: Write each step in English FIRST, then translate to Java one line at a time
   //    TIP: Be sure to run after each line of Java to make sure it works as expected
   //    Write tests using the Assert object via the TDD style shown below
