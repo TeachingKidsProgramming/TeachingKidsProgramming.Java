@@ -4,8 +4,9 @@ public class RectangleKata
 {
   public static void main(String[] args)
   {
-    //    Draw a rectangle 
-    //    HINT: Write each step in English FIRST, then translate to Java one line at a time
-    //    TIP: Be sure to run after each line of Java to make sure it works as expected
+    //    Draw a rectangle
+    //    Write the steps to code your rectangle out in English 
+    //    Translate from English to Java one line at a time
+    //    Run your code after each line of Java to make sure it works as expected
   }
 }
