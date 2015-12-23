@@ -1,7 +1,5 @@
 package org.teachingkidsprogramming.section07objects;
 
-import java.awt.Cursor;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.teachingextensions.logo.Tortoise;
@@ -9,6 +7,8 @@ import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.Turtle.Animals;
 import org.teachingextensions.logo.utils.PizzaUtils.Pizza;
 import org.teachingextensions.logo.utils.PizzaUtils.Topping;
+
+import java.awt.*;
 
 @SuppressWarnings("unused")
 public class DeepDive07Objects
@@ -19,9 +19,9 @@ public class DeepDive07Objects
   //  Step 3: FILL IN the blank (___) to make that method pass
   //  Step 4: SAY at least one thing you just learned
   //  Step 5: GO to the next method
-  //  
+  //
   //  NOTE:   Do not change anything except the blank (___)
-  //  
+  //
   @Test
   public void twoTortoises() throws Exception
   {
@@ -47,7 +47,7 @@ public class DeepDive07Objects
     boolean result = michelangelo.equals(anonymousNinja);
     Assert.assertEquals(true, result);
   }
-  //Turtle Leonardo belongs to "this" 
+  //Turtle Leonardo belongs to "this"
   private Turtle leonardo;
   @Test
   public void fatTrailTurtle() throws Exception
@@ -57,7 +57,7 @@ public class DeepDive07Objects
     ninja.setPenWidth(30);
     Assert.assertEquals(30, this.leonardo.getPenWidth());
   }
-  //Turtle Donatello belongs to "this" 
+  //Turtle Donatello belongs to "this"
   private Turtle donatello;
   @Test
   public void explodingTurtle() throws Exception
@@ -132,16 +132,16 @@ public class DeepDive07Objects
   }
   /**
    * Ignore the following, It's needed to run the deep dive
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
+   *
+   *
+   *
+   *
+   *
+   *
+   *
+   *
+   *
+   *
    */
   private Tortoise[] throwPizzaParty()
   {
@@ -166,7 +166,7 @@ public class DeepDive07Objects
   }
   private Cursor getCursor()
   {
-    Cursor cursor = Tortoise.getBackgroundWindow().getCursor();
+    Cursor cursor = Tortoise.getBackgroundWindow().getWindow().getCursor();
     return cursor;
   }
   public DeepDive07Objects()

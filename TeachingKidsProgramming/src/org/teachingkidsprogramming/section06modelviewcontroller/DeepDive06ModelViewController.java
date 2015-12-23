@@ -1,12 +1,11 @@
 package org.teachingkidsprogramming.section06modelviewcontroller;
 
-import java.awt.Color;
-import java.awt.Cursor;
-import java.util.HashMap;
-
 import org.junit.Assert;
 import org.junit.Test;
 import org.teachingextensions.logo.Tortoise;
+
+import java.awt.*;
+import java.util.HashMap;
 
 @SuppressWarnings("unused")
 public class DeepDive06ModelViewController
@@ -17,9 +16,9 @@ public class DeepDive06ModelViewController
   //  Step 3: FILL IN the blank (___) to make that method pass
   //  Step 4: SAY at least one thing you just learned
   //  Step 5: GO to the next method
-  //  
+  //
   //  NOTE:   Do not change anything except the blank (___)
-  //  
+  //
   @Test
   public void stringsCanBeArrays() throws Exception
   {
@@ -114,16 +113,16 @@ public class DeepDive06ModelViewController
   }
   /**
    * Ignore the following, It's needed to run the deep dive
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
-   * 
+   *
+   *
+   *
+   *
+   *
+   *
+   *
+   *
+   *
+   *
    */
   public boolean                  _____   = false;
   public boolean                  ______  = true;
@@ -137,7 +136,7 @@ public class DeepDive06ModelViewController
   }
   private Cursor getCursor()
   {
-    Cursor cursor = Tortoise.getBackgroundWindow().getCursor();
+    Cursor cursor = Tortoise.getBackgroundWindow().getWindow().getCursor();
     return cursor;
   }
 }

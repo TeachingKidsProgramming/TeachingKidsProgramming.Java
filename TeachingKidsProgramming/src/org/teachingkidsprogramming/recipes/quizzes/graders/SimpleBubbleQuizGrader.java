@@ -1,13 +1,12 @@
 package org.teachingkidsprogramming.recipes.quizzes.graders;
 
-import java.awt.Graphics2D;
-
-import javax.swing.JPanel;
-
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors;
 import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
 import org.teachingextensions.logo.utils.LineAndShapeUtils.Text;
+
+import javax.swing.*;
+import java.awt.*;
 
 public class SimpleBubbleQuizGrader implements Paintable
 {
@@ -35,7 +34,7 @@ public class SimpleBubbleQuizGrader implements Paintable
   {
     this.answers[0] = quiz.leftClickWiredUp;
     this.answers[2] = quiz.rightClickWiredUp;
-    for (Paintable p : Tortoise.getBackgroundWindow().additional)
+    for (Paintable p : Tortoise.getBackgroundWindow().getAdditional())
     {
       try
       {

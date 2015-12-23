@@ -1,15 +1,12 @@
 package org.teachingkidsprogramming.recipes.quizzes.graders;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics2D;
-import java.awt.RenderingHints;
-
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.Turtle;
-import org.teachingextensions.logo.utils.TortoiseUtils;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors;
 import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
+import org.teachingextensions.logo.utils.TortoiseUtils;
+
+import java.awt.*;
 
 public class QuizUtils
 {
@@ -52,7 +49,7 @@ public class QuizUtils
     TortoiseUtils.resetTurtle();
     Tortoise.setSpeed(turtleSpeed);
     Tortoise.getBackgroundWindow().setColor(Color.black);
-    Tortoise.getBackgroundWindow().addPaintable(paintable);
+    Tortoise.getBackgroundWindow().getWindow().addPaintable(paintable);
     Tortoise.show();
   }
   public static Turtle createTestTurtle()
