@@ -136,7 +136,6 @@ public class DeepDive06ModelViewController
   }
   private Cursor getCursor()
   {
-    Cursor cursor = Tortoise.getBackgroundWindow().getWindow().getCursor();
-    return cursor;
+    return Tortoise.getBackgroundWindow().getCanvas().getCursor();
   }
 }

@@ -34,7 +34,7 @@ public class SimpleBubbleQuizGrader implements Paintable
   {
     this.answers[0] = quiz.leftClickWiredUp;
     this.answers[2] = quiz.rightClickWiredUp;
-    for (Paintable p : Tortoise.getBackgroundWindow().getAdditional())
+    for (Paintable p : Tortoise.getBackgroundWindow().getCanvas().getPainters())
     {
       try
       {

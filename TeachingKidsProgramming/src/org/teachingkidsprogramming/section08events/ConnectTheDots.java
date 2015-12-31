@@ -20,7 +20,7 @@ public class ConnectTheDots implements MouseRightClickListener, MouseLeftClickLi
     //
     //    ------------- Recipe for clearTheScreen --#19.2
     //       Clear the Tortoise --#20.1
-    //       Write "Right click to clear" on the screen at position 100, 100 --#18
+    //       Write "Right click to clearWindow" on the screen at position 100, 100 --#18
     //    ------------- End of clearTheScreen Recipe --#19.3
     //
     //    prepareColorPalette (recipe below) --#17.1

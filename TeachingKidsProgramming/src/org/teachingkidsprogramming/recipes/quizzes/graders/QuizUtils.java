@@ -49,7 +49,7 @@ public class QuizUtils
     TortoiseUtils.resetTurtle();
     Tortoise.setSpeed(turtleSpeed);
     Tortoise.getBackgroundWindow().setColor(Color.black);
-    Tortoise.getBackgroundWindow().getWindow().addPaintable(paintable);
+    Tortoise.getBackgroundWindow().getCanvas().add(paintable);
     Tortoise.show();
   }
   public static Turtle createTestTurtle()

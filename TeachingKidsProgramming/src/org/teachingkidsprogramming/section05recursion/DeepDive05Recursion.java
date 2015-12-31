@@ -128,7 +128,6 @@ public class DeepDive05Recursion
   }
   private Cursor getCursor()
   {
-    Cursor cursor = Tortoise.getBackgroundWindow().getWindow().getCursor();
-    return cursor;
+    return Tortoise.getBackgroundWindow().getCanvas().getCursor();
   }
 }
