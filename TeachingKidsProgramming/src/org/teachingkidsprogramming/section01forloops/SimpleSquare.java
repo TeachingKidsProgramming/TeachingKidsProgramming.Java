@@ -12,6 +12,7 @@ public class SimpleSquare
     for (int i = 0; i < 4; i++)
     {
       //  Make the tortoise move as fast as possible --#6
+      Tortoise.setSpeed(10);
       //  Do the following 4 times --#5.1
       //      Change the pen color of the line the tortoise draws to blue --#4
       Tortoise.setPenColor(PenColors.Blues.Blue);
