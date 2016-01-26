@@ -1,5 +1,7 @@
 package org.teachingkidsprogramming.section07objects;
 
+import java.awt.Cursor;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.teachingextensions.logo.Tortoise;
@@ -7,8 +9,6 @@ import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.Turtle.Animals;
 import org.teachingextensions.logo.utils.PizzaUtils.Pizza;
 import org.teachingextensions.logo.utils.PizzaUtils.Topping;
-
-import java.awt.*;
 
 @SuppressWarnings("unused")
 public class DeepDive07Objects
@@ -19,8 +19,7 @@ public class DeepDive07Objects
   //  Step 3: FILL IN the blank (___) to make that method pass
   //  Step 4: SAY at least one thing you just learned
   //  Step 5: GO to the next method
-  //
-  //  NOTE:   Do not change anything except the blank (___)
+  //  IMPORTANT - Do NOT change anything except the blank (___)//
   //
   @Test
   public void twoTortoises() throws Exception

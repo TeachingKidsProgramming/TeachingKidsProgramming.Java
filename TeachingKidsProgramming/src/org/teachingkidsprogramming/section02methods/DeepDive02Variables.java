@@ -12,8 +12,7 @@ public class DeepDive02Variables
   //  Step 3: FILL IN the blank (___) to make that method pass
   //  Step 4: SAY at least one thing you just learned
   //  Step 5: GO to the next method
-  //  
-  //  NOTE:   Do not change anything except the blank (___)
+  //  IMPORTANT - Do NOT change anything except the blank (___)//  
   //  
   @Test
   public void youCanReadVariables() throws Exception
