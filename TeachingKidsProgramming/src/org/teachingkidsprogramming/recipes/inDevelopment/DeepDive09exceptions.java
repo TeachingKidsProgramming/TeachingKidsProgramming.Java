@@ -13,7 +13,8 @@ public class DeepDive09exceptions
   public void exceptionsShouldProvideInformation() throws Exception
   {
     Chain c = createChain();
-    int answer = c.get("a").get("b").get("c").get("d").get("e").value; /* Fix This Line */
+    String realAnswer = ___;
+    int answer = c.get("a").get("b").get(realAnswer).get("d").get("e").value; /* Fix This Line */
     Assert.assertEquals(2048, answer);
   }
   @Test
