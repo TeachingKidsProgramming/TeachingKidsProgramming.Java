@@ -22,7 +22,7 @@ public class OneFishTwoFish
     // Use 'fish' as the base text w/your scanner [story] HINT: useDelimeter --#5
     // Get the next number to use in your scanner [story] HINT: nextInt --#7
     // Get the next value to use in your scanner [story] HINT: next --#9
-    // Iterate over each fish [string] HINT: Interable --#10
+    // Iterate over each fish [string] HINT: Iterable --#10
     // Create a new string iterator --#11
     // Create a new scanner for your input --#12
     // Use a comma to separate the strings in your story HINT: useDelimeter --#13
