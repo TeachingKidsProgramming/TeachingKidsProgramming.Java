@@ -1,11 +1,12 @@
 package org.teachingkidsprogramming.recipes.inDevelopment;
 
-public class SmallBasicTicTacToe
+public class TicTacToe
 {
-  //**needs to be translated from the SmallBasic**
+  //**need to create the TicTacToe board (object) and Player objects**
+  //
   //   Tell TicTacToe to call PlayInFirstEmptySpot (recipe below) when its Xs turn
   //
-  //  Start TicTacToe
+  //   Start TicTacToe
   //
   //   Recipe for PlayInFirstEmptySpot
   //

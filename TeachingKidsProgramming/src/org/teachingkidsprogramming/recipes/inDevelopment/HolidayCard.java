@@ -1,6 +1,6 @@
 package org.teachingkidsprogramming.recipes.inDevelopment;
 
-public class SmallBasicHolidayCard
+public class HolidayCard
 {
   //**needs to be translated from the SmallBasic
   //  Holiday Recipe - Enjoy!
@@ -19,12 +19,12 @@ public class SmallBasicHolidayCard
   //
   //   Otherwise,
   //
-  //   DrawMerryChristmas(recipe below)
+  //   DrawHappyHolidays(recipe below)
   //
   //  ------------- End of Click recipe
   //
   //
-  //  ------------- Recipe for DrawMerryChristmas
+  //  ------------- Recipe for DrawHappyHolidays
   //
   //   Play the music for Jingle Bells (Hint:"EEEP4EEEP4EGCDL1E")
   //
@@ -32,7 +32,7 @@ public class SmallBasicHolidayCard
   //
   //   Set the color of the font to red
   //
-  //   Write "Merry Christmas" on the screen at position 150, 150
+  //   Write "Happy Holidays" on the screen at position 150, 150
   //
   //  ------------- End of DrawMerryChristmas recipe
   //
