@@ -4,7 +4,7 @@ public class HolidayCard
 {
   //**needs to be translated from the SmallBasic
   //  Holiday Recipe - Enjoy!
-  //  Set the background to the color of Snow
+  //  Set the background to the color to Snow
   //
   //  Make the tortoise move as fast as possible
   //
@@ -30,9 +30,9 @@ public class HolidayCard
   //
   //   Set the font to be 48pt
   //
-  //   Set the color of the font to red
+  //   Set the font color to red
   //
-  //   Write "Happy Holidays" on the screen at position 150, 150
+  //   Write the text "Happy Holidays" on the screen at position 150, 150
   //
   //  ------------- End of DrawMerryChristmas recipe
   //
@@ -67,7 +67,7 @@ public class HolidayCard
   //
   //   Hide the tortoise
   //
-  //   Turn the tortoise to the left (90 degrees)
+  //   Turn the tortoise 90 degrees to the left
   //
   //   Move the tortoise half of the current length
   //
