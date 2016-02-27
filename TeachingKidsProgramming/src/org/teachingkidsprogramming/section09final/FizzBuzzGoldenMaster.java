@@ -21,7 +21,7 @@ public class FizzBuzzGoldenMaster
     //  For the whole numbers from 1 to 100, print either that number, or,  
     //  If that number is divisible by 3, then print the word 'Fizz', 
     //  If that number is divisible by 5, then print the word 'Buzz', 
-    //  If that number is divisible by either 3 or 5, then print the word 'FizzBuzz'
+    //  If that number is divisible by 3 and 5, then print the word 'FizzBuzz'
     return "";
   }
 }
