@@ -8,7 +8,7 @@ public class Spiral
   {
     //    Show the tortoise --#1
     //    Make the tortoise go as fast as possible --#4
-    //    Add Blue Violet to the Color Wheel --#7
+    //    Add Blue Violet to the Color Wheel --#7 HINT: Use the TKPLogo object
     //    Add Violet to the Color Wheel --#8
     //    Add Purple to the Color Wheel --#9
     //    Do the following 75 times --#3.1

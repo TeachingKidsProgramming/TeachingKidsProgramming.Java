@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section00demos;
+package org.teachingkidsprogramming.section01forloops;
 
 public class MakeALogo
 {
@@ -14,6 +14,6 @@ public class MakeALogo
     //  Draw a TKP 'K' --#5
     //  Draw a right bracket --#9
     //  Draw an outer TKP 'P' --#6
-    //  Call the make_Inner_P() method --#7
+    //  Draw an inner TKP 'P' --#7
   }
 }
