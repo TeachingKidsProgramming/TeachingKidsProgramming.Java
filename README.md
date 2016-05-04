@@ -120,7 +120,7 @@ Setup your computer
     
     ![Eclipse Missing](/images/18NoEclipse.png?raw=true)
     
-1. <a name="maceclipse"></a>**Download** [Eclipse Luna][3]. To extract the eclipse files, right-click on the `eclipse-java-luna-SR2-macosx-cocoa-x86_64.tar.gz` file and choose `Open`. Next, drag the `eclipse` folder to `Applications`.
+1. <a name="maceclipse"></a>**Download** [Eclipse Luna][3]. To extract the eclipse files, right-click on the `eclipse-java-luna-SR2-macosx-cocoa-x86_64.tar.gz` file and choose `Open`. Next, drag the `eclipse` folder to `Applications` for your username, i.e. /<myUserName>/Applications.
     
     ![Move Eclipse](/images/19Eclipse.png?raw=true)
      
@@ -152,7 +152,7 @@ We recommend that you delete your current version of eclipse.  (Advanced users c
 
 ###Customized TKP workspace did not open in Eclipse.
 
-Open Eclipse and change the default workspace directory, by clicking on `File` then choosing `Switch Workspace` and then `Open...`.  Navigate to the `\TeachingKidsProgramming.Java` folder (under `C:\TKPSource` on **Windows**, or `Documents\TKPSource` on **Mac**).  After you do this, then your `TeachingKidsProgramming.Java` should include the following folders:
+Open Eclipse and change the default workspace directory, by clicking on `File` then choosing `Switch Workspace` and then `Open...`.  Navigate to the `\TeachingKidsProgramming.Java\TeachingKidsProgramming` folder (under `C:\TKPSource` on **Windows**, or `Documents\TKPSource` on **Mac**).  After you do this, then your `TeachingKidsProgramming.Java` should include the following folders:
 
 * `\.metadata`
 * `\TeachingKidsProgramming` 
