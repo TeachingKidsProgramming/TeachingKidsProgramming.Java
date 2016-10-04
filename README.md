@@ -4,6 +4,7 @@ Setup your computer
 
 * [Windows](#windows) 
 * [Mac](#mac)
+* [Linux](#linux)
 
 ### <a name="windows"></a>Windows
 
@@ -125,6 +126,26 @@ Setup your computer
     ![Move Eclipse](/images/19Eclipse.png?raw=true)
      
     When you have put `eclipse` into `Applications` try launching TKP again by double-clicking `TKP_Launcher.jar`.  If it works, great!  Otherwise, visit the [Fixing Installation Errors](#troubleshooting) section below for more tips.
+
+### <a name="linux"></a>Linux
+
+1. To install on Ubuntu, opan terminal window and run the following commands: 
+
+```bash
+source <(curl -s https://raw.githubusercontent.com/TeachingKidsProgramming/TeachingKidsProgramming.Java/master/install.sh)
+```
+
+This command will download TKP and create a shortcut on your desktop.
+
+1. Once Eclipse has opened, if your "Javadoc" panel is all black, then you'll need to change your system colors. This can be done by using the "color chooser" app. Just type:
+
+```bash
+sudo apt install gnome-color-chooser
+gnome-color-chooser
+```
+
+and then you'll need to change the "tooltip" colors by going to the "Specific" tab.
+
 
 ## <a name="troubleshooting"></a>Fixing Installation Errors
 
