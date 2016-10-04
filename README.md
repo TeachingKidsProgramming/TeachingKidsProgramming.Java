@@ -129,22 +129,26 @@ Setup your computer
 
 ### <a name="linux"></a>Linux
 
-1. To install on Ubuntu, open a terminal window and run the following command:
+1. **Ubuntu** 
 
-```bash
-source <(curl -s http://tinyurl.com/hzvqvck)
-```
+    To install on Ubuntu, open a terminal window and run the following command:
 
-This command will download TKP and create a shortcut on your desktop.
+    ```bash
+    source <(curl -L -s http://tinyurl.com/hzvqvck)
+    ```
 
-2. Once Eclipse has opened, if your "Javadoc" panel is all black, you'll need to change your system colors. This can be done by using the "color chooser" app. Just type:
+    This command will download everything needed for TKP and create a shortcut on your desktop.
+
+Eclipse should run automatically and the first lesson from TKP will open.  
+
+If you are having troubles reading the text inside the "JavaDoc" panel, you might need to change your system colors. This can be done by using the "color chooser" app. Just type:
 
 ```bash
 sudo apt install gnome-color-chooser
 gnome-color-chooser
 ```
 
-and then go to the "Specific" tab enad change your tooltip colors.
+You will need to go to the "Specific" tab and change your tooltip colors.
 
 
 ## <a name="troubleshooting"></a>Fixing Installation Errors
