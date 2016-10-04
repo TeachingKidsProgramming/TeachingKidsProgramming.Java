@@ -129,7 +129,7 @@ Setup your computer
 
 ### <a name="linux"></a>Linux
 
-1. To install on Ubuntu, opan terminal window and run the following commands: 
+1. To install on Ubuntu, open a terminal window and run the following command:
 
 ```bash
 source <(curl -s https://raw.githubusercontent.com/TeachingKidsProgramming/TeachingKidsProgramming.Java/master/install.sh)
@@ -137,7 +137,7 @@ source <(curl -s https://raw.githubusercontent.com/TeachingKidsProgramming/Teach
 
 This command will download TKP and create a shortcut on your desktop.
 
-1. Once Eclipse has opened, if your "Javadoc" panel is all black, then you'll need to change your system colors. This can be done by using the "color chooser" app. Just type:
+2. Once Eclipse has opened, if your "Javadoc" panel is all black, then you'll need to change your system colors. This can be done by using the "color chooser" app. Just type:
 
 ```bash
 sudo apt install gnome-color-chooser
