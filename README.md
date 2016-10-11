@@ -4,6 +4,7 @@ Setup your computer
 
 * [Windows](#windows) 
 * [Mac](#mac)
+* [Linux](#linux)
 
 ### <a name="windows"></a>Windows
 
@@ -125,6 +126,30 @@ Setup your computer
     ![Move Eclipse](/images/19Eclipse.png?raw=true)
      
     When you have put `eclipse` into `Applications` try launching TKP again by double-clicking `TKP_Launcher.jar`.  If it works, great!  Otherwise, visit the [Fixing Installation Errors](#troubleshooting) section below for more tips.
+
+### <a name="linux"></a>Linux
+
+1. **Ubuntu** 
+
+    To install on Ubuntu, open a terminal window and run the following command:
+
+    ```bash
+    source <(curl -L -s http://tinyurl.com/hzvqvck)
+    ```
+
+    This command will download everything needed for TKP and create a shortcut on your desktop.
+
+Eclipse should run automatically and the first lesson from TKP will open.  
+
+If you are having troubles reading the text inside the "JavaDoc" panel, you might need to change your system colors. This can be done by using the "color chooser" app. Just type:
+
+```bash
+sudo apt install gnome-color-chooser
+gnome-color-chooser
+```
+
+You will need to go to the "Specific" tab and change your tooltip colors.
+
 
 ## <a name="troubleshooting"></a>Fixing Installation Errors
 
