@@ -34,7 +34,7 @@ public class RecursiveSquare
     //    MakeASquare with the current length divided by 1.7 (recipe below)--#11.3 
     //      If the current process count is less than 3 (HINT: use 'i') --#9
     //          Turn the tortoise 90 degrees to the right --#6.1
-    //  Repeat --#7.2
+    //  End Repeat --#7.2
     //
     //  MoveBackToCenter with the current length (recipe below)--#5.3
     //  Create the moveBackToCenter recipe --#5.1

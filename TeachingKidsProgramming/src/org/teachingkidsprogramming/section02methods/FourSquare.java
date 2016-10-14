@@ -13,9 +13,9 @@ public class FourSquare
     //          Change the pen color of the line the tortoise draws to a random color --#3
     //          Move the tortoise 50 pixels --#2
     //          Turn the tortoise 90 degrees to the right --#4
-    //      Repeat --#5.2
+    //      End Repeat --#5.2
     //      ------------- End of drawSquare recipe --#6.3
     //      Turn the tortoise 90 degrees to the right --#9
-    //  Repeat --#8.2
+    //  End Repeat --#8.2
   }
 }

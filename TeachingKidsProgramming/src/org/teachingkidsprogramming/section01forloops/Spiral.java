@@ -22,6 +22,6 @@ public class Spiral
     {
       MessageBox.showMessage("Hold up: " + re);
     }
-    //    Repeat --#3.2
+    //    End Repeat --#3.2
   }
 }

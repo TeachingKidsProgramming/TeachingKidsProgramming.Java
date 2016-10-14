@@ -17,7 +17,7 @@ public class DigiFlower
     //        Do the following 15 times --#13.1
     //          drawOctogon (recipe below) --#10.1
     //          Turn the tortoise 1/15th of 360 degrees to the right --#12
-    //        Repeat --#14.2
+    //        End Repeat --#14.2
     //    ------------- Recipe for createColorPalette --#9.2
     Color color1 = PenColors.Reds.Red;
     Color color2 = PenColors.Oranges.DarkOrange;
@@ -38,7 +38,7 @@ public class DigiFlower
     //      Change the pen color of the line the tortoise draws to the next color on the color wheel --#4
     //      Move the tortoise 50 pixels --#2
     //      Turn the tortoise 1/8th of 360 degrees to the right --#5
-    //    Repeat --#6.2 
+    //    End Repeat --#6.2 
     //    ------------- End of drawOctogon recipe --#10.3
   }
 }

@@ -6,7 +6,7 @@ public class forLoopUpdate
   {
     // Input from Brick Ellis
     // Update 'for loop English syntax'
-    // End of loop s/b 'end repeat'
+    // End of loop s/b 'end repeat'  -- DONE
     // Refer to 'for loop ' as 'this <item>' with a noun
   }
 }

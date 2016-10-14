@@ -15,7 +15,7 @@ public class HiLow
     //               Tell the end user that it is too high --#5
     //         Otherwise, if the guess is too low --#8
     //               Tell the end user that it is too low --#7
-    //    Repeat --#9.2
+    //    End Repeat --#9.2
     //    After 8 incorrect guesses tell the user they've lost --#11
   }
 }

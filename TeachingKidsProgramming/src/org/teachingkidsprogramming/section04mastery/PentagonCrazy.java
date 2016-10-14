@@ -35,7 +35,7 @@ public class PentagonCrazy
     //        Move the tortoise the length of a side --#4.1
     //        Turn the tortoise 1/5th of 360 degrees --#1
     //        Turn the tortoise 1 more degree --#5
-    //    Repeat --#2.2
+    //    End Repeat --#2.2
     //    ------------- End of drawPentagon recipe --#10.3
   }
 }
