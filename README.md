@@ -14,7 +14,7 @@ Setup your computer
 
 1. **Download** the TKP zip file from this site by clicking the green `Clone or Download` button on the middle right side of this page, and then click the blue download zip button (or use the link directly below this line). Wait for the download to complete.
 
-    [![download zip.png][2]][1]
+    [![download zip.png][1]
  
 1. **Move** the zip file from your **Downloads** folder to the **C:\TKPSource** folder.  The name of the downloaded file is `TeachingkidsProgramming.Java-master.zip`
 
