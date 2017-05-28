@@ -7,13 +7,13 @@ public class BackgroundPhoto
   @SuppressWarnings("unused")
   public static void main(String[] args)
   {
-    //  Set the current picture to this url "http://img2.timeinc.net/ew/dynamic/imgs/101110/sonny-cher_240.jpg" --#1.0
+    //  Set the current picture to this url "https://usatftw.files.wordpress.com/2017/05/spongebob.jpg?w=1000&h=600&crop=1" --#1.0
     //  Set the background image to the current picture--#1.1
     Tortoise.show();
     Tortoise.setSpeed(10);
     int side = 2;
     //  Do the following 75 times --#7.1
-    //     Set the current pen color to crimson --#6.1
+    //     Set the current pen color to yellow --#6.1
     //     Use the current pen color for the line the tortoise draws --#6.2
     //     Increase the length of a side by 1 pixel --#3.0
     //     Move the tortoise the length of the current side --#3.1

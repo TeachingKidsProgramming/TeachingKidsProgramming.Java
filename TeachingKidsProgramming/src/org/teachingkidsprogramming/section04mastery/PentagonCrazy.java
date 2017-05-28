@@ -27,8 +27,8 @@ public class PentagonCrazy
     //        ------------- Recipe for adjustPen --#9.2
     //        Change the pen color of the line the tortoise draws to the next color on the color wheel --#6
     //        Increase the tortoises pen width by 1 --#15                                              
-    //        If the tortoises pen width is greater than 4, then --#17
-    //            Reset it to 1 --#16
+    //        If the tortoise's pen width is greater than 4, then --#17
+    //            Reset the pen width to 1 --#16
     //        ------------- End of adjustPen recipe --#9.3 
     //
     //        The current length of a side is the same as the number of the side you are about to draw ( 1st side = 1 pixel, 2nd side = 2 pixels, etc) --#4.2
