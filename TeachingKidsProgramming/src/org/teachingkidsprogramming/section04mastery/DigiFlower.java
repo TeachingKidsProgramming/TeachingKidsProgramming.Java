@@ -10,15 +10,15 @@ public class DigiFlower
   public static void main(String[] args)
   {
     //    Show the tortoise --#1
-    //    Make the tortoise move as fast as possible --#7
-    //    Make the background silver  --#8
-    //    Make the line the tortoise draws 3 pixels wide --#15
-    //    createColorPalette (recipe below) --#9.1
-    //        Do the following 15 times --#13.1
-    //          drawOctogon (recipe below) --#10.1
-    //          Turn the tortoise 1/15th of 360 degrees to the right --#12
-    //        End Repeat --#14.2
-    //    ------------- Recipe for createColorPalette --#9.2
+    //    Make the tortoise move as fast as possible --#6
+    //    Make the background silver  --#7
+    //    Make the line the tortoise draws 3 pixels wide --#12
+    //    createColorPalette (recipe below) --#8.1
+    //        Do the following 15 times --#11.1
+    //          drawOctogon (recipe below) --#9.1
+    //          Turn the tortoise 1/15th of 360 degrees to the right --#10
+    //        End Repeat --#11.2
+    //    ------------- Recipe for createColorPalette --#8.2
     Color color1 = PenColors.Reds.Red;
     Color color2 = PenColors.Oranges.DarkOrange;
     Color color3 = PenColors.Yellows.Gold;
@@ -31,14 +31,14 @@ public class DigiFlower
     ColorWheel.addColor(color3);
     ColorWheel.addColor(color2);
     ColorWheel.addColor(color1);
-    //    ------------- End of createColorPalette recipe --#9.3
+    //    ------------- End of createColorPalette recipe --#8.3
     //
-    //    ------------- Recipe for drawOctogon --#10.2
-    //    Do the following 8 times --#6.1
-    //      Change the pen color of the line the tortoise draws to the next color on the color wheel --#4
+    //    ------------- Recipe for drawOctogon --#9.2
+    //    Do the following 8 times --#5.1
+    //      Change the pen color of the line the tortoise draws to the next color on the color wheel --#3
     //      Move the tortoise 50 pixels --#2
-    //      Turn the tortoise 1/8th of 360 degrees to the right --#5
-    //    End Repeat --#6.2 
+    //      Turn the tortoise 1/8th of 360 degrees to the right --#4
+    //    End Repeat --#5.2 
     //    ------------- End of drawOctogon recipe --#10.3
   }
 }
