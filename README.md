@@ -1,6 +1,6 @@
-#Get Started With TKP
+# Get Started With TKP
 
-Setup your computer
+Setup your computer for TKP based on it's operating system:
 
 * [Windows](#windows) 
 * [Mac](#mac)
