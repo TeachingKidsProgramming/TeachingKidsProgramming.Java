@@ -201,8 +201,8 @@
    limitations under the License.
                          
 ##Contributors:
-- Lynn Langit
-- Samantha Langit
+* Lynn Langit
+* Samantha Langit
 * James Counts
 * Genevieve L'Esperance
 * Jessica Ellis
@@ -210,6 +210,7 @@
 * Llewellyn Falco
 * Katrina Owen
 * June Clarke
+* Brick Ellis
 * David Coopersmith
 * Edgar Melendrez
 * Alex Puente
