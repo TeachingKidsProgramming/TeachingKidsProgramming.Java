@@ -1,8 +1,5 @@
 package tkp;
 
-/**
- * Hello world!
- */
 public final class App {
     private App() {
     }
