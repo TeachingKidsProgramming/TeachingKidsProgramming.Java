@@ -1,7 +1,7 @@
 {
 	"name": "Java",
 	"build": {
-		"dockerfile": "Dockerfile",
+		"dockerfile": "DOCKERFILE",
 		"args": {
 			"VARIANT": "11",
 			"INSTALL_MAVEN": "true",
