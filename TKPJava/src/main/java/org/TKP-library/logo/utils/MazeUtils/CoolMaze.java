@@ -1,4 +1,4 @@
-package org.teachingextensions.logo.utils.MazeUtils;
+package logo.utils.MazeUtils;
 
 import java.awt.Color;
 

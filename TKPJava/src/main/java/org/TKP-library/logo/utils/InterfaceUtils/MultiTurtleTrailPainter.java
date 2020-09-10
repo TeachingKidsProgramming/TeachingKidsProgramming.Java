@@ -1,4 +1,4 @@
-package org.teachingextensions.logo.utils.InterfaceUtils;
+package logo.utils.InterfaceUtils;
 
 import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors;

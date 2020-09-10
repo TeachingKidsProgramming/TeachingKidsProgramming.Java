@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.util;
+package utils;
 
 import org.teachingextensions.approvals.lite.util.lambda.Action0;
 

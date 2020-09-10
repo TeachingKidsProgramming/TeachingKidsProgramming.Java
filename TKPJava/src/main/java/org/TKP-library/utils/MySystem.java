@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.util;
+package utils;
 
 import java.io.PrintWriter;
 import java.util.Vector;

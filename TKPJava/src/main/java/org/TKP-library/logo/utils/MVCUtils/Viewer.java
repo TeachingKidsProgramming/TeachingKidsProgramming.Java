@@ -1,4 +1,4 @@
-package org.teachingextensions.logo.utils.MVCUtils;
+package logo.utils.MVCUtils;
 
 import java.io.File;
 import java.io.FileWriter;

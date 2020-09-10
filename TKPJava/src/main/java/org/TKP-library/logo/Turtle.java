@@ -8,16 +8,16 @@ import java.util.List;
 
 import javax.swing.JFrame;
 
-import org.teachingextensions.WindowUtils.ProgramWindow;
-import org.teachingextensions.WindowUtils.TurtleWindow;
-import org.teachingextensions.approvals.lite.util.ThreadLauncher;
-import org.teachingextensions.approvals.lite.util.lambda.Action0;
-import org.teachingextensions.approvals.lite.util.persistence.Saver;
-import org.teachingextensions.approvals.lite.util.persistence.SavingException;
-import org.teachingextensions.logo.utils.AngleCalculator;
-import org.teachingextensions.logo.utils.DeltaCalculator;
-import org.teachingextensions.logo.utils.InterfaceUtils.TurtleFrame;
-import org.teachingextensions.logo.utils.LineAndShapeUtils.LineSegment;
+import WindowUtils.ProgramWindow;
+import WindowUtils.TurtleWindow;
+import logo.utils.AprovalUtils.ThreadLauncher;
+import logo.utils.AprovalUtils.Action0;
+import logo.utils.AprovalUtils.Saver;
+import logo.utils.AprovalUtils.SavingException;
+import logo.utils.AngleCalculator;
+import logo.utils.DeltaCalculator;
+import logo.utils.InterfaceUtils.TurtleFrame;
+import logo.utils.LineAndShapeUtils.LineSegment;
 
 /**
  * <img src="https://lh5.googleusercontent.com/-B3Q59gpYW8o/T4tA2k_TYUI/AAAAAAAAAjo/WiqdoXjbkb0/s65/Tortoise.png" style="text-align: left" alt="A turtle drawing a line" >

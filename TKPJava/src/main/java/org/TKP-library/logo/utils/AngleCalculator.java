@@ -1,4 +1,4 @@
-package org.teachingextensions.logo.utils;
+package logo.utils;
 
 public class AngleCalculator {
 

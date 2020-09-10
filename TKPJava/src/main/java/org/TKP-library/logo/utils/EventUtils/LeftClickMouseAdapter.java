@@ -1,4 +1,4 @@
-package org.teachingextensions.logo.utils.EventUtils;
+package logo.utils.EventUtils;
 
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;

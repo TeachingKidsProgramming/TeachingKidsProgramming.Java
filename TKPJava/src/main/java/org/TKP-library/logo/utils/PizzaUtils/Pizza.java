@@ -1,4 +1,4 @@
-package org.teachingextensions.logo.utils.PizzaUtils;
+package logo.utils.PizzaUtils;
 
 import java.util.ArrayList;
 

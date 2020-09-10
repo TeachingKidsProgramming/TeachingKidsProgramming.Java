@@ -1,4 +1,4 @@
-package org.teachingextensions.logo.utils.ColorUtils;
+package logo.utils.ColorUtils;
 
 import java.util.ArrayList;
 import java.util.List;

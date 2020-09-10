@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.util.lambda;
+package utils.lambda;
 
 import java.util.ArrayList;
 import java.util.List;

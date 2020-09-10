@@ -1,4 +1,4 @@
-package org.teachingextensions.logo.utils.PuzzleUtils;
+package logo.utils.PuzzleUtils;
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;

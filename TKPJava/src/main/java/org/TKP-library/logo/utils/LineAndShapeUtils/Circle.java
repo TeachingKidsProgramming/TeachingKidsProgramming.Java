@@ -1,4 +1,4 @@
-package org.teachingextensions.logo.utils.LineAndShapeUtils;
+package logo.utils.LineAndShapeUtils;
 
 import org.teachingextensions.WindowUtils.ProgramWindow;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors;

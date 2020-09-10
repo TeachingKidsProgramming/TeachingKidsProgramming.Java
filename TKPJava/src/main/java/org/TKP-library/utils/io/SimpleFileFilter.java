@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.util.io;
+package utils.io;
 
 import java.io.File;
 

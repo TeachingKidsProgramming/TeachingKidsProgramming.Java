@@ -1,4 +1,4 @@
-package org.teachingextensions.logo.utils.MazeUtils;
+package logo.utils.MazeUtils;
 
 /******************************************************************************
  *  Compilation:  javac StdRandom.java

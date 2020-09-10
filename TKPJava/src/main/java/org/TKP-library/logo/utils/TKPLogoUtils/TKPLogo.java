@@ -3,7 +3,6 @@ package logo.utils.TKPLogoUtils;
 import org.teachingextensions.logo.Tortoise;
 import logo.utils.ColorUtils.ColorWheel;
 import logo.utils.ColorUtils.PenColors;
-import //section01forloops.MakeALogo;
 
 /**
  * <img src="https://avatars0.githubusercontent.com/u/4691010?v=3&s=200" style="text-align: left" alt="The TKP logo" height="40">

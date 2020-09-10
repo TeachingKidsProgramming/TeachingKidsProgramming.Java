@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.util;
+package utils;
 
 import static org.junit.Assume.assumeFalse;
 
