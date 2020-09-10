@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.util;
+package utils;
 
 public class NotImplementedException extends Exception {
 

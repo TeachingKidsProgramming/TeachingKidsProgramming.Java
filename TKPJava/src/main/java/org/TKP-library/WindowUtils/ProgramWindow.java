@@ -1,4 +1,4 @@
-package org.teachingextensions.WindowUtils;
+package WindowUtils;
 
 import java.awt.Color;
 import java.awt.Cursor;

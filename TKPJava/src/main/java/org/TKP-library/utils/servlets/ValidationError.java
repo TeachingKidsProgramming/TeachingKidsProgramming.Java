@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.util.servlets;
+package utils.servlets;
 
 import java.util.HashMap;
 import java.util.HashSet;

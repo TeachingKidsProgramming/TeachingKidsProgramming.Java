@@ -1,4 +1,4 @@
-package org.teachingextensions.WindowUtils;
+package WindowUtils;
 
 import org.teachingextensions.approvals.lite.util.ObjectUtils;
 import org.teachingextensions.logo.Turtle;

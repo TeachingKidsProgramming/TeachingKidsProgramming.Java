@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.util;
+package utils;
 
 public class ThreadUtils {
     public static void sleep(long millis) {

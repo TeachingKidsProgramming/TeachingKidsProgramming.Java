@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.util.servlets;
+package utils.servlets;
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more

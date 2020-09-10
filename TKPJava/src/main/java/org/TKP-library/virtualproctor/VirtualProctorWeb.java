@@ -1,4 +1,4 @@
-package org.teachingextensions.virtualproctor;
+package virtualproctor;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
