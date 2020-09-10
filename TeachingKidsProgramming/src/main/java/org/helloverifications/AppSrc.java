@@ -1,9 +1,5 @@
 package school;
 
-/**
- * Hello world!
- *
- */
 public class AppSrc 
 {
     public static void main( String[] args )
