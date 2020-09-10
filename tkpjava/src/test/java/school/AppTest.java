@@ -1,4 +1,4 @@
-package tkp;
+package school;
 
 import org.junit.jupiter.api.Test;
 
