@@ -1,4 +1,4 @@
-package org.teachingextensions.logo;
+package logo;
 
 import java.awt.Color;
 import java.awt.Point;

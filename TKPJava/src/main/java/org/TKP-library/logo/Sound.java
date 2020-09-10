@@ -1,4 +1,4 @@
-package org.teachingextensions.logo;
+package logo;
 
 import java.awt.Toolkit;
 import java.net.URL;
