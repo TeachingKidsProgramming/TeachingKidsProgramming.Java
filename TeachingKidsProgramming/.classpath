@@ -8,5 +8,6 @@
 	<classpathentry kind="lib" path="src/jars/httpclient-4.3.5.jar"/>
 	<classpathentry kind="lib" path="src/jars/httpcore-4.4.1.jar"/>
 	<classpathentry kind="lib" path="src/jars/httpmime-4.4.1.jar"/>
+	<classpathentry kind="src" path="TKPJava/src/main/java/school"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
