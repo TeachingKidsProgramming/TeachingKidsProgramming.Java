@@ -10,9 +10,9 @@ import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.JUn
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ArrayUtils;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ObjectUtils;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.StringUtils;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.lambda.Function1;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Function1;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalTextWriter;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.writers.ComponentApprovalWriter;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ComponentApprovalWriter;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.writers.ImageApprovalWriter;
 
 /**

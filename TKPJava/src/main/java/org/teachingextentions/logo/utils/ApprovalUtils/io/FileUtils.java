@@ -1,4 +1,4 @@
-package utils.io;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.io;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -12,9 +12,9 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-import org.teachingextensions.approvals.lite.util.ArrayUtils;
-import org.teachingextensions.approvals.lite.util.Asserts;
-import org.teachingextensions.approvals.lite.util.ObjectUtils;
+import src.main.java.org.teachingextensions.logo.utils.ApprovalUtils.general.ArrayUtils;
+import src.main.java.org.teachingextensions.logo.utils.ApprovalUtils.general.Asserts;
+import src.main.java.org.teachingextensions.logo.utils.ApprovalUtils.general.ObjectUtils;
 
 /**
  * A static class of convenience functions for Files
