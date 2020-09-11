@@ -1,15 +1,15 @@
-package org.teachingextensions.logo;
+package src.main.java.org.teachingextentions.logo;
 
 import java.awt.Color;
 
-import org.teachingextensions.WindowUtils.TurtleWindow;
-import org.teachingextensions.logo.Turtle.Animals;
-import org.teachingextensions.logo.utils.TortoiseUtils;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors;
-import org.teachingextensions.logo.utils.LineAndShapeUtils.Text;
-import org.teachingextensions.logo.utils.PizzaUtils.Pizza;
-import org.teachingextensions.logo.utils.PizzaUtils.Topping;
-import org.teachingextensions.virtualproctor.VirtualProctor;
+import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.TurtleWindow;
+import src.main.java.org.teachingextentions.logo.Turtle.Animals;
+import src.main.java.org.teachingextentions.logo.TortoiseUtils;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Text;
+import src.main.java.org.teachingextentions.logo.utils.PizzaUtils.Pizza;
+import src.main.java.org.teachingextentions.logo.utils.PizzaUtils.Topping;
+import src.main.java.org.teachingextentions.logo.utils.VirtualProctorUtils.*;
 
 /**
  * <img src="https://lh5.googleusercontent.com/-B3Q59gpYW8o/T4tA2k_TYUI/AAAAAAAAAjo/WiqdoXjbkb0/s65/Tortoise.png" style="text-align: left" alt="A tortoise drawing a line" >

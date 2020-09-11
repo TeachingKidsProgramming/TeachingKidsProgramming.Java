@@ -1,10 +1,10 @@
-package logo;
+package src.main.java.org.teachingextentions.logo;
 
-import WindowUtils.ProgramWindow;
+import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.ProgramWindow;
 //import approvals.lite.util.ObjectUtils;
-import logo.Turtle.Animals;
-import logo.utils.LineAndShapeUtils.Paintable;
-import logo.utils.PuzzleUtils.Tile;
+import src.main.java.org.teachingextentions.logo.Turtle.Animals;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
+import src.main.java.org.teachingextentions.logo.utils.PuzzleUtils.Tile;
 
 import javax.swing.*;
 import java.awt.*;

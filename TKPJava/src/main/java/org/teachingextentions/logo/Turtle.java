@@ -1,4 +1,4 @@
-package logo;
+package src.main.java.org.teachingextentions.logo;
 
 import java.awt.Color;
 import java.awt.Point;
@@ -8,16 +8,16 @@ import java.util.List;
 
 import javax.swing.JFrame;
 
-import WindowUtils.ProgramWindow;
-import WindowUtils.TurtleWindow;
-import logo.utils.AprovalUtils.ThreadLauncher;
-import logo.utils.AprovalUtils.Action0;
-import logo.utils.AprovalUtils.Saver;
-import logo.utils.AprovalUtils.SavingException;
-import logo.utils.AngleCalculator;
-import logo.utils.DeltaCalculator;
-import logo.utils.InterfaceUtils.TurtleFrame;
-import logo.utils.LineAndShapeUtils.LineSegment;
+import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.ProgramWindow;
+import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.TurtleWindow;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ThreadLauncher;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Action0;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Saver;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.SavingException;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.AngleCalculator;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.DeltaCalculator;
+import src.main.java.org.teachingextentions.logo.utils.InterfaceUtils.TurtleFrame;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.LineSegment;
 
 /**
  * <img src="https://lh5.googleusercontent.com/-B3Q59gpYW8o/T4tA2k_TYUI/AAAAAAAAAjo/WiqdoXjbkb0/s65/Tortoise.png" style="text-align: left" alt="A turtle drawing a line" >

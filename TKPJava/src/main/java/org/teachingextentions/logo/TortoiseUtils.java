@@ -1,9 +1,9 @@
-package org.teachingextensions.logo.utils;
+package src.main.java.org.teachingextentions.logo;
 
-import org.teachingextensions.approvals.lite.Approvals;
-import org.teachingextensions.approvals.lite.namer.ApprovalResults;
-import org.teachingextensions.approvals.lite.util.ObjectUtils;
-import org.teachingextensions.logo.Turtle;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Approvals;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalResults;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ObjectUtils;
+import src.main.java.org.teachingextentions.logo.Turtle;
 
 public class TortoiseUtils {
   private static Turtle TURTLE = new Turtle();
