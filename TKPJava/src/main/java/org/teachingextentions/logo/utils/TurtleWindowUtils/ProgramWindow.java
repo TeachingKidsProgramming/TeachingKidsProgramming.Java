@@ -1,4 +1,4 @@
-package WindowUtils;
+package src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils;
 
 import java.awt.Color;
 import java.awt.Cursor;
@@ -9,19 +9,19 @@ import java.awt.image.BufferedImage;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-import org.teachingextensions.approvals.lite.util.FrameCloser;
-import org.teachingextensions.approvals.lite.util.WindowUtils;
-import org.teachingextensions.approvals.lite.writers.ComponentApprovalWriter;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors;
-import org.teachingextensions.logo.utils.EventUtils.LeftClickMouseAdapter;
-import org.teachingextensions.logo.utils.EventUtils.MouseLeftClickListener;
-import org.teachingextensions.logo.utils.EventUtils.MouseRightClickListener;
-import org.teachingextensions.logo.utils.EventUtils.RightClickMouseAdapter;
-import org.teachingextensions.logo.utils.InterfaceUtils.CanvasPanel;
-import org.teachingextensions.logo.utils.InterfaceUtils.TurtleFrame;
-import org.teachingextensions.logo.utils.LineAndShapeUtils.ImageBackground;
-import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
-import org.teachingextensions.virtualproctor.VirtualProctorWeb;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.FrameCloser;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.WindowUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ComponentApprovalWriter;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
+import src.main.java.org.teachingextentions.logo.utils.EventUtils.LeftClickMouseAdapter;
+import src.main.java.org.teachingextentions.logo.utils.EventUtils.MouseLeftClickListener;
+import src.main.java.org.teachingextentions.logo.utils.EventUtils.MouseRightClickListener;
+import src.main.java.org.teachingextentions.logo.utils.EventUtils.RightClickMouseAdapter;
+import src.main.java.org.teachingextentions.logo.utils.InterfaceUtils.CanvasPanel;
+import src.main.java.org.teachingextentions.logo.utils.InterfaceUtils.TurtleFrame;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.ImageBackground;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
+import src.main.java.org.teachingextentions.logo.utils.VirtualProctorUtils.VirtualProctorWeb;
 
 /**
  * <img src="http://ftpmirror.your.org/pub/wikimedia/images/wikibooks/de/2/2c/JPanel_Add_JButton_PAGE_END.JPG" style="text-align: left" alt="A window image" height="50" width="75" > Program Window

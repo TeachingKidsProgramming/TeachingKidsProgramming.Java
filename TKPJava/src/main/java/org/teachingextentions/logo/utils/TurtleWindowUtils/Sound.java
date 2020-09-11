@@ -1,4 +1,4 @@
-package logo;
+package src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils;
 
 import java.awt.Toolkit;
 import java.net.URL;

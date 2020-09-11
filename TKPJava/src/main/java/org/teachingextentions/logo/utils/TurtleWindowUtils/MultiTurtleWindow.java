@@ -1,14 +1,14 @@
-package org.teachingextensions.WindowUtils;
+package src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.teachingextensions.logo.Turtle;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors;
-import org.teachingextensions.logo.utils.InterfaceUtils.MultiTurtlePainter;
-import org.teachingextensions.logo.utils.InterfaceUtils.MultiTurtleTrailPainter;
-import org.teachingextensions.logo.utils.InterfaceUtils.TurtleFrame;
-import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
+import src.main.java.org.teachingextentions.logo.Turtle;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
+import src.main.java.org.teachingextentions.logo.utils.InterfaceUtils.MultiTurtlePainter;
+import src.main.java.org.teachingextentions.logo.utils.InterfaceUtils.MultiTurtleTrailPainter;
+import src.main.java.org.teachingextentions.logo.utils.InterfaceUtils.TurtleFrame;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
 
 /**
  * Use this window when you want to put more than one turtle on the same window

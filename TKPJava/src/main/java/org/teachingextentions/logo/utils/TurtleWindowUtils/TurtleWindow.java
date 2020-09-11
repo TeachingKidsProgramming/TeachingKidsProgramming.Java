@@ -1,12 +1,12 @@
-package WindowUtils;
+package src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils;
 
-import org.teachingextensions.approvals.lite.util.ObjectUtils;
-import org.teachingextensions.logo.Turtle;
-import org.teachingextensions.logo.Turtle.Animals;
-import org.teachingextensions.logo.utils.InterfaceUtils.TurtleFrame;
-import org.teachingextensions.logo.utils.InterfaceUtils.TurtlePainter;
-import org.teachingextensions.logo.utils.InterfaceUtils.TurtleTrailPainter;
-import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ObjectUtils;
+import src.main.java.org.teachingextentions.logo.Turtle;
+import src.main.java.org.teachingextentions.logo.Turtle.Animals;
+import src.main.java.org.teachingextentions.logo.utils.InterfaceUtils.TurtleFrame;
+import src.main.java.org.teachingextentions.logo.utils.InterfaceUtils.TurtlePainter;
+import src.main.java.org.teachingextentions.logo.utils.InterfaceUtils.TurtleTrailPainter;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
 
 import java.awt.*;
 
