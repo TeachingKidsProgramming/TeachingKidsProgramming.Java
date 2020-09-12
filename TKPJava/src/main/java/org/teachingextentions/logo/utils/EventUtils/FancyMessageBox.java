@@ -3,7 +3,7 @@ package src.main.java.org.teachingextentions.logo.utils.EventUtils;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
-import org.teachingextensions.approvals.lite.util.NumberUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.NumberUtils;
 
 /**
  * <img src="http://www.mhhe.com/engcs/compsci/wu2/graphics/wu2java/common/javabook2Doc/mbox3.gif"

@@ -3,7 +3,7 @@ package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.servlets;
 import java.util.HashMap;
 import java.util.HashSet;
 
-import org.teachingextensions.approvals.lite.util.StringUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.StringUtils;
 
 public class ValidationError extends RuntimeException {
   private static final long       serialVersionUID = 7940285202708976073L;

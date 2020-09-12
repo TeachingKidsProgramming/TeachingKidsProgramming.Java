@@ -3,7 +3,7 @@ package src.main.java.org.teachingextentions.logo.utils.ColorUtils;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.teachingextensions.approvals.lite.util.NumberUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.NumberUtils;
 
 /**
  * A Wheel is a List with no ending on beginning <p>
@@ -23,12 +23,12 @@ import org.teachingextensions.approvals.lite.util.NumberUtils;
  */
 public class Wheel<T>
 {
-  private List<T> list  = new ArrayList<>();
+  private final List<T> list  = new ArrayList<>();
   private int     index = 0;
   @SafeVarargs
-  public Wheel(T... loadWith)
+  public Wheel(final T... loadWith)
   {
-    for (T t : loadWith)
+    for (final T t : loadWith)
     {
       add(t);
     }
@@ -36,7 +36,7 @@ public class Wheel<T>
   public Wheel()
   {
   }
-  public void add(T i)
+  public void add(final T i)
   {
     list.add(i);
   }
@@ -53,14 +53,15 @@ public class Wheel<T>
   {
     if (list.isEmpty())
     {
-      String message = "I call shenanigans!!!\nThis Wheel is empty\nYou can NOT get an object from the Wheel before you've added anything to it.";
+      final String message = "I call shenanigans!!!\nThis Wheel is empty\nYou can NOT get an object from the Wheel before you've added anything to it.";
       throw new RuntimeException(message);
     }
   }
   public T getRandomFrom()
   {
     assertNonEmpty();
-    int index = NumberUtils.getRandomInt(0, list.size());
+    final int index = NumberUtils.getRandomInt(0,
+        list.size());
     return list.get(index);
   }
   public void empty()

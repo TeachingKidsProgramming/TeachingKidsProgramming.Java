@@ -2,7 +2,7 @@ package src.main.java.org.teachingextentions.logo.utils.EventUtils;
 
 import javax.swing.JOptionPane;
 
-import org.teachingextensions.approvals.lite.util.NumberUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.NumberUtils;
 
 /**
  * <img src=

@@ -4,8 +4,8 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import org.teachingextensions.approvals.lite.util.ObjectUtils;
-import org.teachingextensions.approvals.lite.util.TestUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ObjectUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.TestUtils;
 
 /**
  * <img src="http://www.odessa-webdevelopment.nl/Images/view_icon.png" style="text-align: left" alt="a view">

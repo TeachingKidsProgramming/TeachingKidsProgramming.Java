@@ -3,10 +3,10 @@ package src.main.java.org.teachingextentions.logo.utils.MVCUtils;
 import java.lang.reflect.Field;
 import java.util.List;
 
-import org.teachingextensions.approvals.lite.util.ObjectUtils;
-import org.teachingextensions.approvals.lite.util.io.FileUtils;
-import org.teachingextensions.approvals.lite.util.lambda.Function1;
-import org.teachingextensions.approvals.lite.util.lambda.Query;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ObjectUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.io.FileUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Function1;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Query;
 
 /**
  * <img src="http://www.orbis-software.com/sage/gfx/Text%20Parser%20Icon.gif" style="text-align: left" alt="A parser">
