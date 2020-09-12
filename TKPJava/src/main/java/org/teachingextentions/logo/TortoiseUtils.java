@@ -3,7 +3,6 @@ package src.main.java.org.teachingextentions.logo;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Approvals;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalResults;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ObjectUtils;
-import src.main.java.org.teachingextentions.logo.Turtle;
 
 public class TortoiseUtils {
   private static Turtle TURTLE = new Turtle();

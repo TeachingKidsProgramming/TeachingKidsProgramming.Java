@@ -2,8 +2,8 @@ package src.main.java.org.teachingextentions.logo.utils.VirtualProctorUtils;
 
 import java.io.File;
 
-import org.teachingextensions.approvals.lite.util.StringUtils;
-import org.teachingextensions.approvals.lite.util.io.FileUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.StringUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.io.FileUtils;
 
 /**
  * <img src="http://indiajkd.com/wp-content/uploads/2013/08/JKD-India-6.gif"
@@ -32,7 +32,9 @@ public class VirtualProctor
     private static String getCustomName()
     {
       File file = new File(FILE_NAME);
-      if (file.exists()) { return FileUtils.readFileWithSuppressedExceptions(file).trim(); }
+      if (file.exists()) { return FileUtils
+            .readFileWithSuppressedExceptions(file).trim();
+      }
       return null;
     }
     public static String getComputerName()
@@ -53,7 +55,9 @@ public class VirtualProctor
     }
     public static void setName(String name)
     {
-      if (StringUtils.isEmpty(name)) { return; }
+      if (StringUtils.isEmpty(name)) {
+        return;
+      }
       FileUtils.writeFileQuietly(new File(FILE_NAME), name);
     }
     public static void setClassName(String className)

@@ -1,7 +1,6 @@
 package src.main.java.org.teachingextentions.logo;
 
 import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.ProgramWindow;
-//import approvals.lite.util.ObjectUtils;
 import src.main.java.org.teachingextentions.logo.Turtle.Animals;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ObjectUtils;
 import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
