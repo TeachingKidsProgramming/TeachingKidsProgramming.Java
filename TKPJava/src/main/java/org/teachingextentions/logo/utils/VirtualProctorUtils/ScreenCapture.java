@@ -5,13 +5,12 @@ import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.image.BufferedImage;
 
-import org.teachingextensions.approvals.lite.writers.ComponentApprovalWriter;
-
 public class ScreenCapture
 {
   public static BufferedImage getScaledImageOf(Component component, int width, int height)
   {
-    BufferedImage image = ComponentApprovalWriter.drawComponent(component);
+    BufferedImage image = src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ComponentApprovalWriter
+        .drawComponent(component);
     return scaleImage(image, width, height);
   }
   public static BufferedImage scaleImage(BufferedImage image, int width, int height)

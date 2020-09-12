@@ -1,8 +1,8 @@
 package src.main.java.org.teachingextentions.logo.utils.TKPLogoUtils;
 
-import org.teachingextensions.logo.Tortoise;
-import logo.utils.ColorUtils.ColorWheel;
-import logo.utils.ColorUtils.PenColors;
+import src.main.java.org.teachingextentions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.ColorWheel;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
 
 /**
  * <img src="https://avatars0.githubusercontent.com/u/4691010?v=3&s=200" style="text-align: left" alt="The TKP logo" height="40">
@@ -30,7 +30,8 @@ public class TKPLogo
   }
   private static void setupBackgroundAndLines()
   {
-    Tortoise.getBackgroundWindow().setBackground(ColorWheel.getRandomColorFromWheel());
+    Tortoise.getBackgroundWindow()
+        .setBackground(ColorWheel.getRandomColorFromWheel());
     Tortoise.setPenWidth(4);
   }
   /**

@@ -7,10 +7,10 @@ import org.apache.http.entity.ContentType;
 import org.apache.http.entity.mime.MultipartEntityBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-import org.teachingextensions.approvals.lite.util.MySystem;
-import org.teachingextensions.approvals.lite.util.ThreadLauncher;
-import org.teachingextensions.approvals.lite.util.ThreadUtils;
-import org.teachingextensions.approvals.lite.util.lambda.Action0;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.MySystem;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ThreadLauncher;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ThreadUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Action0;
 
 import javax.imageio.ImageIO;
 import java.awt.event.WindowAdapter;
