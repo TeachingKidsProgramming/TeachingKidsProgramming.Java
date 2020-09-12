@@ -11,10 +11,11 @@ import java.io.File;
 
 import javax.imageio.ImageIO;
 
-import org.teachingextensions.approvals.lite.util.MySystem;
-import org.teachingextensions.approvals.lite.util.TestUtils;
-import org.teachingextensions.approvals.lite.writers.ComponentApprovalWriter;
-import org.teachingextensions.virtualproctor.ScreenCapture;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.MySystem;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.TestUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ComponentApprovalWriter;
+import src.main.java.org.teachingextentions.logo.utils.VirtualProctorUtils.ScreenCapture;
+
 
 /*****in progress****/
 public class CreateMazeBackgroundFile extends WindowAdapter implements WindowListener, WindowStateListener

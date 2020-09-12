@@ -9,9 +9,9 @@ import java.util.Queue;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.approvals.lite.util.StringUtils;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors;
-import org.teachingextensions.logo.utils.InterfaceUtils.TkpPanel;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.StringUtils;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
+import src.main.java.org.teachingextentions.logo.utils.InterfaceUtils.TkpPanel;
 
 /**
  * Draws and animates a 9-puzzle
@@ -22,29 +22,29 @@ public class PuzzleBoard extends JPanel
   private final static int      blank            = 8;
   private final Tile[]          tiles;
   private final Queue<TileMove> solution;
-  public PuzzleBoard(Puzzle puzzle, PuzzleState solution)
+  public PuzzleBoard(final Puzzle puzzle, final PuzzleState solution)
   {
     super();
     this.solution = createSolution(solution, puzzle);
     this.tiles = createTiles(puzzle.getCells());
   }
-  public static Queue<TileMove> createSolution(PuzzleState solution, Puzzle puzzle)
+  public static Queue<TileMove> createSolution(final PuzzleState solution, final Puzzle puzzle)
   {
     if (solution == null) { return new ArrayDeque<>(); }
     int i = puzzle.getBlankIndex();
-    Queue<TileMove> moves = new ArrayDeque<>();
-    for (PuzzleState.Direction d : solution.getHistory())
+    final Queue<TileMove> moves = new ArrayDeque<>();
+    for (final PuzzleState.Direction d : solution.getHistory())
     {
-      int m = d.getValue();
-      TileMove move = new TileMove(i + m, i);
+      final int m = d.getValue();
+      final TileMove move = new TileMove(i + m, i);
       moves.add(move);
       i = move.getStart();
     }
     return moves;
   }
-  private static Tile[] createTiles(int[] cells)
+  private static Tile[] createTiles(final int[] cells)
   {
-    Tile[] t = new Tile[9];
+    final Tile[] t = new Tile[9];
     for (int i = 0; i < 9; i++)
     {
       if (cells[i] == blank)
@@ -55,19 +55,19 @@ public class PuzzleBoard extends JPanel
     }
     return t;
   }
-  private static void drawBorder(Graphics2D g)
+  private static void drawBorder(final Graphics2D g)
   {
     g.setColor(PenColors.Blues.DarkBlue);
     g.fillRect(20, 20, 410, 410);
   }
-  private static void drawField(Graphics2D g)
+  private static void drawField(final Graphics2D g)
   {
     g.setColor(PenColors.Blues.SkyBlue);
     g.fillRect(30, 30, 386, 386);
   }
-  private static void drawTiles(Graphics2D g, Tile[] tiles)
+  private static void drawTiles(final Graphics2D g, final Tile[] tiles)
   {
-    for (Tile tile : tiles)
+    for (final Tile tile : tiles)
     {
       if (tile == null)
       {
@@ -77,10 +77,10 @@ public class PuzzleBoard extends JPanel
     }
   }
   @Override
-  protected void paintComponent(Graphics g)
+  protected void paintComponent(final Graphics g)
   {
     super.paintComponent(g);
-    Graphics2D g2d = TkpPanel.configureGraphics2D(g);
+    final Graphics2D g2d = TkpPanel.configureGraphics2D(g);
     drawBorder(g2d);
     drawField(g2d);
     drawTiles(g2d, tiles);
@@ -101,7 +101,7 @@ public class PuzzleBoard extends JPanel
   @Override
   public String toString()
   {
-    StringBuilder sb = new StringBuilder();
+    final StringBuilder sb = new StringBuilder();
     sb.append("PuzzleBoard" + StringUtils.NEW_LINE);
     for (int i = 0; i < tiles.length; i += 3)
     {
@@ -109,10 +109,10 @@ public class PuzzleBoard extends JPanel
     }
     return sb.toString();
   }
-  public void swap(int start, int end)
+  public void swap(final int start, final int end)
   {
-    Point p = Tile.getPosition(end);
-    Tile tile = tiles[start];
+    final Point p = Tile.getPosition(end);
+    final Tile tile = tiles[start];
     tile.moveTo(p);
     tiles[start] = null;
     tiles[end] = tile;

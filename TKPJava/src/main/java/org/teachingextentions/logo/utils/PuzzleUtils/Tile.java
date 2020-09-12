@@ -5,7 +5,7 @@ import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.Point;
 
-import org.teachingextensions.approvals.lite.util.ObjectUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ObjectUtils;
 
 /**
  * A tile is a square on the board with an image on it.

@@ -1,7 +1,6 @@
 package src.main.java.org.teachingextentions.logo.utils.PuzzleUtils;
 
-import org.teachingextensions.WindowUtils.ProgramWindow;
-
+import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.ProgramWindow;
 import java.awt.*;
 
 /**
