@@ -1,7 +1,7 @@
 package src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils;
 
-import org.teachingextensions.WindowUtils.ProgramWindow;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors;
+import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.ProgramWindow;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
 
 import javax.swing.*;
 import java.awt.*;
@@ -63,7 +63,8 @@ public class Circle implements Paintable
   @Override
   public void paint(Graphics2D g, JPanel caller)
   {
-    Color color2 = PenColors.getTransparentVersion(mainColor, percentTransparent);
+    Color color2 = PenColors.getTransparentVersion(mainColor,
+        percentTransparent);
     g.setColor(color2);
     g.fillOval(x - radius, y - radius, radius * 2, radius * 2);
   }

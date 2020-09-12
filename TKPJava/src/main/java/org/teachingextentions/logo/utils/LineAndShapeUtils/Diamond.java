@@ -5,8 +5,8 @@ import java.awt.Graphics2D;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.WindowUtils.ProgramWindow;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors;
+import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.ProgramWindow;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
 
 /**
  * The Diamond allows you to draw diamonds on the window

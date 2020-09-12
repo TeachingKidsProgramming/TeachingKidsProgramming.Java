@@ -5,7 +5,7 @@ import java.io.File;
 
 import javax.imageio.ImageIO;
 
-import src.main.java.org.teachingextensions.logo.utils.ApprovalUtils.general.ApprovalWriter;
+//import src.main.java.org.teachingextensions.logo.utils.ApprovalUtils.general.ApprovalWriter;
 
 public class ImageApprovalWriter implements ApprovalWriter {
     private final BufferedImage image;

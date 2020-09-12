@@ -6,8 +6,8 @@ import java.awt.Graphics2D;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.WindowUtils.ProgramWindow;
-import org.teachingextensions.WindowUtils.TurtleWindow;
+import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.ProgramWindow;
+import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.TurtleWindow;
 
 /**
  * <img src="http://www.iconsdb.com/icons/preview/black/text-xxl.png" style="text-align: left" alt="Some Text!" height="20">
@@ -19,6 +19,7 @@ public class Text implements Paintable
   private int          x;
   private int          y;
   private Color        color;
+private TurtleWindow panel;
   public Text(String string)
   {
     this.string = string;
@@ -46,9 +47,10 @@ public class Text implements Paintable
    * @param panel
    *          the ProgramWindow or panel
    */
-  public void addTo(TurtleWindow panel)
+  public void addTo(src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.TurtleWindow panel)
   {
-    panel.getCanvas().add(this);
+    this.panel = panel;
+	panel.getCanvas().add(this);
   }
   @Override
   public void paint(Graphics2D g, JPanel caller)

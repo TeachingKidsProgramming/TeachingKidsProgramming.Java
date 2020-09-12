@@ -8,7 +8,7 @@ import java.net.URL;
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;
 
-import org.teachingextensions.approvals.lite.util.ObjectUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ObjectUtils;
 
 public class ImageBackground implements Paintable
 {

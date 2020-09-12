@@ -1,7 +1,6 @@
 package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general;
 
-
-import org.teachingextensions.approvals.lite.util.lambda.Action0;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Action0;
 
 public class LambdaThreadLauncher implements Runnable {
     private final Action0 function;
