@@ -1,9 +1,9 @@
-package org.teachingextensions.approvals.lite.reporters;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
-import org.teachingextensions.approvals.lite.ApprovalFailureReporter;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.ApprovalFailureReporter;
 
 @Retention(RetentionPolicy.RUNTIME)
 public @interface UseReporter {

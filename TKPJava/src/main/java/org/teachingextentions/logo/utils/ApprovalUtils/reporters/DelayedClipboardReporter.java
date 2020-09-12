@@ -1,9 +1,9 @@
-package org.teachingextensions.approvals.lite.reporters;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters;
 
 import java.awt.GraphicsEnvironment;
 
-import org.teachingextensions.approvals.lite.util.StringUtils;
-import org.teachingextensions.approvals.lite.util.WindowUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.SystemUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.WindowUtils;
 
 /**
  * A reporter which creates the command to accept the received

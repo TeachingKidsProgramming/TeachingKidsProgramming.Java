@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.reporters.macosx;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.macosx;
 
 import java.text.MessageFormat;
 

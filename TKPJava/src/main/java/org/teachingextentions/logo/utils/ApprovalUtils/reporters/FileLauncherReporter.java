@@ -1,9 +1,8 @@
-package org.teachingextensions.approvals.lite.reporters;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters;
 
-
-import org.teachingextensions.approvals.lite.ApprovalFailureReporter;
-import org.teachingextensions.approvals.lite.util.TestUtils;
-import org.teachingextensions.approvals.lite.util.io.FileUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.ApprovalFailureReporter;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.TestUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.io.FileUtils;
 
 public class FileLauncherReporter implements ApprovalFailureReporter {
     @Override

@@ -1,8 +1,8 @@
-package org.teachingextensions.approvals.lite.reporters.windows;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.windows;
 
 import java.text.MessageFormat;
 
-import org.teachingextensions.approvals.lite.reporters.GenericDiffReporter;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.GenericDiffReporter;
 
 public class WinMergeReporter extends GenericDiffReporter {
     public static final WinMergeReporter INSTANCE = new WinMergeReporter();

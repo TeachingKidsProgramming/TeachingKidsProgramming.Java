@@ -1,12 +1,12 @@
-package org.teachingextensions.approvals.lite.reporters;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-import org.teachingextensions.approvals.lite.util.ThreadUtils;
-import org.teachingextensions.approvals.lite.util.io.FileUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ThreadUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.io.FileUtils;
 
 public class GenericDiffReporter implements EnvironmentAwareReporter {
     public static final String STANDARD_ARGUMENTS = "%s %s";

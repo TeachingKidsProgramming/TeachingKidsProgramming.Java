@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.reporters.windows;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.windows;
 
 import java.text.MessageFormat;
 

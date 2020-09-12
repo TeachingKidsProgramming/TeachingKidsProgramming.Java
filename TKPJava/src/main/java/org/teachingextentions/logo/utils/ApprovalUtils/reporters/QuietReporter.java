@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.reporters;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters;
 
 public class QuietReporter implements EnvironmentAwareReporter {
     public static final QuietReporter INSTANCE = new QuietReporter();

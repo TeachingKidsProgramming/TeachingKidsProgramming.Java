@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.reporters;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters;
 
 import org.teachingextensions.approvals.lite.reporters.macosx.KaleidoscopeDiffReporter;
 import org.teachingextensions.approvals.lite.reporters.windows.BeyondCompareReporter;
