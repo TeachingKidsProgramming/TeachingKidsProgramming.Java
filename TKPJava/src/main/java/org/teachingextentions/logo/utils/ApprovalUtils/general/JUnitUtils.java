@@ -1,6 +1,5 @@
 package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general;
 
-
 import static org.junit.Assume.assumeFalse;
 
 import java.awt.GraphicsEnvironment;

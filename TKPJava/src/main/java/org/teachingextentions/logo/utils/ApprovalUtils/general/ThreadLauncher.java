@@ -2,7 +2,7 @@ package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general;
 
 import java.lang.reflect.Method;
 
-import org.teachingextensions.approvals.lite.util.lambda.Action0;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Action0;
 
 public class ThreadLauncher implements Runnable {
     private Object object = null;

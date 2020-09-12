@@ -4,8 +4,8 @@ package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general;
 import java.io.File;
 import java.io.IOException;
 
-import org.teachingextensions.approvals.lite.util.io.FileUtils;
-import org.teachingextensions.approvals.lite.util.io.StackElementSelector;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.io.FileUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.io.StackElementSelector;
 
 
 public class TestUtils {
