@@ -7,8 +7,8 @@ import java.util.ArrayList;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.logo.utils.LineAndShapeUtils.ImageBackground;
-import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.ImageBackground;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
 
 @SuppressWarnings("serial")
 public class CanvasPanel extends JPanel
@@ -59,7 +59,8 @@ public class CanvasPanel extends JPanel
   {
     return new ArrayList<>(this.painters);
   }
-  public void setBackground(ImageBackground imageBackground)
+  public void setBackground(
+      ImageBackground imageBackground)
   {
     if (this.painters.contains(imageBackground))
     {

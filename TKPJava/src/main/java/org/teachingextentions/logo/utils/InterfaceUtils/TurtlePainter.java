@@ -1,7 +1,7 @@
 package src.main.java.org.teachingextentions.logo.utils.InterfaceUtils;
 
-import org.teachingextensions.logo.Turtle;
-import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
+import src.main.java.org.teachingextentions.logo.Turtle;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
 
 import javax.swing.*;
 import java.awt.*;

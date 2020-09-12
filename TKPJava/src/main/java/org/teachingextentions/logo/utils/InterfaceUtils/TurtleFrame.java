@@ -3,9 +3,9 @@ package src.main.java.org.teachingextentions.logo.utils.InterfaceUtils;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 
-import org.teachingextensions.approvals.lite.util.FrameCloser;
-import org.teachingextensions.approvals.lite.util.WindowUtils;
-import org.teachingextensions.virtualproctor.VirtualProctorWeb;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.FrameCloser;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.WindowUtils;
+import src.main.java.org.teachingextentions.logo.utils.VirtualProctorUtils.VirtualProctorWeb;
 
 public class TurtleFrame
 {
