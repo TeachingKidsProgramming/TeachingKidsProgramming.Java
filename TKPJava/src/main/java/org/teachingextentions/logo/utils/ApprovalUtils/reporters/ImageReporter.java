@@ -1,8 +1,8 @@
 package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters;
 
-import org.teachingextensions.approvals.lite.reporters.macosx.KaleidoscopeDiffReporter;
-import org.teachingextensions.approvals.lite.reporters.windows.BeyondCompareReporter;
-import org.teachingextensions.approvals.lite.reporters.windows.TortoiseImageDiffReporter;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.macosx.KaleidoscopeDiffReporter;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.windows.BeyondCompareReporter;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.windows.TortoiseImageDiffReporter;
 
 public class ImageReporter extends FirstWorkingReporter {
     public ImageReporter() {
