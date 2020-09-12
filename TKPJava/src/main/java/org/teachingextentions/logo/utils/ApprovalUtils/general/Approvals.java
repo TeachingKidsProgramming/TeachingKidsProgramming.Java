@@ -13,7 +13,7 @@ import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Str
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Function1;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalTextWriter;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ComponentApprovalWriter;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.writers.ImageApprovalWriter;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ImageApprovalWriter;
 
 /**
  * Approvals allows you to unit test complex objects <br><br>

@@ -1,15 +1,8 @@
 package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general;
 
-
 import java.io.PrintWriter;
 import java.util.Vector;
 
-/**
- * A class for printing comments in a standardized format.
- *
- * @author Llewellyn
- * @version 2.0
- */
 public class MySystem {
     public static boolean event = true;
     public static boolean variable = true;
