@@ -1,4 +1,4 @@
-package logo.utils.LineAndShapeUtils;
+package src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils;
 
 import org.teachingextensions.WindowUtils.ProgramWindow;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors;

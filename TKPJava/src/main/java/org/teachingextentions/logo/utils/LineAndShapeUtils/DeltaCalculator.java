@@ -1,4 +1,4 @@
-package logo.utils;
+package src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils;
 
 public class DeltaCalculator {
   private final double angleInDegrees;

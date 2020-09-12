@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.util.velocity;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.velocity;
 
 import java.util.HashMap;
 import java.util.Map.Entry;

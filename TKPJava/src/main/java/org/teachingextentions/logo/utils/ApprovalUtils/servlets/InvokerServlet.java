@@ -1,4 +1,4 @@
-package utils.servlets;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.servlets;
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more

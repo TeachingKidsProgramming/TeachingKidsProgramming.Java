@@ -1,4 +1,4 @@
-package org.teachingextensions.logo.utils.PuzzleUtils;
+package src.main.java.org.teachingextentions.logo.utils.PuzzleUtils;
 
 import javax.swing.SwingUtilities;
 

@@ -1,4 +1,4 @@
-package logo.utils.TKPLogoUtils;
+package src.main.java.org.teachingextentions.logo.utils.TKPLogoUtils;
 
 import org.teachingextensions.logo.Tortoise;
 import logo.utils.ColorUtils.ColorWheel;

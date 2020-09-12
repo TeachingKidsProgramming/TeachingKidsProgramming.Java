@@ -1,4 +1,4 @@
-package virtualproctor;
+package src.main.java.org.teachingextentions.logo.utils.VirtualProctorUtils;
 
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;

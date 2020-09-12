@@ -1,4 +1,4 @@
-package logo.utils.LineAndShapeUtils;
+package src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils;
 
 import java.awt.Color;
 import java.awt.Point;

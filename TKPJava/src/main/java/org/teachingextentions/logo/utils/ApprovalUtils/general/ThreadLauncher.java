@@ -1,4 +1,4 @@
-package org.teachingextensions.approvals.lite.util;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general;
 
 import java.lang.reflect.Method;
 

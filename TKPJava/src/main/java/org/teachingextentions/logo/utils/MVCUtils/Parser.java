@@ -1,4 +1,4 @@
-package logo.utils.MVCUtils;
+package src.main.java.org.teachingextentions.logo.utils.MVCUtils;
 
 import java.lang.reflect.Field;
 import java.util.List;

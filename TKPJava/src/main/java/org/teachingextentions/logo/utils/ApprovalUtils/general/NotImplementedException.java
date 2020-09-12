@@ -1,4 +1,5 @@
-package utils;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general;
+
 
 public class NotImplementedException extends Exception {
 

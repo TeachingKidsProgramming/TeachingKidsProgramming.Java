@@ -1,4 +1,4 @@
-package logo.utils.PuzzleUtils;
+package src.main.java.org.teachingextentions.logo.utils.PuzzleUtils;
 
 import java.util.HashSet;
 import java.util.List;

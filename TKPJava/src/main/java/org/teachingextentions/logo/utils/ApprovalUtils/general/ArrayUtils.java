@@ -6,8 +6,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Function1;
-
 /**
  * A static class of convenience methods for arrays and collections.
  */

@@ -1,4 +1,5 @@
-package org.teachingextensions.approvals.lite.util;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general;
+
 
 /**
  * A static class of convenience functions for database access

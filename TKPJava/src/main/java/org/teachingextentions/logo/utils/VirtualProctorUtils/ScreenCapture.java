@@ -1,4 +1,4 @@
-package org.teachingextensions.virtualproctor;
+package src.main.java.org.teachingextentions.logo.utils.VirtualProctorUtils;
 
 import java.awt.Component;
 import java.awt.Graphics2D;

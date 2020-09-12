@@ -1,4 +1,4 @@
-package logo.utils.InterfaceUtils;
+package src.main.java.org.teachingextentions.logo.utils.InterfaceUtils;
 
 import javax.swing.JComponent;
 import javax.swing.JFrame;

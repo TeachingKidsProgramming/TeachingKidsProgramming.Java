@@ -1,4 +1,4 @@
-package utils;
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general;
 
 public class Tuple<H, K> {
     private final H first;

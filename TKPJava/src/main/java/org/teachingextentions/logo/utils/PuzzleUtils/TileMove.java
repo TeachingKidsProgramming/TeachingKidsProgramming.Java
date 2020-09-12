@@ -1,4 +1,4 @@
-package logo.utils.PuzzleUtils;
+package src.main.java.org.teachingextentions.logo.utils.PuzzleUtils;
 
 /**
  * Describes a tile swap.

@@ -1,4 +1,4 @@
-package logo.utils.InterfaceUtils;
+package src.main.java.org.teachingextentions.logo.utils.InterfaceUtils;
 
 import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.utils.LineAndShapeUtils.LineSegment;

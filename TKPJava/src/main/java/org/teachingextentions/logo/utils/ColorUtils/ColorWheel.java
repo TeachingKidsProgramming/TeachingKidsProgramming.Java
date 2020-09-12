@@ -1,4 +1,4 @@
-package logo.utils.ColorUtils;
+package src.main.java.org.teachingextentions.logo.utils.ColorUtils;
 
 import java.awt.Color;
 

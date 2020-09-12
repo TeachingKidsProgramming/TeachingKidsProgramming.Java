@@ -1,4 +1,4 @@
-package org.teachingextensions.setup;
+package src.main.java.org.teachingextentions.logo.utils.SetupUtils;
 
 import java.io.IOException;
 

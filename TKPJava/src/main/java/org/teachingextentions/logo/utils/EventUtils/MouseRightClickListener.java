@@ -1,4 +1,4 @@
-package logo.utils.EventUtils;
+package src.main.java.org.teachingextentions.logo.utils.EventUtils;
 
 public interface MouseRightClickListener
 {

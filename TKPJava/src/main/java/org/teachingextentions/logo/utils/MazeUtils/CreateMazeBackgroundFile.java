@@ -1,4 +1,4 @@
-package logo.utils.MazeUtils;
+package src.main.java.org.teachingextentions.logo.utils.MazeUtils;
 
 import java.awt.Component;
 import java.awt.Graphics;

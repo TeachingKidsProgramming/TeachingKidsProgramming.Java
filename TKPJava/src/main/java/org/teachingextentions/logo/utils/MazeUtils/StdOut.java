@@ -1,4 +1,4 @@
-package org.teachingextensions.logo.utils.MazeUtils;
+package src.main.java.org.teachingextentions.logo.utils.MazeUtils;
 
 /******************************************************************************
  *  Compilation:  javac StdOut.java

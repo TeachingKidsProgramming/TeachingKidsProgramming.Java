@@ -1,4 +1,4 @@
-package virtualproctor;
+package src.main.java.org.teachingextentions.logo.utils.VirtualProctorUtils;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

@@ -1,4 +1,4 @@
-package org.teachingextensions.logo.utils.LineAndShapeUtils;
+package src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils;
 
 import java.awt.Shape;
 import java.awt.Stroke;

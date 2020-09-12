@@ -1,4 +1,4 @@
-package logo.utils.EventUtils;
+package src.main.java.org.teachingextentions.logo.utils.EventUtils;
 
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;

@@ -1,4 +1,4 @@
-package logo.utils.InterfaceUtils;
+package src.main.java.org.teachingextentions.logo.utils.InterfaceUtils;
 
 import java.awt.Graphics;
 import java.awt.Graphics2D;
