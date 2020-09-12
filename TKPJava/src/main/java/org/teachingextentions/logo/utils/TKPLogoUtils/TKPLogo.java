@@ -1,6 +1,5 @@
 package src.main.java.org.teachingextentions.logo.utils.TKPLogoUtils;
 
-import org.teachingkidsprogramming.section01forloops.MakeALogo;
 import src.main.java.org.teachingextentions.logo.Tortoise;
 import src.main.java.org.teachingextentions.logo.utils.ColorUtils.ColorWheel;
 import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
