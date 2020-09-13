@@ -1,10 +1,8 @@
-package org.teachingkidsprogramming.section08events;
+package src.main.java.org.teachingkidsprogramming.section08events;
 
-import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.logo.utils.ColorUtils.ColorWheel;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors;
-import org.teachingextensions.logo.utils.EventUtils.MouseLeftClickListener;
-import org.teachingextensions.logo.utils.EventUtils.MouseRightClickListener;
+import src.main.java.org.teachingextentions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.*;
+import src.main.java.org.teachingextentions.logo.utils.EventUtils.*;
 
 public class ConnectTheDots implements MouseRightClickListener, MouseLeftClickListener
 {

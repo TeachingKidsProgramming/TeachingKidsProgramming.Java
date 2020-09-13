@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section06modelviewcontroller;
+package src.main.java.org.teachingkidsprogramming.section06modelviewcontroller;
 
 import org.teachingkidsprogramming.recipes.quizzes.graders.AdLibsQuizAdapter;
 import org.teachingkidsprogramming.recipes.quizzes.graders.AdLibsQuizGrader;

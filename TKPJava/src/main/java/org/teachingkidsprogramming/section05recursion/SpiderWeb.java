@@ -1,6 +1,6 @@
-package org.teachingkidsprogramming.section05recursion;
+package src.main.java.org.teachingkidsprogramming.section05recursion;
 
-import org.teachingextensions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.Tortoise;
 
 public class SpiderWeb
 {

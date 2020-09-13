@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section02methods;
+package src.main.java.org.teachingkidsprogramming.section02methods;
 
 import org.teachingkidsprogramming.recipes.quizzes.graders.HousesQuizAdapter;
 import org.teachingkidsprogramming.recipes.quizzes.graders.HousesQuizGrader;

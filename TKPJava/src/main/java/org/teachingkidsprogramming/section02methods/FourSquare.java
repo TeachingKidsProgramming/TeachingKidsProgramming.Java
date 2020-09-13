@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section02methods;
+package src.main.java.org.teachingkidsprogramming.section02methods;
 
 public class FourSquare
 {

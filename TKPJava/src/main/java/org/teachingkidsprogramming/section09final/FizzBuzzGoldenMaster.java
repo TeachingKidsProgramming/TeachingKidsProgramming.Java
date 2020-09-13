@@ -1,7 +1,7 @@
-package org.teachingkidsprogramming.section09final;
+package src.main.java.org.teachingkidsprogramming.section09final;
 
 import org.junit.Test;
-import org.teachingextensions.approvals.lite.Approvals;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Approvals;
 
 public class FizzBuzzGoldenMaster
 {

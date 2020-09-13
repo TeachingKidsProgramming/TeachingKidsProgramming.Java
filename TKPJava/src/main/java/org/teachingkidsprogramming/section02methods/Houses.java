@@ -1,6 +1,6 @@
-package org.teachingkidsprogramming.section02methods;
+package src.main.java.org.teachingkidsprogramming.section02methods;
 
-import org.teachingextensions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.Tortoise;
 
 public class Houses
 {

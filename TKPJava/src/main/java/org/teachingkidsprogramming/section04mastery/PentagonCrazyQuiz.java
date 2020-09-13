@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section04mastery;
+package src.main.java.org.teachingkidsprogramming.section04mastery;
 
 import org.teachingkidsprogramming.recipes.quizzes.graders.PentagonCrazyQuizGrader;
 import org.teachingkidsprogramming.recipes.quizzes.graders.PentagonQuizAdapter;

@@ -1,8 +1,8 @@
-package org.teachingkidsprogramming.section04mastery;
+package src.main.java.org.teachingkidsprogramming.section04mastery;
 
-import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.logo.utils.ColorUtils.ColorWheel;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors;
+import src.main.java.org.teachingextentions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.ColorWheel;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
 
 public class KnottedRing
 {

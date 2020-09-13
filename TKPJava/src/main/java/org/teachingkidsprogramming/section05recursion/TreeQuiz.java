@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section05recursion;
+package src.main.java.org.teachingkidsprogramming.section05recursion;
 
 import org.teachingkidsprogramming.recipes.quizzes.graders.TreeQuizAdapter;
 import org.teachingkidsprogramming.recipes.quizzes.graders.TreeQuizGrader;

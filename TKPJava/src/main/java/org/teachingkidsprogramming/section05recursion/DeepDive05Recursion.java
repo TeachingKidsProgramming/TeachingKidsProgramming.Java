@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section05recursion;
+package src.main.java.org.teachingkidsprogramming.section05recursion;
 
 import java.awt.Color;
 import java.awt.Cursor;
@@ -8,8 +8,8 @@ import java.util.List;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors;
+import src.main.java.org.teachingextentions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
 
 public class DeepDive05Recursion
 {

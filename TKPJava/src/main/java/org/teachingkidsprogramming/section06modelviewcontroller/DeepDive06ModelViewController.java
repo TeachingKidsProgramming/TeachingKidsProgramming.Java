@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section06modelviewcontroller;
+package src.main.java.org.teachingkidsprogramming.section06modelviewcontroller;
 
 import java.awt.Color;
 import java.awt.Cursor;
@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.teachingextensions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.Tortoise;
 
 @SuppressWarnings("unused")
 public class DeepDive06ModelViewController

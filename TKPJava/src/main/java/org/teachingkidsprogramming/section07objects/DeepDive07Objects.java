@@ -1,14 +1,14 @@
-package org.teachingkidsprogramming.section07objects;
+package src.main.java.org.teachingkidsprogramming.section07objects;
 
 import java.awt.Cursor;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.logo.Turtle;
-import org.teachingextensions.logo.Turtle.Animals;
-import org.teachingextensions.logo.utils.PizzaUtils.Pizza;
-import org.teachingextensions.logo.utils.PizzaUtils.Topping;
+import src.main.java.org.teachingextentions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.Turtle;
+import src.main.java.org.teachingextentions.logo.Animals;
+import src.main.java.org.teachingextensions.logo.utils.PizzaUtils.Pizza;
+import src.main.java.org.teachingextensions.logo.utils.PizzaUtils.Topping;
 
 @SuppressWarnings("unused")
 public class DeepDive07Objects

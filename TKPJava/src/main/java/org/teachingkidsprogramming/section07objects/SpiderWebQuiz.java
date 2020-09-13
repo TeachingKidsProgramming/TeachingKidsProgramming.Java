@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section07objects;
+package src.main.java.org.teachingkidsprogramming.section07objects;
 
 import org.teachingkidsprogramming.recipes.quizzes.graders.SpiderQuiz;
 import org.teachingkidsprogramming.recipes.quizzes.graders.SpiderWebQuizGrader;

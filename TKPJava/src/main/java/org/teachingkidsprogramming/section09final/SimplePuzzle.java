@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section09final;
+package src.main.java.org.teachingkidsprogramming.section09final;
 
 import java.awt.EventQueue;
 import java.util.Arrays;
@@ -7,14 +7,12 @@ import java.util.Random;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-import org.teachingextensions.logo.utils.PuzzleUtils.Puzzle;
-import org.teachingextensions.logo.utils.PuzzleUtils.PuzzleAnimation;
-import org.teachingextensions.logo.utils.PuzzleUtils.PuzzleBoard;
-import org.teachingextensions.logo.utils.PuzzleUtils.PuzzleState;
+import src.main.java.org.teachingextentions.logo.utils.PuzzleUtils.*;
+
 
 public class SimplePuzzle implements Runnable
 {
-  public Puzzle      puzzle   = null;
+  public Puzzle puzzle = null;
   public PuzzleState solution = null;
   public int[]       cells    = {0, 1, 2, 3, 4, 5, 6, 7, 8};
   //

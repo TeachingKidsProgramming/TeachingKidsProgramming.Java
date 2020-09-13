@@ -1,6 +1,6 @@
 package src.main.java.org.teachingkidsprogramming.section01forloops;
 
-import org.teachingextensions.logo.utils.EventUtils.MessageBox;
+import src.main.java.org.teachingextentions.logo.utils.EventUtils.MessageBox;
 
 public class Spiral
 {

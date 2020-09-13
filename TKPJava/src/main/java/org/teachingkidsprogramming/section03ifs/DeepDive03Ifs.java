@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section03ifs;
+package src.main.java.org.teachingkidsprogramming.section03ifs;
 
 import org.junit.Assert;
 import org.junit.Test;

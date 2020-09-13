@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section09final;
+package src.main.java.org.teachingkidsprogramming.section09final;
 
 public class RectangleKata
 {

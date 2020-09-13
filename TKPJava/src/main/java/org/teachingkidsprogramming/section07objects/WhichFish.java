@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section07objects;
+package src.main.java.org.teachingkidsprogramming.section07objects;
 
 //*************This Lesson is In Development*****************************//
 public class WhichFish

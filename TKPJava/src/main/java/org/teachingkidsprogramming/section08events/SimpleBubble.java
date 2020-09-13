@@ -1,6 +1,6 @@
-package org.teachingkidsprogramming.section08events;
+package src.main.java.org.teachingkidsprogramming.section08events;
 
-import org.teachingextensions.logo.utils.EventUtils.MouseLeftClickListener;
+import src.main.java.org.teachingextentions.logo.utils.EventUtils.*;
 
 public class SimpleBubble implements MouseLeftClickListener
 {

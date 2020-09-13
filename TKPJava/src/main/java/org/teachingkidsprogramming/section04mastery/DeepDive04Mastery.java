@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section04mastery;
+package src.main.java.org.teachingkidsprogramming.section04mastery;
 
 import org.junit.Assert;
 import org.junit.Test;

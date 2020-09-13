@@ -1,6 +1,6 @@
-package org.teachingkidsprogramming.section04mastery;
+package src.main.java.org.teachingkidsprogramming.section04mastery;
 
-import org.teachingextensions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.Tortoise;
 
 public class BackgroundPhoto
 {

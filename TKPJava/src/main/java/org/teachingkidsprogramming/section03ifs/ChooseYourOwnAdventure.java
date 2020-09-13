@@ -1,10 +1,10 @@
-package org.teachingkidsprogramming.section03ifs;
+package src.main.java.org.teachingkidsprogramming.section03ifs;
 
 import java.awt.Color;
 
 import org.teachingextensions.approvals.lite.util.ThreadUtils;
-import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors;
+import src.main.java.org.teachingextentions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
 import org.teachingextensions.logo.utils.EventUtils.MessageBox;
 
 public class ChooseYourOwnAdventure

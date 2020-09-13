@@ -1,6 +1,6 @@
-package org.teachingkidsprogramming.section03ifs;
+package src.main.java.org.teachingkidsprogramming.section03ifs;
 
-import org.teachingextensions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.Tortoise;
 
 public class ConcentricLoop
 {

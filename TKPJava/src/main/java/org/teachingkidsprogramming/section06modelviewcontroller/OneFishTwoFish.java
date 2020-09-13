@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section06modelviewcontroller;
+package src.main.java.org.teachingkidsprogramming.section06modelviewcontroller;
 
 //*************This Lesson is In Development*****************************//
 @SuppressWarnings("unused")
