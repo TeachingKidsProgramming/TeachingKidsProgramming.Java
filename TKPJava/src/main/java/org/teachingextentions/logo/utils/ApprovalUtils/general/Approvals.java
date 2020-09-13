@@ -100,7 +100,7 @@ public class Approvals
       if (!approver.approve())
       {
         boolean passed = false;
-        if (reporter instanceof ApprovalFailureOverrider)
+        if (reporter instanceof ApprovalFailureReporter)
         {
           passed = approver.askToChangeReceivedToApproved((ApprovalFailureOverrider) reporter);
         }
