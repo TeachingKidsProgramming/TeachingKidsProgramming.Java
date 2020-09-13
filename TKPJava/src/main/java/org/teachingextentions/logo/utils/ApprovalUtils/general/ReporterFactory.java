@@ -25,7 +25,7 @@ public class ReporterFactory {
         setupReporters();
     }
 
-    public static ApprovalFailureReporter get(String string) {
+    public static ApprovalFailureReporter get(final String string) {
         ApprovalFailureReporter returned = getFromAnnotation();
         returned = tryFor(returned, reporters.get(string));
         returned = tryFor(returned, reporters.get(FileTypes.Default));
@@ -33,31 +33,32 @@ public class ReporterFactory {
     }
 
     public static ApprovalFailureReporter getFromAnnotation() {
-        UseReporter reporter = getAnnotationFromStackTrace(UseReporter.class);
+        final UseReporter reporter = getAnnotationFromStackTrace(UseReporter.class);
         return reporter == null ? null : getReporter(reporter);
     }
 
-    private static ApprovalFailureReporter getReporter(UseReporter reporter) {
-        Class<? extends ApprovalFailureReporter>[] classes = reporter.value();
-        List<ApprovalFailureReporter> reporters = new ArrayList<>();
-        for (Class<? extends ApprovalFailureReporter> clazz : classes) {
-            ApprovalFailureReporter instance = ClassUtils.create(clazz);
+    private static ApprovalFailureReporter getReporter(final UseReporter reporter) {
+        final Class<? extends ApprovalFailureReporter>[] classes = (Class<? extends ApprovalFailureReporter>[]) reporter
+                .value();
+        final List<ApprovalFailureReporter> reporters = new ArrayList<>();
+        for (final Class<? extends ApprovalFailureReporter> clazz : classes) {
+            final ApprovalFailureReporter instance = ClassUtils.create(clazz);
             reporters.add(instance);
         }
-        return reporters.size() == 1 ? reporters.get(0) : new MultiReporter(reporters);
+        return reporters.size() == 1 ? reporters.get(0) : (ApprovalFailureReporter) new MultiReporter(reporters);
     }
 
-    private static <T extends Annotation> T getAnnotationFromStackTrace(Class<T> annotationClass) {
-        StackTraceElement[] trace = Thread.currentThread().getStackTrace();
-        for (StackTraceElement stack : trace) {
+    private static <T extends Annotation> T getAnnotationFromStackTrace(final Class<T> annotationClass) {
+        final StackTraceElement[] trace = Thread.currentThread().getStackTrace();
+        for (final StackTraceElement stack : trace) {
             Method method = null;
             Class<?> clazz = null;
             try {
-                String methodName = stack.getMethodName();
+                final String methodName = stack.getMethodName();
                 clazz = Class.forName(stack.getClassName());
                 method = clazz.getMethod(methodName, (Class<?>[]) null);
-            } catch (Exception e) {
-                //ignore
+            } catch (final Exception e) {
+                // ignore
             }
             T annotation = null;
             if (method != null) {
@@ -74,8 +75,8 @@ public class ReporterFactory {
         return null;
     }
 
-    private static ApprovalFailureReporter tryFor(ApprovalFailureReporter returned,
-                                                  Class<? extends ApprovalFailureReporter> trying) {
+    private static ApprovalFailureReporter tryFor(final ApprovalFailureReporter returned,
+            final Class<? extends ApprovalFailureReporter> trying) {
         if (returned == null && trying != null) {
             return ClassUtils.create(trying);
         }
@@ -83,11 +84,11 @@ public class ReporterFactory {
     }
 
     private static void setupReporters() {
-        reporters.put(FileTypes.Text, DiffReporter.class);
-        reporters.put(FileTypes.Html, DiffReporter.class);
-        reporters.put(FileTypes.Excel, FileLauncherReporter.class);
-        reporters.put(FileTypes.File, FileLauncherReporter.class);
-        reporters.put(FileTypes.Image, ImageReporter.class);
-        reporters.put(FileTypes.Default, QuietReporter.class);
+        reporters.put(FileTypes.Text, (Class<? extends ApprovalFailureReporter>) DiffReporter.class);
+        reporters.put(FileTypes.Html, (Class<? extends ApprovalFailureReporter>) DiffReporter.class);
+        reporters.put(FileTypes.Excel, (Class<? extends ApprovalFailureReporter>) FileLauncherReporter.class);
+        reporters.put(FileTypes.File, (Class<? extends ApprovalFailureReporter>) FileLauncherReporter.class);
+        reporters.put(FileTypes.Image, (Class<? extends ApprovalFailureReporter>) ImageReporter.class);
+        reporters.put(FileTypes.Default, (Class<? extends ApprovalFailureReporter>) QuietReporter.class);
     }
 }

@@ -79,7 +79,7 @@ public class TestableUberspect implements Uberspect, UberspectLoggable
       return ((Iterator<?>) obj);
     }
     else if (obj instanceof Enumeration) { return new EnumerationIterator((Enumeration<?>) obj); }
-    throw new VelocityParsingError("Could not determine type of iterator in " + "#foreach loop ", i);
+   throw new VelocityParsingError("Could not determine type of iterator in " + "#foreach loop ", i);
   }
   @Override
   public VelMethod getMethod(Object obj, String methodName, Object[] args, Info i) throws Exception
