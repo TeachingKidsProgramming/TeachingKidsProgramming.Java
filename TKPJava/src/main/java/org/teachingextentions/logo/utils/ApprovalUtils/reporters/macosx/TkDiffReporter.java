@@ -2,7 +2,7 @@ package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.
 
 import java.text.MessageFormat;
 
-import org.teachingextensions.approvals.lite.reporters.GenericDiffReporter;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.GenericDiffReporter;
 
 public class TkDiffReporter extends GenericDiffReporter {
     private static final String DIFF_PROGRAM = "/Applications/TkDiff.app/Contents/MacOS/tkdiff";

@@ -1,6 +1,6 @@
 package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.macosx;
 
-import org.teachingextensions.approvals.lite.reporters.FirstWorkingReporter;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.FirstWorkingReporter;
 
 public class MacDiffReporter extends FirstWorkingReporter
 {

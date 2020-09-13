@@ -2,9 +2,10 @@ package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.
 
 import java.text.MessageFormat;
 
-import org.teachingextensions.approvals.lite.reporters.GenericDiffReporter;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.GenericDiffReporter;
 
-public class BeyondCompareImageReporter extends GenericDiffReporter
+public class BeyondCompareImageReporter extends 
+    GenericDiffReporter
 {
   public static final BeyondCompareImageReporter INSTANCE     = new BeyondCompareImageReporter();
   static final        String                     DIFF_PROGRAM = "/usr/local/bin/bcompare";

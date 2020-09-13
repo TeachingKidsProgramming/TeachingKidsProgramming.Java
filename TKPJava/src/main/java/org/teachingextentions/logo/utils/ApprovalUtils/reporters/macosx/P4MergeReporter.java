@@ -3,8 +3,8 @@ package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.
 import java.text.MessageFormat;
 import java.util.List;
 
-import org.teachingextensions.approvals.lite.reporters.GenericDiffReporter;
-import org.teachingextensions.approvals.lite.util.ArrayUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.GenericDiffReporter;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ArrayUtils;
 
 public class P4MergeReporter extends GenericDiffReporter {
     private static final String DIFF_PROGRAM = "/Applications/p4merge.app/Contents/MacOS/p4merge";
