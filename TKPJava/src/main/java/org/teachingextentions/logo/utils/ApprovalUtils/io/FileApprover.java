@@ -5,7 +5,10 @@ import java.io.IOException;
 
 import junit.framework.TestCase;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalApprover;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalFailureReporter;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalNamer;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalReporterWithCleanUp;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalWriter;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.NamerFactory;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ObjectUtils;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.io.FileUtils;
