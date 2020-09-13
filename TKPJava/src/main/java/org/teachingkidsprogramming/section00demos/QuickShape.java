@@ -1,8 +1,8 @@
-package org.teachingkidsprogramming.section00demos;
+package src.main.java.org.teachingkidsprogramming.section00demos;
 
 import java.util.Random;
 
-import org.teachingextensions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.Tortoise;
 
 @SuppressWarnings("unused")
 public class QuickShape

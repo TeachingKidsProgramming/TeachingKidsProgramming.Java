@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.recipes.inDevelopment;
+package src.main.java.org.teachingkidsprogramming.recipes.inDevelopment;
 
 public class HolidayCard
 {

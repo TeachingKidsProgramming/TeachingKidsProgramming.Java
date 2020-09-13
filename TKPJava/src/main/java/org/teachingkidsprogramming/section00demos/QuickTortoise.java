@@ -1,6 +1,6 @@
-package org.teachingkidsprogramming.section00demos;
+package src.main.java.org.teachingkidsprogramming.section00demos;
 
-import org.teachingextensions.logo.Tortoise;
+import src.main.java.org.teachingkidsprogramming.;
 
 public class QuickTortoise
 {

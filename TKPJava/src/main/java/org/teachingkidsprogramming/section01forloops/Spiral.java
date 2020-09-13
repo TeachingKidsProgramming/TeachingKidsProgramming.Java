@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.section01forloops;
+package src.main.java.org.teachingkidsprogramming.section01forloops;
 
 import org.teachingextensions.logo.utils.EventUtils.MessageBox;
 

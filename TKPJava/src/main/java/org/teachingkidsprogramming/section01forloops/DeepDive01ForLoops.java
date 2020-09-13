@@ -1,11 +1,11 @@
-package org.teachingkidsprogramming.section01forloops;
+package src.main.java.org.teachingkidsprogramming.section01forloops;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.logo.Turtle;
-import org.teachingextensions.logo.utils.TortoiseUtils;
+import src.main.java.org.teachingextentions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.Turtle;
+import src.main.java.org.teachingextentions.logo.TortoiseUtils;
 
 public class DeepDive01ForLoops
 {
