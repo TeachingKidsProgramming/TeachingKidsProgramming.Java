@@ -3,8 +3,9 @@ package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.velocity;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
-import org.apache.velocity.context.Context;
-//import org.apache.velocity.*;
+import javax.naming.Context;
+
+//import org.apache.velocity.context.Context;
 
 public interface ContextAware
 {
@@ -24,7 +25,7 @@ public interface ContextAware
     {
       for (Entry<String, Object> entry : add.entrySet())
       {
-        context.put(entry.getKey(), entry.getValue());
+        ((ContextAwareMap) context).put(entry.getKey(), entry.getValue());
       }
     }
   }
