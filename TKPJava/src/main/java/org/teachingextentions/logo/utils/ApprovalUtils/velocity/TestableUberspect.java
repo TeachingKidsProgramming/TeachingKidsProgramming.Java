@@ -31,68 +31,67 @@ import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Obj
  * @author <a href="mailto:geirm@optonline.net">Geir Magnusson Jr.</a>
  * @version $Id: UberspectImpl.java,v 1.2.4.1 2004/03/03 23:23:08 geirm Exp $
  */
-public class TestableUberspect implements Uberspect, UberspectLoggable
-{
+public class TestableUberspect implements Uberspect, UberspectLoggable {
   /**
    * the default Velocity introspector
    */
   private static IntrospectorBase introspector;
-  private static Introspector     introspectorWithLog;
-  private RuntimeLogger           log;
+  private static Introspector introspectorWithLog;
+  private RuntimeLogger log;
+
   /***********************************************************************/
   /**
-   * init - does nothing - we need to have setRuntimeLogger called before
-   * getting our introspector, as the default vel introspector depends upon it.;
+   * init - does nothing - we need to have setRuntimeLogger called before getting
+   * our introspector, as the default vel introspector depends upon it.;
    */
   @Override
-  public void init() throws Exception
-  {
+  public void init() throws Exception {
   }
+
   @Override
-  public void setRuntimeLogger(RuntimeLogger runtimeLogger)
-  {
+  public void setRuntimeLogger(final RuntimeLogger runtimeLogger) {
     introspector = new IntrospectorBase();
     introspectorWithLog = new Introspector(runtimeLogger);
     log = runtimeLogger;
   }
+
   @Override
-  public Iterator<?> getIterator(Object obj, Info i) throws Exception
-  {
+  public Iterator<?> getIterator(final Object obj, final Info i) throws Exception {
     return getStandardIterator(obj, i);
   }
-  public static Iterator<?> getStandardIterator(Object obj, Info i)
-  {
-    if (obj.getClass().isArray())
-    {
+
+  public static Iterator<?> getStandardIterator(final Object obj, final Info i) {
+    if (obj.getClass().isArray()) {
       return new ArrayIterator(obj);
-    }
-    else if (obj instanceof Collection)
-    {
+    } else if (obj instanceof Collection) {
       return ((Collection<?>) obj).iterator();
-    }
-    else if (obj instanceof Map)
-    {
+    } else if (obj instanceof Map) {
       return ((Map<?, ?>) obj).values().iterator();
-    }
-    else if (obj instanceof Iterator)
-    {
+    } else if (obj instanceof Iterator) {
       return ((Iterator<?>) obj);
+    } else if (obj instanceof Enumeration) {
+      return new EnumerationIterator((Enumeration<?>) obj);
     }
-    else if (obj instanceof Enumeration) { return new EnumerationIterator((Enumeration<?>) obj); }
-   throw new VelocityParsingError("Could not determine type of iterator in " + "#foreach loop ", i);
+    try {
+      throw new VelocityParsingError("Could not determine type of iterator in " + "#foreach loop ", i);
+    } catch (VelocityParsingError e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+    }
+    return null;
   }
   @Override
-  public VelMethod getMethod(Object obj, String methodName, Object[] args, Info i) throws Exception
+  public VelMethod getMethod(final Object obj, final String methodName, final Object[] args, final Info i) throws Exception
   {
     if (obj == null) { throw new VelocityParsingError("tried " + getMethodText("null", methodName, args), i); }
-    Method m = introspector.getMethod(obj.getClass(), methodName, args);
+    final Method m = introspector.getMethod(obj.getClass(), methodName, args);
     if (m == null) { throw new VelocityParsingError("Method "
         + getMethodText(obj.getClass().getName(), methodName, args) + " does not exist.", i); }
     return new VelMethodImpl(m);
   }
-  public static String getMethodText(String className, String methodName, Object[] args)
+  public static String getMethodText(final String className, final String methodName, final Object[] args)
   {
-    StringBuilder methodSignature = new StringBuilder();
+    final StringBuilder methodSignature = new StringBuilder();
     for (int i = 0; args != null && i < args.length; i++)
     {
       methodSignature.append(ObjectUtils.getClassName(args[i]));
@@ -101,11 +100,11 @@ public class TestableUberspect implements Uberspect, UberspectLoggable
     return className + "." + methodName + "(" + methodSignature + ") ";
   }
   @Override
-  public VelPropertyGet getPropertyGet(Object obj, String identifier, Info i) throws Exception
+  public VelPropertyGet getPropertyGet(final Object obj, final String identifier, final Info i) throws Exception
   {
     AbstractExecutor executor;
     if (obj == null) { throw new VelocityParsingError("tried " + getPropertyText("null", identifier), i); }
-    Class<?> type = obj.getClass();
+    final Class<?> type = obj.getClass();
     // trying getFoo()
     executor = new PropertyExecutor(log, introspectorWithLog, type, identifier);
     if (!executor.isAlive())
@@ -122,29 +121,29 @@ public class TestableUberspect implements Uberspect, UberspectLoggable
         + getPropertyText(obj.getClass().getName(), identifier), i); }
     return new VelGetterImpl(executor);
   }
-  private String getPropertyText(String className, String identifier)
+  private String getPropertyText(final String className, final String identifier)
   {
     return className + "." + identifier + " ";
   }
   @Override
-  public VelPropertySet getPropertySet(Object obj, String identifier, Object arg, Info i) throws Exception
+  public VelPropertySet getPropertySet(final Object obj, final String identifier, final Object arg, final Info i) throws Exception
   {
-    Class<?> type = obj.getClass();
+    final Class<?> type = obj.getClass();
     VelMethod vm = null;
     try
     {
       /*
        * first, we introspect for the set<identifier> setter method
        */
-      Object[] params = {arg};
+      final Object[] params = {arg};
       try
       {
         vm = getMethod(obj, "set" + identifier, params, i);
         if (vm == null) { throw new NoSuchMethodException(); }
       }
-      catch (NoSuchMethodException e)
+      catch (final NoSuchMethodException e)
       {
-        StringBuilder sb = new StringBuilder("set");
+        final StringBuilder sb = new StringBuilder("set");
         sb.append(identifier);
         if (Character.isLowerCase(sb.charAt(3)))
         {
@@ -158,14 +157,14 @@ public class TestableUberspect implements Uberspect, UberspectLoggable
         if (vm == null) { throw new NoSuchMethodException(); }
       }
     }
-    catch (NoSuchMethodException e)
+    catch (final NoSuchMethodException e)
     {
       /*
        * right now, we only support the Map interface
        */
       if (Map.class.isAssignableFrom(type))
       {
-        Object[] params = {new Object(), new Object()};
+        final Object[] params = {new Object(), new Object()};
         vm = getMethod(obj, "put", params, i);
         if (vm != null)
           return new VelSetterImpl(vm, identifier);
@@ -176,12 +175,12 @@ public class TestableUberspect implements Uberspect, UberspectLoggable
   public static class VelMethodImpl implements VelMethod
   {
     Method method = null;
-    public VelMethodImpl(Method m)
+    public VelMethodImpl(final Method m)
     {
       method = m;
     }
     @Override
-    public Object invoke(Object o, Object[] params) throws Exception
+    public Object invoke(final Object o, final Object[] params) throws Exception
     {
       return method.invoke(o, params);
     }
@@ -204,12 +203,12 @@ public class TestableUberspect implements Uberspect, UberspectLoggable
   public static class VelGetterImpl implements VelPropertyGet
   {
     AbstractExecutor ae = null;
-    public VelGetterImpl(AbstractExecutor exec)
+    public VelGetterImpl(final AbstractExecutor exec)
     {
       ae = exec;
     }
     @Override
-    public Object invoke(Object o) throws Exception
+    public Object invoke(final Object o) throws Exception
     {
       return ae.execute(o);
     }
@@ -228,19 +227,19 @@ public class TestableUberspect implements Uberspect, UberspectLoggable
   {
     VelMethod vm     = null;
     String    putKey = null;
-    public VelSetterImpl(VelMethod velmethod)
+    public VelSetterImpl(final VelMethod velmethod)
     {
       this.vm = velmethod;
     }
-    public VelSetterImpl(VelMethod velmethod, String key)
+    public VelSetterImpl(final VelMethod velmethod, final String key)
     {
       this.vm = velmethod;
       putKey = key;
     }
     @Override
-    public Object invoke(Object o, Object value) throws Exception
+    public Object invoke(final Object o, final Object value) throws Exception
     {
-      ArrayList<Object> al = new ArrayList<>();
+      final ArrayList<Object> al = new ArrayList<>();
       if (putKey != null)
       {
         al.add(putKey);
