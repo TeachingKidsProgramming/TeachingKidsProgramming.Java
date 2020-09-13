@@ -1,7 +1,7 @@
 package src.main.java.org.teachingkidsprogramming.section02methods;
 
-import org.teachingkidsprogramming.recipes.quizzes.graders.HousesQuizAdapter;
-import org.teachingkidsprogramming.recipes.quizzes.graders.HousesQuizGrader;
+import src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders.HousesQuizAdapter;
+import src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders.HousesQuizGrader;
 
 public class HousesQuiz extends HousesQuizAdapter
 {

@@ -1,6 +1,6 @@
 package src.main.java.org.teachingkidsprogramming.section08events;
 
-import src.main.java.org.teachingextensions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.Tortoise;
 import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
 import src.main.java.org.teachingextentions.logo.utils.EventUtils.*;
 import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Text;

@@ -1,7 +1,7 @@
 package src.main.java.org.teachingkidsprogramming.section07objects;
 
-import org.teachingkidsprogramming.recipes.quizzes.graders.SpiderQuiz;
-import org.teachingkidsprogramming.recipes.quizzes.graders.SpiderWebQuizGrader;
+import src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders.SpiderQuiz;
+import src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders.SpiderWebQuizGrader;
 
 public class SpiderWebQuiz extends SpiderQuiz
 {

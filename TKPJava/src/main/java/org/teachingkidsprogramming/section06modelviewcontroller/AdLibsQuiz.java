@@ -1,7 +1,7 @@
 package src.main.java.org.teachingkidsprogramming.section06modelviewcontroller;
 
-import org.teachingkidsprogramming.recipes.quizzes.graders.AdLibsQuizAdapter;
-import org.teachingkidsprogramming.recipes.quizzes.graders.AdLibsQuizGrader;
+import src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders.AdLibsQuizAdapter;
+import src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders.AdLibsQuizGrader;
 
 public class AdLibsQuiz extends AdLibsQuizAdapter
 {

@@ -1,7 +1,7 @@
 package src.main.java.org.teachingkidsprogramming.section05recursion;
 
-import org.teachingkidsprogramming.recipes.quizzes.graders.TreeQuizAdapter;
-import org.teachingkidsprogramming.recipes.quizzes.graders.TreeQuizGrader;
+import src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders.TreeQuizAdapter;
+import src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders.TreeQuizGrader;
 
 public class TreeQuiz extends TreeQuizAdapter
 {

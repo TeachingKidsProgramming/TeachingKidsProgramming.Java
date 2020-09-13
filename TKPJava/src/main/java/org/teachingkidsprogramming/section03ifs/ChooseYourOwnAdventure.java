@@ -2,14 +2,14 @@ package src.main.java.org.teachingkidsprogramming.section03ifs;
 
 import java.awt.Color;
 
-import org.teachingextensions.approvals.lite.util.ThreadUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ThreadUtils;
 import src.main.java.org.teachingextentions.logo.Tortoise;
 import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
-import org.teachingextensions.logo.utils.EventUtils.MessageBox;
+import src.main.java.org.teachingextentions.logo.utils.EventUtils.MessageBox;
 
 public class ChooseYourOwnAdventure
 {
-  public static void main(String[] args)
+  public static void main(final String[] args)
   {
     startStory();
   }
@@ -17,7 +17,7 @@ public class ChooseYourOwnAdventure
   {
     tellMoreStory("One morning the Tortoise woke up in a dream.");
     animateStartStory();
-    String action = askAQuestion("Do you want to 'wake up' or 'explore' the dream?");
+    final String action = askAQuestion("Do you want to 'wake up' or 'explore' the dream?");
     if ("wake up".equalsIgnoreCase(action))
     {
       //          wakeUp (recipe below) --#2.1
@@ -78,13 +78,13 @@ public class ChooseYourOwnAdventure
       ThreadUtils.sleep(100);
     }
   }
-  private static void tellMoreStory(String message)
+  private static void tellMoreStory(final String message)
   {
     MessageBox.showMessage(message);
   }
-  private static String askAQuestion(String question)
+  private static String askAQuestion(final String question)
   {
-    String answer = MessageBox.askForTextInput(question);
+    final String answer = MessageBox.askForTextInput(question);
     return answer;
   }
 }

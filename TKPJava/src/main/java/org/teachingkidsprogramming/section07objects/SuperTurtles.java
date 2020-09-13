@@ -1,6 +1,6 @@
 package src.main.java.org.teachingkidsprogramming.section07objects;
 
-import org.teachingextensions.WindowUtils.MultiTurtleWindow;
+import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.MultiTurtleWindow;
 
 public class SuperTurtles
 {
