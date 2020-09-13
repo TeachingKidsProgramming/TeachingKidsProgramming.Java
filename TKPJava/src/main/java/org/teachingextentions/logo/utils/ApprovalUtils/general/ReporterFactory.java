@@ -7,7 +7,6 @@ import java.util.HashMap;
 import java.util.List;
 
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.*;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ClassUtils;
 
 public class ReporterFactory {
     private static HashMap<String, Class<? extends ApprovalFailureReporter>> reporters = new HashMap<>();

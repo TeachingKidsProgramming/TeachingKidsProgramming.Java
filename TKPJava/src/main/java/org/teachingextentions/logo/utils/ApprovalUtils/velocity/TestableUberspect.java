@@ -75,7 +75,7 @@ public class TestableUberspect implements Uberspect, UberspectLoggable {
     try {
       throw new VelocityParsingError("Could not determine type of iterator in " + "#foreach loop ", i);
     } catch (VelocityParsingError e) {
-      // TODO Auto-generated catch block
+      
       e.printStackTrace();
     }
     return null;

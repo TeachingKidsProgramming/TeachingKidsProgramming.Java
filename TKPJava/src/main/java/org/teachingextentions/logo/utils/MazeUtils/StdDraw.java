@@ -133,7 +133,7 @@ public final class StdDraw implements ActionListener, KeyListener
     frame.pack();
     frame.requestFocusInWindow();
     frame.setVisible(true);
-    // TODO: This is not working, so mouse events won't work yet...
+    // NOTE: This is not working, so mouse events won't work yet...
     //draw.addMouseListener(stdDraw);
     //draw.addMouseMotionListener(stdDraw);
     MouseListener l = null;

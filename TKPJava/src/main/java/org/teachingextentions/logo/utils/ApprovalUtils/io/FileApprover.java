@@ -61,13 +61,11 @@ public class FileApprover implements ApprovalApprover {
 
     @Override
     public void cleanUpAfterSuccess(ApprovalFailureReporter reporter) throws Exception {
-        // TODO Auto-generated method stub
 
     }
 
     @Override
     public void reportFailure(ApprovalFailureReporter reporter) throws Exception {
-        // TODO Auto-generated method stub
 
     }
 }

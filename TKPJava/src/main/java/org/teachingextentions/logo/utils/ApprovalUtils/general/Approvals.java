@@ -6,15 +6,6 @@ import java.util.Arrays;
 
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ReporterFactory.FileTypes;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.ApprovalFailureReporter;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalNamer;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.JUnitStackTraceNamer;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ArrayUtils;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ObjectUtils;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.StringUtils;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Function1;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalTextWriter;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ComponentApprovalWriter;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ImageApprovalWriter;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.io.FileApprover;
 
 /**

@@ -5,7 +5,6 @@ import java.awt.Graphics;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
-import java.awt.event.WindowStateListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
@@ -18,7 +17,7 @@ import src.main.java.org.teachingextentions.logo.utils.VirtualProctorUtils.Scree
 
 
 /*****in progress****/
-public class CreateMazeBackgroundFile extends WindowAdapter implements WindowListener, WindowStateListener
+public class CreateMazeBackgroundFile extends WindowAdapter
 {
   public static void main(String[] args)
   {
@@ -80,7 +79,7 @@ public class CreateMazeBackgroundFile extends WindowAdapter implements WindowLis
       g.dispose();
       String filename = "./src/main/resources/mazeBackground/CoolMazeBackground.png";
       ImageIO.write(scaledMazeBackground, "png", new File(filename));
-      //TODO If you want to see the file that will be saved, uncomment the line below
+      //NOTE If you want to see the file that will be saved, uncomment the line below
       TestUtils.displayFile(filename);
     }
     catch (Exception e)
@@ -88,5 +87,5 @@ public class CreateMazeBackgroundFile extends WindowAdapter implements WindowLis
       MySystem.warning(e);
     }
   }
-  // TODO: set this image as a background image for the TortoiseMaze recipe
+  // NOTE: set this image as a background image for the TortoiseMaze recipe
 }
