@@ -3,7 +3,7 @@ package src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders;
 import src.main.java.org.teachingextentions.logo.Tortoise;
 import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
 import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
-import org.teachingextensions.logo.utils.LineAndShapeUtils.Text;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Text;
 
 import javax.swing.*;
 import java.awt.*;

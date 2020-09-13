@@ -5,9 +5,10 @@ import java.awt.Graphics2D;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.approvals.lite.util.NumberUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.NumberUtils;
 import src.main.java.org.teachingextentions.logo.Tortoise;
 import src.main.java.org.teachingextentions.logo.TortoiseUtils;
+import src.main.java.org.teachingextentions.logo.Turtle;
 import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
 
 public class SimpleSquareQuizGrader implements Paintable
@@ -48,7 +49,8 @@ public class SimpleSquareQuizGrader implements Paintable
     TortoiseUtils.setTurtle(QuizUtils.createTestTurtle());
     TortoiseUtils.setOrientation(0, 0, 90);
     quiz.question1();
-    return NumberUtils.equals(TortoiseUtils.getTurtle().getX(), 110, 0.005);
+    return NumberUtils
+        .equals(TortoiseUtils.getTurtle().getX(), 110, 0.005);
   }
   private boolean grade3Color()
   {

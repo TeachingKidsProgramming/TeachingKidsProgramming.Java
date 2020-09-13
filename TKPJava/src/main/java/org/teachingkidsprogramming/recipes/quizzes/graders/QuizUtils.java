@@ -1,7 +1,7 @@
 package src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders;
 
 import src.main.java.org.teachingextentions.logo.Tortoise;
-import org.teachingextensions.logo.Turtle;
+import src.main.java.org.teachingextentions.logo.Turtle;
 import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
 import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
 import src.main.java.org.teachingextentions.logo.TortoiseUtils;

@@ -7,15 +7,15 @@ import javax.swing.JPanel;
 import src.main.java.org.teachingextentions.logo.Tortoise;
 import src.main.java.org.teachingextentions.logo.TortoiseUtils;
 import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
-import org.teachingextensions.logo.utils.EventUtils.MessageBox;
-import org.teachingextensions.logo.utils.EventUtils.MessageBox.MessageBoxInstance;
+import src.main.java.org.teachingextentions.logo.utils.EventUtils.MessageBox;
+import src.main.java.org.teachingextentions.logo.utils.EventUtils.MessageBox.MessageBoxInstance;
 import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
 
 public class HiLowQuizGrader implements Paintable
 {
   private boolean[]                answers;
   public static int                TURTLE_SPEED = 9;
-  public static MessageBoxInstance MESSAGE_BOX  = new MessageBoxInstance();
+  public static MessageBoxInstance MESSAGE_BOX = new MessageBoxInstance();
   private HiLowQuiz                quiz;
   private void displayScreen()
   {
