@@ -1,15 +1,15 @@
-package org.teachingkidsprogramming.recipes.quizzes.graders;
+package src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders;
 
 import java.awt.Font;
 import java.awt.Graphics2D;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors;
-import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
-import org.teachingextensions.logo.utils.MVCUtils.Parser;
-import org.teachingkidsprogramming.recipes.quizzes.graders.AdLibsQuizAdapter.Pieces;
+import src.main.java.org.teachingextentions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
+import src.main.java.org.teachingextentions.logo.utils.MVCUtils.Parser;
+import src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders.AdLibsQuizAdapter.Pieces;
 
 public class AdLibsQuizGrader implements Paintable
 {

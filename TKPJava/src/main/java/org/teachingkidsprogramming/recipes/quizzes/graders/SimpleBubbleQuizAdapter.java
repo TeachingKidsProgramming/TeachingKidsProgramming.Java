@@ -1,6 +1,6 @@
-package org.teachingkidsprogramming.recipes.quizzes.graders;
+package src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders;
 
-import org.teachingextensions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.Tortoise;
 
 public class SimpleBubbleQuizAdapter
 {

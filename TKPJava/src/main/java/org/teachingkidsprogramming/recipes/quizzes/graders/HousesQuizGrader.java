@@ -1,15 +1,15 @@
-package org.teachingkidsprogramming.recipes.quizzes.graders;
+package src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders;
 
 import java.awt.Graphics2D;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.approvals.lite.util.NumberUtils;
-import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.logo.Turtle;
-import org.teachingextensions.logo.utils.TortoiseUtils;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors;
-import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
+import src.main.java.org.teachingextensions.approvals.lite.util.NumberUtils;
+import src.main.java.org.teachingextentions.logo.Tortoise;
+import src.main.java.org.teachingextensions.logo.Turtle;
+import src.main.java.org.teachingextentions.logo.TortoiseUtils;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
 
 public class HousesQuizGrader implements Paintable
 {

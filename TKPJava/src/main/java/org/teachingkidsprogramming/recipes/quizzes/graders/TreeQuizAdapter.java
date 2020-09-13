@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.recipes.quizzes.graders;
+package src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;

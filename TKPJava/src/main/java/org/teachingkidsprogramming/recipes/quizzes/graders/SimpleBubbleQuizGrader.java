@@ -1,8 +1,8 @@
-package org.teachingkidsprogramming.recipes.quizzes.graders;
+package src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders;
 
-import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors;
-import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
+import src.main.java.org.teachingextentions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
 import org.teachingextensions.logo.utils.LineAndShapeUtils.Text;
 
 import javax.swing.*;

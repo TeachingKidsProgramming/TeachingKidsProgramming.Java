@@ -1,4 +1,4 @@
-package org.teachingkidsprogramming.recipes.quizzes.graders;
+package src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders;
 
 import java.awt.BasicStroke;
 import java.awt.Graphics2D;
@@ -6,10 +6,10 @@ import java.awt.geom.Line2D;
 
 import javax.swing.JPanel;
 
-import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.logo.utils.TortoiseUtils;
-import org.teachingextensions.logo.utils.ColorUtils.PenColors;
-import org.teachingextensions.logo.utils.LineAndShapeUtils.Paintable;
+import src.main.java.org.teachingextentions.logo.Tortoise;
+import src.main.java.org.teachingextentions.logo.TortoiseUtils;
+import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
+import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;
 
 public class TreeQuizGrader implements Paintable
 {
@@ -68,7 +68,7 @@ public class TreeQuizGrader implements Paintable
     TortoiseUtils.setOrientation(xTop - 15, yTop + 15, 90);
     quiz.length = 15;
     quiz.question1();
-    Tortoise.setPenColor(PenColors.Greens.Lime);
+   Tortoise.setPenColor(PenColors.Greens.Lime);
     Tortoise.setPenWidth(2);
     int[] turns = {0,
         90,
