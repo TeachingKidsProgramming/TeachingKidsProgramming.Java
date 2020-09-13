@@ -6,7 +6,6 @@ import java.awt.Graphics2D;
 import javax.swing.JPanel;
 
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.NumberUtils;
-import src.main.java.org.teachingextentions.logo.Tortoise;
 import src.main.java.org.teachingextentions.logo.TortoiseUtils;
 import src.main.java.org.teachingextentions.logo.Turtle;
 import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Paintable;

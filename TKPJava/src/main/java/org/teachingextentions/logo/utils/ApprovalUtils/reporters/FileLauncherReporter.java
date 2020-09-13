@@ -1,6 +1,5 @@
 package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters;
 
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.ApprovalFailureReporter;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.TestUtils;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.io.FileUtils;
 

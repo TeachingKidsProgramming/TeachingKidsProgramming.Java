@@ -250,7 +250,7 @@ public class Turtle
   }
   public void print(String string)
   {
-    // TODO Auto-generated method stub
+    
   }
   public void speak()
   {

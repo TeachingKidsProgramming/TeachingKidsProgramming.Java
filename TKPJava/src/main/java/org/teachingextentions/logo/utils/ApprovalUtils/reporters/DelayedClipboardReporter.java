@@ -3,7 +3,6 @@ package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters;
 import java.awt.GraphicsEnvironment;
 
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.StringUtils;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.SystemUtils;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.WindowUtils;
 
 /**

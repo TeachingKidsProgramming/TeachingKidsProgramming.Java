@@ -3,7 +3,6 @@ package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general;
 import java.io.File;
 
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.io.FileUtils;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Function0;
 
 
 public class ApprovalTextWriter implements ApprovalWriter {

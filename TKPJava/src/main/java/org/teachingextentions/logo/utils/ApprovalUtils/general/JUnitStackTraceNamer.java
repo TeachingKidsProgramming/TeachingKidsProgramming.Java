@@ -6,10 +6,7 @@ import java.lang.reflect.Method;
 import junit.framework.TestCase;
 import org.junit.Test;
 
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ObjectUtils;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.TestUtils;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.io.StackElementSelector;
-import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.StackTraceReflectionResult;
 
 public class JUnitStackTraceNamer implements ApprovalNamer {
     private StackTraceReflectionResult info;

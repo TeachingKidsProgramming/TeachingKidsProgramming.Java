@@ -4,7 +4,6 @@ import java.awt.Color;
 
 import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.TurtleWindow;
 import src.main.java.org.teachingextentions.logo.Turtle.Animals;
-import src.main.java.org.teachingextentions.logo.TortoiseUtils;
 import src.main.java.org.teachingextentions.logo.utils.ColorUtils.PenColors;
 import src.main.java.org.teachingextentions.logo.utils.LineAndShapeUtils.Text;
 import src.main.java.org.teachingextentions.logo.utils.PizzaUtils.Pizza;

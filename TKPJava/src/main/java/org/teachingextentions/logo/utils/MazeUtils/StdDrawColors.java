@@ -25,6 +25,6 @@ public class StdDrawColors
   static Color              currentPenColor;
   public static void main(String[] args)
   {
-    //TODO - return something here
+    
   }
 }
