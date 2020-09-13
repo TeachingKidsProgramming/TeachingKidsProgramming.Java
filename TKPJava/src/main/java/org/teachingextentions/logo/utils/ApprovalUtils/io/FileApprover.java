@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import junit.framework.TestCase;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalApprover;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalFailureOverrider;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalFailureReporter;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalNamer;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalReporterWithCleanUp;
