@@ -6,9 +6,9 @@ import org.junit.Assert;
 import org.junit.Test;
 import src.main.java.org.teachingextentions.logo.Tortoise;
 import src.main.java.org.teachingextentions.logo.Turtle;
-import src.main.java.org.teachingextentions.logo.Animals;
-import src.main.java.org.teachingextensions.logo.utils.PizzaUtils.Pizza;
-import src.main.java.org.teachingextensions.logo.utils.PizzaUtils.Topping;
+import src.main.java.org.teachingextentions.logo.Turtle.Animals;
+import src.main.java.org.teachingextentions.logo.utils.PizzaUtils.Pizza;
+import src.main.java.org.teachingextentions.logo.utils.PizzaUtils.Topping;
 
 @SuppressWarnings("unused")
 public class DeepDive07Objects

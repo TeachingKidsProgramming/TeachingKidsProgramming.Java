@@ -1,8 +1,8 @@
 package src.main.java.org.teachingkidsprogramming.section03ifs;
 
-import org.teachingkidsprogramming.recipes.quizzes.graders.HiLowQuizGrader;
+import src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders.HiLowQuizGrader;
 
-public class HiLowQuiz extends org.teachingkidsprogramming.recipes.quizzes.graders.HiLowQuiz
+public class HiLowQuiz extends src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders.HiLowQuiz
 {
   @Override
   public void question1()

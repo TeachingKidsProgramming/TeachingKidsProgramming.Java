@@ -1,9 +1,10 @@
 package src.main.java.org.teachingkidsprogramming.section04mastery;
 
-import org.teachingkidsprogramming.recipes.quizzes.graders.PentagonCrazyQuizGrader;
-import org.teachingkidsprogramming.recipes.quizzes.graders.PentagonQuizAdapter;
+import src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders.PentagonCrazyQuizGrader;
+import src.main.java.org.teachingkidsprogramming.recipes.quizzes.graders.PentagonQuizAdapter;
 
-public class PentagonCrazyQuiz extends PentagonQuizAdapter
+public class PentagonCrazyQuiz extends 
+    PentagonQuizAdapter
 {
   public void question1()
   {

@@ -3,7 +3,7 @@ package src.main.java.org.teachingkidsprogramming.section04mastery;
 import org.junit.Assert;
 import org.junit.Test;
 
-import you.need.to.fill.in.the.______;
+import src.main.java.org.teachingextentions.you.need.to.fill.in.the.______;
 
 @SuppressWarnings("unused")
 public class DeepDive04Mastery
