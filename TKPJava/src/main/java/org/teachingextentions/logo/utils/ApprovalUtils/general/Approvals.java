@@ -85,9 +85,9 @@ public class Approvals
   {
     verify(new ImageApprovalWriter(bufferedImage), FileTypes.Image);
   }
-  public static void verify(ApprovalWriter writer, ApprovalNamer namer, ApprovalFailureReporter reporter)
-  {
-    verify(new FileApprover(writer, namer), reporter);
+  public static void verify(ApprovalWriter writer, ApprovalNamer namer, 
+      src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalFailureReporter approvalFailureReporter) {
+    verify(new FileApprover(writer, namer), approvalFailureReporter);
   }
   public static void verify(ApprovalWriter writer, String fileType)
   {
