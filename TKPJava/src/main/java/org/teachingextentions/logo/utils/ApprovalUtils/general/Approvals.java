@@ -15,6 +15,7 @@ import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.Fun
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalTextWriter;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ComponentApprovalWriter;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ImageApprovalWriter;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.io.FileApprover;
 
 /**
  * Approvals allows you to unit test complex objects <br><br>
@@ -87,7 +88,7 @@ public class Approvals
   }
   public static void verify(ApprovalWriter writer, ApprovalNamer namer, 
       src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ApprovalFailureReporter approvalFailureReporter) {
-    verify(new FileApprover(writer, namer), approvalFailureReporter);
+    // verify(new FileApprover(writer, namer), approvalFailureReporter);
   }
   public static void verify(ApprovalWriter writer, String fileType)
   {

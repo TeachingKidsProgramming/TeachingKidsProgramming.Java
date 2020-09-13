@@ -31,14 +31,14 @@ public class FileApprover implements ApprovalApprover {
         return approveTextFile(received, approved);
     }
 
-    public void cleanUpAfterSuccess(ApprovalFailureReporter reporter) throws Exception {
+    public void cleanUpAfterSuccess(src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.ApprovalFailureReporter reporter) throws Exception {
         received.delete();
         if (reporter instanceof ApprovalReporterWithCleanUp) {
             ((ApprovalReporterWithCleanUp) reporter).cleanUp(received.getAbsolutePath(), approved.getAbsolutePath());
         }
     }
 
-    public void reportFailure(ApprovalFailureReporter reporter) throws Exception {
+    public void reportFailure(src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.ApprovalFailureReporter reporter) throws Exception {
         reporter.report(received.getAbsolutePath(), approved.getAbsolutePath());
     }
 
@@ -57,5 +57,17 @@ public class FileApprover implements ApprovalApprover {
 
     public boolean askToChangeReceivedToApproved(ApprovalFailureOverrider reporter) throws Exception {
         return reporter.askToChangeReceivedToApproved(received.getAbsolutePath(), approved.getAbsolutePath());
+    }
+
+    @Override
+    public void cleanUpAfterSuccess(ApprovalFailureReporter reporter) throws Exception {
+        // TODO Auto-generated method stub
+
+    }
+
+    @Override
+    public void reportFailure(ApprovalFailureReporter reporter) throws Exception {
+        // TODO Auto-generated method stub
+
     }
 }
