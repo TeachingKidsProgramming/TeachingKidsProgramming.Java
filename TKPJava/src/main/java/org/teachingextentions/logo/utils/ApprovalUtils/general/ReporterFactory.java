@@ -6,13 +6,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import org.teachingextensions.approvals.lite.reporters.DiffReporter;
-import org.teachingextensions.approvals.lite.reporters.FileLauncherReporter;
-import org.teachingextensions.approvals.lite.reporters.ImageReporter;
-import org.teachingextensions.approvals.lite.reporters.MultiReporter;
-import org.teachingextensions.approvals.lite.reporters.QuietReporter;
-import org.teachingextensions.approvals.lite.reporters.UseReporter;
-import org.teachingextensions.approvals.lite.util.ClassUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.*;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.ClassUtils;
 
 public class ReporterFactory {
     private static HashMap<String, Class<? extends ApprovalFailureReporter>> reporters = new HashMap<>();

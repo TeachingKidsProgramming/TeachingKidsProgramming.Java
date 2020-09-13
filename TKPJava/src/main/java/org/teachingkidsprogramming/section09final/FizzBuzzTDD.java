@@ -1,7 +1,6 @@
 package src.main.java.org.teachingkidsprogramming.section09final;
 
 import static org.junit.Assert.assertEquals;
-
 import org.junit.Test;
 
 public class FizzBuzzTDD

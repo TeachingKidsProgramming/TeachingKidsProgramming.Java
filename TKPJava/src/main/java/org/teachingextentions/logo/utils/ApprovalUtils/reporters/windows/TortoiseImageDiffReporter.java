@@ -1,6 +1,6 @@
 package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.windows;
 
-import org.teachingextensions.approvals.lite.reporters.GenericDiffReporter;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.GenericDiffReporter;
 
 public class TortoiseImageDiffReporter extends GenericDiffReporter {
     public static final TortoiseImageDiffReporter INSTANCE = new TortoiseImageDiffReporter();
