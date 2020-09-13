@@ -8,7 +8,7 @@
 	<classpathentry kind="lib" path="src/jars/httpclient-4.3.5.jar"/>
 	<classpathentry kind="lib" path="src/jars/httpcore-4.4.1.jar"/>
 	<classpathentry kind="lib" path="src/jars/httpmime-4.4.1.jar"/>
-	<classpathentry kind="lib" path="src/jars/velocity-tools-generic-3.0.jar"/>
+	<classpathentry kind="lib" path="src/jars/velocity-dep-1.4.jar"/>
 	<classpathentry kind="lib" path="src/jars/junit-4.13.jar"/>
 	<classpathentry kind="lib" path="src/jars/javax.serverlet-api-3.1.0.jar"/>
 	<classpathentry kind="src" path="TKPJava/src/main/java/school"/>
