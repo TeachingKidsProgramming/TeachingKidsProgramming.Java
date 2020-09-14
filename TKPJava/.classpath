@@ -12,6 +12,5 @@
 	<classpathentry kind="lib" path="src/jars/junit-4.13.jar"/>
 	<classpathentry kind="lib" path="src/jars/hamcrest-core-1.3.jar"/>
 	<classpathentry kind="lib" path="src/jars/javax.serverlet-api-3.1.0.jar"/>
-	<classpathentry kind="src" path="TKPJava/src/main/java/school"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
