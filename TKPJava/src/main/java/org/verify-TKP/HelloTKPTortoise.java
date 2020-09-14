@@ -3,25 +3,37 @@ import javax.swing.JOptionPane;
 import src.main.java.org.teachingextentions.logo.Tortoise;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.NumberUtils;
 import src.main.java.org.teachingextentions.logo.utils.EventUtils.MessageBox;
+import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.Sound;
+import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.Sound.TKPSound;
 
 public class HelloTKPTortoise 
 {
     public static void main( String[] args )
     {
-       // First test - does this file work - YES
+       // TEST 1 - does this file work - YES
        System.out.println( "Hello TKP Tortoise World!" );
     
-       // Second test - does `teachingextentions` work - YES
+       // TEST 2 - does `teachingextentions` work - YES
        Integer i = NumberUtils.getRandomInt(1, 100);
        System.out.println("number "+ (i));
 
-       // Third test - does `JOptionPane` ( becomes `MessageBox`) work - NO
+       // TEST 3 - does `playSound` work - NO
+       // URL to /soundFiles folder is mangled, copied `BrainIsGone.wav` to same dir for testing
+       //Sound s = new Sound(TKPSound.BrainIsGone);
+       //s.playSound();
+       
+       // TEST 4  - does `JOptionPane` ( becomes `MessageBox`) work - NO
        // need diff JAVA version in DOCKERFILE, using 'headless' - can't render GUI
-       String message = "JOption";
-       JOptionPane.showMessageDialog(null, message);
+       // see - https://stackoverflow.com/questions/5218870/getting-a-headlessexception-no-x11-display-variable-was-set
+       // must configure from Docker also - see http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/
+
+       // String message = "JOption";
+       // JOptionPane.showMessageDialog(null, message);
+
+       // TKPJava `wrapper` for JOptionPane is MessageBox
        // MessageBox.showMessage("message");
       
-       // Fourth Test - does Tortoise window work - NO - can't render GUI
+       // TEST 5 - does Tortoise window work - NO - can't render GUI
        // Tortoise.show();
     }
 }

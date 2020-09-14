@@ -37,6 +37,7 @@ public class Sound
    */
   public synchronized void setSound(TKPSound mySound)
   {
+    // NOTE: Fix this path to be relative to correct location
     String sound = "soundFiles/" + mySound + ".wav";
     URL resource = this.getClass().getResource(sound);
     if (resource == null)
