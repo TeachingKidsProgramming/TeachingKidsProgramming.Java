@@ -4,7 +4,7 @@
 		"dockerfile": "DOCKERFILE",
 		"args": {
 			"VARIANT": "11",
-			"INSTALL_MAVEN": "true",
+			"INSTALL_MAVEN": "false",
 		}
 	},
 

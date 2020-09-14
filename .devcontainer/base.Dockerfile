@@ -12,7 +12,7 @@ RUN bash /tmp/library-scripts/common-debian.sh "${INSTALL_ZSH}" "${USERNAME}" "$
     && if [ ! -d "/docker-java-home" ]; then ln -s "${JAVA_HOME}" /docker-java-home; fi \
     && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts
 
-ARG INSTALL_MAVEN="true"
+ARG INSTALL_MAVEN="false"
 ARG MAVEN_VERSION=""
 ENV SDKMAN_DIR="/usr/local/sdkman"
 ENV PATH="${PATH}:${SDKMAN_DIR}/java/current/bin:${SDKMAN_DIR}/maven/current/bin"
