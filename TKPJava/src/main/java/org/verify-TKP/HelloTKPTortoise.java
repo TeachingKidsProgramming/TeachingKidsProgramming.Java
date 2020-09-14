@@ -1,10 +1,4 @@
-import javax.swing.JOptionPane;
-
-import src.main.java.org.teachingextentions.logo.Tortoise;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.NumberUtils;
-import src.main.java.org.teachingextentions.logo.utils.EventUtils.MessageBox;
-import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.Sound;
-import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.Sound.TKPSound;
 
 public class HelloTKPTortoise 
 {
