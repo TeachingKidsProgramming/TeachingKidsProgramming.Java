@@ -21,7 +21,7 @@ public class HelloTKPTortoise
        // see - https://stackoverflow.com/questions/5218870/getting-a-headlessexception-no-x11-display-variable-was-set
        // must configure from Docker also - see http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/
 
-       // String message = "JOption";
+        // String message = "JOption";
        // JOptionPane.showMessageDialog(null, message);
 
        // TKPJava `wrapper` for JOptionPane is MessageBox
