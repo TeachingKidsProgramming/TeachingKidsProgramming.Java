@@ -17,8 +17,9 @@
 		"vscjava.vscode-java-pack"
 	],
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+	"runArgs": ["--init", "--security-opt", "seccomp=unconfined"],
+    "forwardPorts": [6080, 5901],
+    "overrideCommand": false,
 
 	"postCreateCommand": "java -version",
 
