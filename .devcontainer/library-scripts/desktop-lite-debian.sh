@@ -199,8 +199,9 @@ if [ -z "\$1" ]; then
     fi
 fi
 xrandr --fb \${RESOLUTION} --dpi \${DPI} > /dev/null 2>&1
-if [ \$? -ne 0 ] && [ IGNORE_ERROR != "true" ]; then 
-    echo -e "\nFAILED TO SET RESOLUTION!\n"
+XRANDR_EXIT=$?
+if [ \${XRANDR_EXIT} -ne 0 ] && [ IGNORE_ERROR != "true" ]; then 
+    echo -e "\nFAILED TO SET RESOLUTION! (Code: ${XRANDR_EXIT})\n"
     exit 1
 fi
 echo -e "\nSuccess!\n"
