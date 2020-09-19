@@ -14,7 +14,7 @@
 #
 #    COPY library-scripts/desktop-lite-debian.sh /tmp/library-scripts/
 #    RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-#        && bash /tmp/library-scripts/dekstop-lite-debian.sh
+#        && bash /tmp/library-scripts/desktop-lite-debian.sh
 #    ENV DBUS_SESSION_BUS_ADDRESS="autolaunch:" DISPLAY=":1" LANG="en_US.UTF-8" LANGUAGE="en_US.UTF-8"
 #    ENTRYPOINT ["/usr/local/share/desktop-init.sh"]
 #    CMD ["sleep", "infinity"]
@@ -209,7 +209,7 @@ EOF
 # Container ENTRYPOINT script
 tee /usr/local/share/desktop-init.sh > /dev/null \
 << EOF 
- #!/bin/bash
+#!/bin/bash
 USERNAME=${USERNAME}
 LOG=/tmp/container-init.log
 # Execute the command it not already running
