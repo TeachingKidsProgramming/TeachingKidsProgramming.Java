@@ -16,10 +16,11 @@
 	"extensions": [
 		"vscjava.vscode-java-pack"
 	],
-	// TESTING - VNC - Codespaces build fails
-	// "runArgs": ["--init", "--security-opt", "seccomp=unconfined"],
-    //  "forwardPorts": [6080, 5901],
-    //  "overrideCommand": false,
+
+	"runArgs": ["--init", "--security-opt", "seccomp=unconfined"],
+	// We probably don't need 5901 below, but leaving it for now because it doesn't hurt.
+    "forwardPorts": [6080, 5901],
+    "overrideCommand": false,
 
 	"postCreateCommand": "java -version",
 
