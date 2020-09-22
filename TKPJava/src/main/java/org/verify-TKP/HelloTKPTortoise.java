@@ -1,14 +1,6 @@
-import java.awt.Color;
-
 import javax.swing.JOptionPane;
 
-import src.main.java.org.teachingextentions.logo.Tortoise;
-import src.main.java.org.teachingextentions.logo.TortoiseUtils;
-import src.main.java.org.teachingextentions.logo.Turtle;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.NumberUtils;
-import src.main.java.org.teachingextentions.logo.utils.EventUtils.MessageBox;
-import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.ProgramWindow;
-import src.main.java.org.teachingextentions.logo.utils.TurtleWindowUtils.TurtleWindow;
 
 public class HelloTKPTortoise 
 {
@@ -30,13 +22,13 @@ public class HelloTKPTortoise
        // need diff JAVA version in DOCKERFILE, using 'headless' - can't render GUI
        // see - https://stackoverflow.com/questions/5218870/getting-a-headlessexception-no-x11-display-variable-was-set
        // must configure from Docker also - see http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/
-       // String message = "JOption";
-       // JOptionPane.showMessageDialog(null, message);
+       String message = "JOption";
+       JOptionPane.showMessageDialog(null, message);
 
        // TKPJava `wrapper` for JOptionPane is MessageBox
        // MessageBox.showMessage("message");
       
        // TEST 5 - does Tortoise window work - NO - can't render GUI
-       Tortoise.show();
+       //Tortoise.show();
     }
 }
