@@ -19,7 +19,7 @@ set -euo pipefail
 # 
 # OR
 #
-# ./devcontainer-localrun.sh
+# ./devcontainer-local-run.sh
 #
 # This mode runs the container without attaching to a bash session.  Desktop
 # runs over VNC.
