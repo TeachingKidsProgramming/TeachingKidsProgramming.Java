@@ -19,7 +19,7 @@
 
 	"runArgs": ["--init", "--security-opt", "seccomp=unconfined"],
 	// We probably don't need 5901 below, but leaving it for now because it doesn't hurt.
-    "forwardPorts": [6080, 5901],
+    "forwardPorts": [6080],
     "overrideCommand": false,
 
 	"postCreateCommand": "java -version",
