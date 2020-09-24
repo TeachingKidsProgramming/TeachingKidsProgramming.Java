@@ -34,7 +34,7 @@ fi
 
 VARIANT=11
 
-# Some times vendors patch thier images and re-release them under the same tag.
+# Some times vendors patch their images and re-release them under the same tag.
 # Pulling the image first ensures the cache is fresh with the most recent security updates.
 docker pull mcr.microsoft.com/vscode/devcontainers/java:${VARIANT}
 
