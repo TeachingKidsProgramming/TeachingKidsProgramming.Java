@@ -1,0 +1,29 @@
+{
+	"name": "Java",
+	"build": {
+		"dockerfile": "DOCKERFILE",
+		"args": {
+			"VARIANT": "11",
+			"INSTALL_MAVEN": "false",
+		}
+	},
+
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"java.home": "/docker-java-home"
+	},
+	
+	"extensions": [
+		"vscjava.vscode-java-pack"
+	],
+
+	"runArgs": ["--init", "--security-opt", "seccomp=unconfined"],
+	// We probably don't need 5901 below, but leaving it for now because it doesn't hurt.
+    "forwardPorts": [6080],
+    "overrideCommand": false,
+
+	"postCreateCommand": "java -version",
+
+	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+	// "remoteUser": "vscode"
+}

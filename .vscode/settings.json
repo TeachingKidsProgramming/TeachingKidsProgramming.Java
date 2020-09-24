@@ -1,0 +1,12 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "TKPJava/src/jars/**/*.jar",
+        "/root/workspace/TeachingKidsProgramming.Java/**/*.jar"
+    ],
+    "files.watcherExclude": {
+        "**/target": true
+    }
+}

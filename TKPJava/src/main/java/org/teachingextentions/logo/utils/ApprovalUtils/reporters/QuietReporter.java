@@ -1,0 +1,15 @@
+package src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters;
+
+public class QuietReporter implements EnvironmentAwareReporter {
+    public static final QuietReporter INSTANCE = new QuietReporter();
+
+    @Override
+    public void report(String received, String approved) throws Exception {
+        System.out.println(ClipboardReporter.getAcceptApprovalText(received, approved));
+    }
+
+    @Override
+    public boolean isWorkingInThisEnvironment(String forFile) {
+        return true;
+    }
+}
