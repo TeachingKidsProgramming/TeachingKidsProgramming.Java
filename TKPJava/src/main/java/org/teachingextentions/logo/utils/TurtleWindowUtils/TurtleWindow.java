@@ -67,11 +67,11 @@ public class TurtleWindow extends ProgramWindow {
   }
 
   protected Paintable createTurtleTrailPainter() {
-    return this.turtlePainter = new TurtlePainter(this.turtle, this.getImage());
+    return this.trailPainter = new TurtleTrailPainter(this.turtle);
   }
 
   protected Paintable createTurtlePainter() {
-    return this.trailPainter = new TurtleTrailPainter(this.turtle);
+    return this.turtlePainter = new TurtlePainter(this.turtle, this.getImage());
   }
 
   protected Image loadAnimal() {
