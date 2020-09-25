@@ -268,7 +268,7 @@ while ! pidof dbus-daemon > /dev/null; do
     sleep 1
 done
 # Set up Xvfb.
-startInBackgroundIfNotRunning "Xvfb" sudoIf "Xvfb \${DISPLAY:-:1} +extension RANDR -screen 0 \${MAX_VNC_RESOLUTION:-1920x1080x16}"
+startInBackgroundIfNotRunning "Xvfb" sudoIf "Xvfb \${DISPLAY:-:1} +extension RANDR -screen 0 \${MAX_VNC_RESOLUTION:-1920x1080x24}"
 # Start fluxbox as a light weight window manager.
 startInBackgroundIfNotRunning "fluxbox" sudoUserIf "dbus-launch startfluxbox"
 # Start x11vnc

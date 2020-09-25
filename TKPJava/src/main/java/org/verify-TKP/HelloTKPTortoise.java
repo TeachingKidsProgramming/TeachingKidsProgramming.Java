@@ -1,5 +1,8 @@
 import javax.swing.JOptionPane;
+
+import src.main.java.org.teachingextentions.logo.Tortoise;
 import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.general.NumberUtils;
+import src.main.java.org.teachingextentions.logo.utils.ApprovalUtils.reporters.windows.TortoiseImageDiffReporter;
 
 public class HelloTKPTortoise 
 {
@@ -20,6 +23,7 @@ public class HelloTKPTortoise
        //MessageBox.showMessage("this is the message");
       
        // TEST 4 - does Tortoise window work - NO - can't render GUI
-       //Tortoise.turn(90);
+       Tortoise.turn(90);
+       Tortoise.show();
     }
 }
