@@ -272,7 +272,7 @@ startInBackgroundIfNotRunning "Xvfb" sudoIf "Xvfb \${DISPLAY:-:1} +extension RAN
 # Start fluxbox as a light weight window manager.
 startInBackgroundIfNotRunning "fluxbox" sudoUserIf "dbus-launch startfluxbox"
 # Start x11vnc
-startInBackgroundIfNotRunning "x11vnc" sudoIf "x11vnc -display \${DISPLAY:-:1} -rfbport \${VNC_PORT:-5901} -localhost -no6 -xkb -shared -forever -passwdfile /usr/local/etc/vscode-dev-containers/vnc-passwd"
+startInBackgroundIfNotRunning "x11vnc" sudoIf "x11vnc -display \${DISPLAY:-:1} -rfbport \${VNC_PORT:-5901} -localhost -no6 -xkb -shared -forever"
 # Set resolution
 /usr/local/bin/set-resolution \${VNC_RESOLUTION:-1440x768} \${VNC_DPI:-96} true
 # Spin up noVNC if installed and not runnning.
