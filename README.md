@@ -1,6 +1,6 @@
 # Get Started With TKP
 
-Setup your computer for TKP based on it's operating system:
+Setup your computer for TKP based on its operating system:
 
 * [Windows](#windows) 
 * [Mac](#mac)
@@ -20,7 +20,7 @@ Setup your computer for TKP based on it's operating system:
 
     ![Move zip to C:\TKPSource](/images/02MoveZip.png?raw=true)
 
-1. **Unzip** the downloaded file.  Right click on the zip file, and choose `Extract All...`.  Next click `Extract` to create the TKP folder.
+1. **Unzip** the downloaded file.  Right-click on the zip file, and choose `Extract All...`.  Next click `Extract` to create the TKP folder.
 
     ![Extract Zip](/images/03ExtractAll.png?raw=true)
 
@@ -28,7 +28,7 @@ Setup your computer for TKP based on it's operating system:
 
     ![TKP Launcher](/images/04TKPLauncher.png?raw=true)
 
-1. **Run** the `TKP_Launcher.jar` file by double-clicking it. Wait for it to run.  *Tip* if the jar wont run, double check that you are double-clicking it from the extracted **folder** and not inside the **zip**. 
+1. **Run** the `TKP_Launcher.jar` file by double-clicking it. Wait for it to run.  *Tip* if the jar won't run, double-check that you are double-clicking it from the extracted **folder** and not inside the **zip**. 
 
     If the jar file runs ok, then Eclipse will launch with the TKP workspace open. A successful install should look like the screenshot below: (you can test with two lines of code below)
 
@@ -72,7 +72,7 @@ Setup your computer for TKP based on it's operating system:
 
     ![Move zip to TKPSource](/images/09MoveZip.png?raw=true)
 
-1. **Unzip** the downloaded file.  Right click on the zip file, and choose `Open` to create the TKP folder.
+1. **Unzip** the downloaded file.  Right-click on the zip file, and choose `Open` to create the TKP folder.
 
     ![Extract Zip](/images/10Open.png?raw=true)
 
@@ -80,7 +80,7 @@ Setup your computer for TKP based on it's operating system:
 
     ![TKP Launcher](/images/11TKPLauncher.png?raw=true)
 
-1. **Run** the `TKP_Launcher.jar` file by double-clicking it. Wait for it to run.  *Tip* if the jar wont run, double check that you are double-clicking it from the extracted **folder** and not inside the **zip**.
+1. **Run** the `TKP_Launcher.jar` file by double-clicking it. Wait for it to run.  *Tip* if the jar won't run, double-check that you are double-clicking it from the extracted **folder** and not inside the **zip**.
 
     If the jar file runs ok, then Eclipse will launch with the TKP workspace open. A successful install should look like the screenshot below: (you can test with two lines of code below)
 
@@ -111,7 +111,7 @@ Setup your computer for TKP based on it's operating system:
 
     ![Choose JDK](/images/16JDK.png?raw=true)
     
-    On the next page there is a table of files you can download.  First, accept the Java license by choosing `Accept License Agreement`.  Now, find `Mac OS X x64` in the table and download the `dmg` file from the same row.
+    On the next page, there is a table of files you can download.  First, accept the Java license by choosing `Accept License Agreement`.  Now, find `Mac OS X x64` in the table and download the `dmg` file from the same row.
 
     ![Choose Mac DMG](/images/17JDK2.png?raw=true)
     
@@ -141,7 +141,7 @@ Setup your computer for TKP based on it's operating system:
 
 Eclipse should run automatically and the first lesson from TKP will open.  
 
-If you are having troubles reading the text inside the "JavaDoc" panel, you might need to change your system colors. This can be done by using the "color chooser" app. Just type:
+If you are having trouble reading the text inside the "JavaDoc" panel, you might need to change your system colors. This can be done by using the "color chooser" app. Just type:
 
 ```bash
 sudo apt install gnome-color-chooser
@@ -191,9 +191,9 @@ Some schools create a virtual (sometimes shared) `C:\` drive.  If the drive is s
 
 ###Still Stuck?
 
-Please consider writing a description of the errors/problems you are seeing and sharing it with us by opening a GitHub issue.  You can be a detailed as you like, and your story will help us make TKP better.
+Please consider writing a description of the errors/problems you are seeing and sharing it with us by opening a GitHub issue.  You can be as detailed as you like, and your story will help us make TKP better.
 
-You can create a issue by following this link (GitHub account required): [Create An Issue][4]
+You can create an issue by following this link (GitHub account required): [Create An Issue][4]
 
 Or you can [email us from this page](http://teachingkidsprogramming.org/contact/) and we will create the issue for you (no account required).
 
