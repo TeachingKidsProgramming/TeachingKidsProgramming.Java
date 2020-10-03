@@ -155,7 +155,7 @@ You will need to go to the "Specific" tab and change your tooltip colors.
 
 We're sorry that you are having trouble getting started with TKP.  Below you will find a few more troubleshooting tips that we have used to resolve issues in the past.  
    
-###Correct version of Java (7 or higher) not installed
+### Correct version of Java (7 or higher) not installed
 
 We test the standard installation steps using "clean" computers with no software installed except what comes with Windows or OSX.  However, your computer might have an older version of Java on it that we don't support.
 
@@ -163,7 +163,7 @@ To validate the version of Java that is installed, go to [this website](http://j
 
 If the reported version of your Java installation is less than 7, then update Java to the version that Oracle recommends.
 
-###Correct version of Eclipse (Luna) not installed
+### Correct version of Eclipse (Luna) not installed
 
 We test the standard installation steps using "clean" computers with no software installed except what comes with Windows or OSX.  However, your computer might have an older version of eclipse on it that we don't support.
 
@@ -175,21 +175,21 @@ We test TKP with `Luna`.  The friendly names are in alphabetical order, so if yo
 
 We recommend that you delete your current version of eclipse.  (Advanced users can rename it, but we won't cover that here).   On **Windows**, delete `C:\eclipse`.  On **Mac** delete `eclipse` from `Applications`.  Next, go back to the installation instructions for [Windows](#wineclipse) or [Mac](#maceclipse) to setup Luna. 
 
-###Customized TKP workspace did not open in Eclipse.
+### Customized TKP workspace did not open in Eclipse.
 
 Open Eclipse and change the default workspace directory, by clicking on `File` then choosing `Switch Workspace` and then `Open...`.  Navigate to the `\TeachingKidsProgramming.Java\TeachingKidsProgramming` folder (under `C:\TKPSource` on **Windows**, or `Documents\TKPSource` on **Mac**).  After you do this, then your `TeachingKidsProgramming.Java` should include the following folders:
 
 * `\.metadata`
 * `\TeachingKidsProgramming` 
      
-###Unable to write to file system location(s)
+### Unable to write to file system location(s)
 This general installation failure can occur if your school has "locked down" permissions to student lab computers.  
 
 Try to `run as administrator` for **Windows**, or `run as root` for **Mac** and this may allow the downloaded TKP files to unzip.
 
 Some schools create a virtual (sometimes shared) `C:\` drive.  If the drive is shared, eclipse should still be installed to `C:\`, but `TKPSource` should be created in each student's `C:\temp` directory.
 
-###Still Stuck?
+### Still Stuck?
 
 Please consider writing a description of the errors/problems you are seeing and sharing it with us by opening a GitHub issue.  You can be as detailed as you like, and your story will help us make TKP better.
 
