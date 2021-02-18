@@ -35,7 +35,7 @@ Listed below are the steps to prepare to teach TKP courseware:
 
 5. **Use TKP Utilities.** Our current utility is the TKP Virtual Proctor / website, which allows you to 'see' student's work from one browser window.  More utilities are planned.  
 ***
-##About The TKP Intentional Method
+## About The TKP Intentional Method
 
 We at TKP have created and use a new method of teaching children programming. We call this the **intentional method**. Our work consists of customized courseware and teaching techniques. 
 
