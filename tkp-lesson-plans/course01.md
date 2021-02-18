@@ -138,7 +138,7 @@ Have the students click on the 'setSpeed( )' method and direct them to look at t
 
 _CONGRATULATIONS! You just made your first program!_
 
-:large_blue_diamond: _Tip: You can use http://virtualproctor.tkpjava.org  from any computer to show student windows on screen when they close their window. We like to run the TKP Virtual Proctor from the instructor's computer and project the screen so that the kid's can 'see' what they are all coding (example shown below)._
+:large_blue_diamond: _Tip: You can use http://virtualproctor.tkpjava.org  from any computer to show student windows on screen when they close their window. We like to run the TKP Virtual Proctor from the instructor's computer and project the screen so that the kid's can 'see' what they are all coding (example shown below)._ -- IMPORTANT: URL updated to `http://proctor.tkpjava.org` 
 
 ![screen-shot-2015-07-13-at-82649-pm.png](images/screen-shot-2015-07-13-at-82649-pm.png)
 
@@ -146,7 +146,7 @@ Here are some optional lines to personalize the view in the Virtual Proctor
 
 ```java
     
-    //  NOTE:  see your work at http://virtualproctor.tkpjava.org/
+    //  NOTE:  see your work at `http://proctor.tkpjava.org` /
     //  Set your classroom name for the Virtual Proctor --#6.1 (optional)
     VirtualProctor.setClassName("TKPworld");
     //  Set your student name for the Virtual Proctor --#6.2 (optional)

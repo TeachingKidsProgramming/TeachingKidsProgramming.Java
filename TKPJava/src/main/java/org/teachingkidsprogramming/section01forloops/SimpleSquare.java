@@ -13,6 +13,5 @@ public class SimpleSquare
     //  End Repeat --#5.2
     //
     //  (Optional): Sign your work using the Virtual Proctor 
-    //  See your work at http://virtualproctor.tkpjava.org
-  }
+    //  See your work at `http://proctor.tkpjava.org` 
 }

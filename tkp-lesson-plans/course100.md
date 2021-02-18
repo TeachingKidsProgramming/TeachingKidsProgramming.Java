@@ -33,7 +33,7 @@ Listed below are the steps to prepare to teach TKP courseware:
 
 4. **Review the available resources for each TKP course.**  Resources include written explanation, mostly line-by-line for each course in GitHub, also recipe answer files.  Additionally some recipes have answer videos on YouTube.
 
-5. **Use TKP Utilities.** Our current utility is the TKP Virtual Proctor / website, which allows you to 'see' student's work from one browser window.  More utilities are planned.  
+5. **Use TKP Utilities.** Our current utility is the TKP Virtual Proctor / website, which allows you to 'see' student's work from one browser window at `http://proctor.tkpjava.org` 
 ***
 ## About The TKP Intentional Method
 
@@ -313,7 +313,7 @@ The courseware is open source.  The teaching version (to be installed on the stu
 
 #### About the TKP Virtual Proctor Utility
 
-In addition to the courseware, TKP has two related repositories on Github. The first one is named [TeachingKidsProgramming/VirtualProctor](https://github.com/TeachingKidsProgramming/VirtualProctor).  This is a simple application that we use to help us to monitor the progress of the students in the classroom.  To use this utility, just open a browser to http://virtualproctor.tkpjava.org 
+In addition to the courseware, TKP has two related repositories on Github. The first one is named [TeachingKidsProgramming/VirtualProctor](https://github.com/TeachingKidsProgramming/VirtualProctor).  This is a simple application that we use to help us to monitor the progress of the students in the classroom.  To use this utility, just open a browser to `http://proctor.tkpjava.org`  
 By default the TKP VirtualProctor takes a screen shot of the program (graphics) windows AFTER the student closes the window and sends that screenshot to a cloud-based service.  The associated website displays the last screenshot with the default name of the computer. 
 To configure the VirtualProctor with a customized student name from a student's machine, add the following line of code to any TKP recipe:
 
