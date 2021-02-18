@@ -19,7 +19,7 @@ Topics Covered:
 ***
 ## 5 Steps to teaching TKP Courseware
 
-TKP Courseware is designed to be **instructor-led by K-12 teachers** (middle school is our core audience).  TKP teachers do not need to be professional Java developers, but they should expect to learn programming by completing the TKPJava courseware themselves prior to teaching it. TKP Java Courseware is a set of custom Java (code) libraries, teacher lesson plans (Penflip) and YouTube screencast videos.  
+TKP Courseware is designed to be **instructor-led by K-12 teachers** (middle school is our core audience).  TKP teachers do not need to be professional Java developers, but they should expect to learn programming by completing the TKPJava courseware themselves prior to teaching it. TKP Java Courseware is a set of custom Java (code) libraries, teacher lesson plans (GitHub) and YouTube screencast videos.  
 
 _Note: If you are familiar with coding in Java, you can start by directly downloading the **TKPJava** code and Eclipse editor settings from Github (detailed desktop installation instructions on Github) :octocat: [here](https://github.com/TeachingKidsProgramming/TeachingKidsProgramming.Java/blob/master/README.md)._
 
@@ -31,7 +31,7 @@ Listed below are the steps to prepare to teach TKP courseware:
 
 3. **Practice teaching to one or more students (kids or adults)**.  Particularly if you are new to programming, TKP teachers report practice teaching to a smaller group in advance of the 'main' class helping them to be more comfortable teaching.
 
-4. **Review the available resources for each TKP course.**  Resources include written explanation, mostly line-by-line for each course in Penflip, also recipe answer files.  Additionally some recipes have answer videos on YouTube.
+4. **Review the available resources for each TKP course.**  Resources include written explanation, mostly line-by-line for each course in GitHub, also recipe answer files.  Additionally some recipes have answer videos on YouTube.
 
 5. **Use TKP Utilities.** Our current utility is the TKP Virtual Proctor / website, which allows you to 'see' student's work from one browser window.  More utilities are planned.  
 ***

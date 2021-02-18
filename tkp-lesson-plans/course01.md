@@ -31,7 +31,7 @@ Initial TKPJava Courseware Installation
 
 As this lesson is the beginning of the course, it's quite imporant for the instructor to set the proper tone for the student work.  TKPJava is instructor-facilitated via interrogative guidance.
 
-- To start teaching, pair the students (see 'pair programming' in the previous Penflip course), then have the students read the first line of English (comments) in the SimpleSquare.java code file ("Show the Tortoise" -- #1)  out loud.  Line numbers are at the end of each line.
+- To start teaching, pair the students (see 'pair programming' in the previous GitHub course), then have the students read the first line of English (comments) in the SimpleSquare.java code file ("Show the Tortoise" -- #1)  out loud.  Line numbers are at the end of each line.
 - Use the TKP Intentional method to guide students so that THEY can do the translation.  Refrain from telling them the answer (Java code) in advance.  
 - Encourage students to use 'ctrl+space' to get a list of possible items rather than typing out the Java.  Note that **Java is case-sensitive**.
 - After the students complete translating each line of English into Java, it is very important to MAKE SURE THEY RUN THE CODE BEFORE PROCEEDING. 
