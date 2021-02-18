@@ -64,7 +64,7 @@ Here is a 20-minute welcome video for K-12 teachers on how to use TKPJava course
 
 ---
 
-##What are the Parts of each TKP Course?
+## What are the Parts of each TKP Course?
 1) **Recipe** – This is a **teacher-led** coding lesson (recipe) that teaches 1-3 programming concepts, such as 'what is a class or a method?'  Intended for students to pair program as directed by the teacher, translating one line of English into one line of code and then running the program to verify the correct translation after each line is translated.  
 
 Recipes are written to be translated and run in a SPECIFIC order.  This order is indicated by the line numbers at the end of each line of English comments.  The reasons for the ordering are as follows:
@@ -160,7 +160,7 @@ Here is a video of a talk w/code demos of TKPJava that Lynn Langit gave on TKP c
 
 ***
 
-##How TKP uses Professional Programming Practices 
+## How TKP uses Professional Programming Practices 
 
 TKP instructional design is based on many Agile (and XP or Extreme Programming) best practices and principals.  These include use of core Agile practices in the teaching (or delivery) of TKP courses. TKP courseware includes examples of using these practices in classroom situations and suggestions on how best to incorporate these practices into teaching children to program. They include the following:
 
@@ -234,7 +234,7 @@ Kids all working in pairs unless otherwise noted. At 5 minute intervals (use a t
 
 ![Boys_Java_SVCC.jpg](images/Boys_Java_SVCC.jpg)
 ***
-##Why Group (Mob) Programming
+## Why Group (Mob) Programming
 
 Another method of teaching we use is group (or mob) programming.  This is a process with one computer, which is attached to a projector.  One student sits at the keyboard ('the driver') and types what one other students who is standing ('the navigator) tells that student to type.  The rest of the students sit in a circle of chairs around the driver and navigator.
 
@@ -244,7 +244,7 @@ After a problem is solved, then the students all **stand up** and rotate in the 
 
 For more about the benefits of mob programming, see this reference -- http://en.wikipedia.org/wiki/Mob_programming
 ***
-##TKP Classroom Management Tips and the TKP Virtual Proctor Utility
+## TKP Classroom Management Tips and the TKP Virtual Proctor Utility
 
 We included this section for teachers of our courseware who are new to leading a classroom full of kids.  Experienced K-12 teachers may wish to skip this section as they probably are familiar with the majority of these techniques.
 
@@ -326,7 +326,7 @@ To configure the VirtualProctor with a customized student name from a student's 
 
 The source code for the APIs that we wrote to use in the TKP courseware is found in the Github repository at [TeachingKidsProgramming/TeachingKidsProgramming.Source.Java](https://github.com/TeachingKidsProgramming/TeachingKidsProgramming.Source.Java).  Here you can see which APIs we wrote (or extended) in creating the courseware.  Also of interest to teachers in this repository may be [the completed recipe (or answer) section](https://github.com/TeachingKidsProgramming/TeachingKidsProgramming.Source.Java/tree/master/src/org/teachingkidsprogramming/recipes/completed).  We deliberately obscured the location of the answers, as we do not want students to copy and paste the answers, rather we'd prefer that they explore the API, and with teacher guidance, code the results themselves.
 ***
-##Guide to Writing TKP Writing Recipes
+## Guide to Writing TKP Writing Recipes
 
 We put a great deal of effort into creating recipes.  We test and iterate constantly, so that kids will have a great experience learning.  Some of the core concepts we try to follow when creating recipes are as follows:
 
