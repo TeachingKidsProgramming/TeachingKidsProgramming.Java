@@ -141,25 +141,25 @@ Add English to code the method drawSlantedRoof()
 Then change the line color using the Tortoise.setPenColor(Colors.getRandomColor());
 Then change the background using the Tortoise.getBackgroundWindow.setBackground(Colors.Reds.Red);
 ***
-##Part 3 – Quiz: HousesQuiz.java
+## Part 3 – Quiz: HousesQuiz.java
 
 -	Warn in advance: this one is complicated, and you will need to be comfortable with some trial and error.
 -	Remember, ctrl-Z to undo – your best friend!
 
 ***
-##Part 4 – Four Square
+## Part 4 – Four Square
 Uses two for loops and an extracted method
 ***
-##Part 5 – Triangle Shell
+## Part 5 – Triangle Shell
 Uses two for loops and an extracted method and incrementing a local variable (length)
 ***
-##Part 6 – Pyramids of Giza
+## Part 6 – Pyramids of Giza
 Uses multiple levels of method refactoring to remove duplication, i.e. re-factor common code to a method and then re-factor those new methods to yet another new method to remove code duplication.  Also introduces the idea of more than one method parameter (in the second level of refactoring), i.e. final methods have TWO variables.
 ***
-##Part 7 – Deep Dive: DeepDives02Variables.java
+## Part 7 – Deep Dive: DeepDives02Variables.java
 More work with variables and variable values, introduces shortcut operators as well (i.e. '++', '--', etc...)
 ***
-##Part 8 – Worksheet: 
+## Part 8 – Worksheet: 
 Print '2_HousesWorksheet.docx' and have the students complete it.
 ***
 

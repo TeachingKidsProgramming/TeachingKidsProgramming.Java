@@ -17,7 +17,8 @@ _Objects, Methods and For Loops_
 
 
 ***    
-###Initial TKPJava Courseware Installation
+### 
+Initial TKPJava Courseware Installation
 - Install the TKPJava courseware (on GitHub :octocat:) – TeachingKidsProgramming. by following the one page detailed installation instructions for PC or Mac - [here](https://github.com/TeachingKidsProgramming/TeachingKidsProgramming.Java/blob/master/README.md).
 - After downloading per the instructions above then double-click the launcher file (**TKP_launcher.jar** - for Windows) to open the customized version of Eclipse to the TKPJava workspace.
 	- If Eclipse doesn’t open at all, you need to install Java or Eclipse or both. Re-read the instructions (on GitHub) to understand how to manually install Java and/or Eclipse plus the TKPJava courseware on either a PC or a Mac.
@@ -284,6 +285,7 @@ Here is a video recap of the recipe as well -- https://www.youtube.com/watch?v=k
 
 If kids finish early, they can try variations.  Here's a video showing how to teach Spiral:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=k1EQTcjcYKM" target="_blank"><img src="http://img.youtube.com/vi/k1EQTcjcYKM/0.jpg" alt=“Spiral” width=“480” height=“360” border="10" /></a>
+
 ***
 ## Part 5 - Additional Recipe: Make A Logo
 
@@ -322,42 +324,42 @@ Say: _'No matter what happens, you’re going to miss a lot of it. So one way to
 Chairs at front, circle/oval/whatever – computer at desk to the side.
 Give kids post-its. 
 Each kid writes an observation and the last thing they just did. No talking – they just write. Then collect, and read them to the class.
-####PROCESS
+#### PROCESS
 When going through Deep Dive, one student will sit @ computer, another will be standing and will tell them what to type.
 After each test, standing student gives observation (/explains why they entered what they did), then they rotate.
 If they ask “Does it work if…” then try it and see!
 SHOW THEM THE PROCESS
-####numbersDoNotNeedQuotes
+#### numbersDoNotNeedQuotes
 Put cursor on method name. Then click on “numbersDoNotNeedQuotes”, run.
 Show that it does not work.
 Walk them through getting it to work, then have them write observations on it. They read.
-####defaultWidthForTheTortoise
+#### defaultWidthForTheTortoise
 Show failure trace – how do we find the right #?
-####stringsNeedQuotes
+#### stringsNeedQuotes
 Type green
 Did not work. Why? Look at the title!
 Change to “green”. 
 We done? Nope! Must run.
 Double click on the failure trace when running the failed program – show the window that pops up.
-####theTortoiseTurns15Twice
+#### theTortoiseTurns15Twice
 How is this different from the last one? (Turning twice, but looking at the angle which results from both turns)
-####combiningNumbers
+#### combiningNumbers
 How is this different from the last one? (Adding numbers, looking for total)
-####combiningText
+#### combiningText
 How is this different from the last one? (Adding strings just combines them one after the other.)
-####combiningTextAndNumbers
+#### combiningTextAndNumbers
 How is this different from the last one? (Adding a number to a string treats the number as a string.)
 Useful techniques – asking how one is different from the last. (E.g., “assigningVariables” vs. “howFastCanTheTortoiseGo”
-####combiningTextInALoop
+#### combiningTextInALoop
 Ensure the kids get what happened here. Maybe pick one from audience to explain.
-####forLoopsEndAtTheLine
+#### forLoopsEndAtTheLine
 A fairly advanced thing
 Double-click in blue thing. Debug dot.
 Now, right click on for loop in left part… sends you to debugger.
 Use “step over” (yellow arrow top right) to see individual steps. Show the kids how this works.
-####forLoopsCanStartAnywhere
+#### forLoopsCanStartAnywhere
 Same as above – have one explain
-####forLoopsCanSkip
+#### forLoopsCanSkip
 Same as above – have one explain
 ***
 

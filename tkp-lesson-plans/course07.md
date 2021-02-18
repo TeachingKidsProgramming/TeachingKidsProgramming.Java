@@ -14,7 +14,7 @@
 | :swimmer:  | **6** SpiderWebQuiz - [answer]( https://github.com/TeachingKidsProgramming/TeachingKidsProgramming.Source.Java/blob/master/src/main/java/org/teachingkidsprogramming/recipes/completed/section07objects/SpiderWebQuiz.java) |
 
 ***    
-##Part 1 - **Recipe: SuperTurtles**
+## Part 1 - **Recipe: SuperTurtles**
 
 - This recipe is the first formal introduction of several key OOP concepts - primary is the idea of objects (classes) and object instances.  This is implemented by using using the Turtle object. 
 1. Introduce the idea of Turtle object instances, rather than a single, global Tortoise object (as we've seen in previous recipes)

@@ -17,7 +17,7 @@ Topics Covered:
 - About TKPJava and the APJava Exam
 
 ***
-##5 Steps to teaching TKP Courseware
+## 5 Steps to teaching TKP Courseware
 
 TKP Courseware is designed to be **instructor-led by K-12 teachers** (middle school is our core audience).  TKP teachers do not need to be professional Java developers, but they should expect to learn programming by completing the TKPJava courseware themselves prior to teaching it. TKP Java Courseware is a set of custom Java (code) libraries, teacher lesson plans (Penflip) and YouTube screencast videos.  
 
@@ -62,7 +62,8 @@ Here is a 20-minute welcome video for K-12 teachers on how to use TKPJava course
 
 <a href="https://www.youtube.com/watch?v=CNiPrGuR_7U" target="_blank" alt="About the TKP Intentional Method of Teaching Programming" width="480" height="360" border="10">![tkp-website.png](images/tkp-website.png)</a>
 
-***
+---
+
 ##What are the Parts of each TKP Course?
 1) **Recipe** – This is a **teacher-led** coding lesson (recipe) that teaches 1-3 programming concepts, such as 'what is a class or a method?'  Intended for students to pair program as directed by the teacher, translating one line of English into one line of code and then running the program to verify the correct translation after each line is translated.  
 
@@ -192,38 +193,38 @@ TKP instructional design is based on many Agile (and XP or Extreme Programming) 
 
 A common misconception that comes up is when a student or teacher see two individuals on one computer they think of it as an inferior way of learning. This is not the case and here are the advantages demonstrating how paring is a good way of learning. Before explaining why pairing is a good way of learning, we will explain the paring technique we use.
 
-###Technique:
+### Technique:
 
 Pairing technique takes the form of one student at the keyboard and the other student sitting beside her.  The student at the keyboard (driver) is taking directions from the student beside him/her (navigator). A simple timer (we often use our phone) is used to regulate the rotations, usually 5 minutes, but can vary, sometimes 'rotate on task completion' fits better.  If there are two teachers, they should also rotate to model pair programming.  Examples of alternative methods of rotating the student pairs, are rotating on task success (such as during the TKP Quiz or TKP DeepDive).
 
-###Methods:
+### Methods:
 
 ####Setup:
 Pairing allows twice as many students per computer. It reduces the amount of computers the teacher must set up, although it is very important to keep in mind the classroom will need the same amount of chairs compared to the number of students.
 
-####Class unity:
+#### Class unity:
 Unity is important because it allows the class to be on the same page. It is harder to have unity when students are working independently especially when it involves a large group of students. Pairing affectively reduces the amount of independently working students by ½.
 
-####Skill equalization:
+#### Skill equalization:
 Students come in with different skill levels, making it difficult for a teacher to teach them simultaneously. The teamwork pairing offers helps to level the playing field for all the students. The best part is that it does not penalize the more advanced students because as they explain the material to their classmates, they gain a deeper understanding.
 
-####Focus:
+#### Focus:
 Working with a partner helps both students to keep their energies focused on coding and reduces distractions (i.e. web browsing, etc...).
 
-####Social:
+#### Social:
 Pairing offers a more friendly and sociable atmosphere, which we hope to dispute the misconception that programming is associated with being anti-social. This is especially important for girls, who usually work better in groups where they are able to communicate and discuss with one another.
 
-####Reduces frustrations:
+#### Reduces frustrations:
 In programming, encountering bugs cause a huge amount of frustration for everyone. When students are individually working, it is easy to overlook bugs or mistakes. However, with two pairs of eyes attentively working together, the amount of bugs or errors present are greatly reduced. Often times a concept may be confusing to one of the students in the pair, but not the other. By working together their frustrations are reduced.
 
-####Body Chemistry:
+#### Body Chemistry:
 Rotations are implemented by the teacher because after 15 minutes of sitting down, one’s body chemistry shifts and slows down. By requiring the kids to **stand up** every 15 minutes, we help prevent this shift in their body from taking place. This is the reason behind why the teacher should refrain from just letting the students pass the keyboard over when it is time for the pairs to rotate.
 
-####Greater peripheral vision:
+#### Greater peripheral vision:
 According to cognitive science studies, negative emotions hinder one’s ability to engage in broader visual perception. (http://www.unc.edu/peplab/broadening.html )
 For example, a study tracked the duration of time people spent looking at a picture according to their emotional state. The more unhappy one is feeling, the less likely the individual will be able to see the entire screen. It is difficult to learn when one is not able to be able to see options available to them.
 
-####Creativity:
+#### Creativity:
 Studies in cognitive science have also presented the fact that one’s creative abilities may be limited when working in solitude.  (http://ascc.artsci.wustl.edu/~ksawyer/groupgenius/ ) However, creativity is able to flourish when one is given the opportunity to bounce ideas off others.
 
 #### During class
@@ -247,7 +248,7 @@ For more about the benefits of mob programming, see this reference -- http://en.
 
 We included this section for teachers of our courseware who are new to leading a classroom full of kids.  Experienced K-12 teachers may wish to skip this section as they probably are familiar with the majority of these techniques.
 
-####Small steps
+#### Small steps
 
  - Translate the next line that you can see the result of execution – you will guide them through the recipes in the order that can SEE the results, NOT in 1,2,3 order.  All of our recipes have suggested line orderings on the English lines for teaching, i.e. teach line 2 first, teach line 5 second, etc…
 
@@ -270,18 +271,18 @@ We included this section for teachers of our courseware who are new to leading a
  - Resist the instinct to tell them the right answer, but help them to keep moving.
  - Watch to see both members of the pair are contributing, if not, prompt the non-participating member of the pair to ‘jump in there’
 
-###Create and use save points
+### Create and use save points
  - At least at the end of each recipe, everyone must save their work
  - To revert to the beginning of a lesson quickly, go to the Navigator in Eclipse, right click on the Java file and then click on ‘Revert using local history’ and then click on the first entry, this will re-set the lesson back to the start point
 
-###Recaps
+### Recaps
 	 - Point out nuances of the editor, the documentation, the logic, the shortcuts as you go.
 	 - Use this time to Explain the Concepts they have just Experienced.
 	 - Introduce Programming Lingo, .i.e for SQUARE say ‘nouns are Objects and are shown with Cubes; verbs are Operations and are shown with Wheels, etc…
 	 - This is a good place to do a scoping diagram (list Objects, Methods and Variables you have used)
 	 - Here is a good place to make mistakes on purpose, such as “Tortoise.SetPenColor (blue)” and have the kids tell you how to correct those mistakes
 
-####Coding (Debugging) Tips 
+#### Coding (Debugging) Tips 
 	 - UNDO: Advise the use of undo first
 	 - FORMAT: we have set Eclipse to automatically format on save.
 	 - METHODS (Operations): check parenthesis pairs and arguments — have the kids click on the method (word) in the editor and then read the documentation — particularly the example.
@@ -290,14 +291,14 @@ We included this section for teachers of our courseware who are new to leading a
 	 - ENDLESS LOOPS: undo back to a runnable state, this is usually a result of putting a string in the arguments for a loop
      - DEBUGGER: Use the Eclipse Debugger - here's a short YouTube screencast on how to do this - https://www.youtube.com/watch?v=M8F6ziuccmw
 
-####Pairing
+#### Pairing
 	 - Adjust “double-slow” pairs with fast kids; make sure to rotate a pair that falls behind continually.  Do not pair siblings.  If adults want to take the class, pair the adults together.
 	 - Backseat Drivers: if a kid who should be navigating is typing, then interrupt, and remind the kid that they can NOT touch the keyboard when they are navigating
 	 - Rotate teachers same as kids
 	 - Rotate every 5 minutes or at task completion
 	 - Make them stand up when rotating, this simple movement helps with energy and attention.
     
-####Energy
+#### Energy
 	 - Kids should be typing within 3 MINUTES of class starting.  It is very important to start the class off with action quickly.
 	 - Ask the kids LOTS of questions, all of the time.  Don’t tell them, ask them – it’s critical to keeping them engaged.
 	 - Encourage barely controlled chaos — noise is good, students should be talking/laughing;
@@ -310,7 +311,7 @@ We included this section for teachers of our courseware who are new to leading a
 
 The courseware is open source.  The teaching version (to be installed on the student computers, consists of a Java .jar file and some utility files.  The teaching version of TKP courseware is found in the Github :octocat: repository named [TeachingKidsProgramming/TeachingKidsProgramming.Java.](https://github.com/TeachingKidsProgramming/TeachingKidsProgramming.Java) 
 
-####About the TKP Virtual Proctor Utility
+#### About the TKP Virtual Proctor Utility
 
 In addition to the courseware, TKP has two related repositories on Github. The first one is named [TeachingKidsProgramming/VirtualProctor](https://github.com/TeachingKidsProgramming/VirtualProctor).  This is a simple application that we use to help us to monitor the progress of the students in the classroom.  To use this utility, just open a browser to http://virtualproctor.tkpjava.org 
 By default the TKP VirtualProctor takes a screen shot of the program (graphics) windows AFTER the student closes the window and sends that screenshot to a cloud-based service.  The associated website displays the last screenshot with the default name of the computer. 
@@ -350,7 +351,7 @@ We put a great deal of effort into creating recipes.  We test and iterate consta
 – create teacher training materials (cheat sheets [answer keys] and videos)
 – add information to this document about the how to teach the recipe
 
-###Recipe Writing Guidelines (for the English Comments in Java Recipes) 
+### Recipe Writing Guidelines (for the English Comments in Java Recipes) 
 _thanks to contributor Katrina Owen for this guide_
 
 ‘recipe formatting notes
@@ -376,12 +377,12 @@ _thanks to contributor Katrina Owen for this guide_
 ‘always format program at the end to get rid of whitespace on blank lines
 ***
 
-###TKP courseware influences / influencers
+### TKP courseware influences / influencers
 
 We have been asked to create a list of influencers/influences on TKP courseware - here is a link to a Gist with that information -- https://gist.github.com/lynnlangit/15e12d902ba66654468b
 
 ***
-##TKP courseware for other computer languages - SmallBasic, C#, T-SQL and more
+## TKP courseware for other computer languages - SmallBasic, C#, T-SQL and more
 
 Our main focus is to write courseware for middle school aged kids in Java.  However, we have experimented with other computer languages over the years.  We use our 'TKP Intentional Method' of teaching in every domain.  To that end, we'll list links to our other courseware repositories below:
 
@@ -390,7 +391,7 @@ Our main focus is to write courseware for middle school aged kids in Java.  Howe
 3) Kodu on [Slideshare](http://www.slideshare.net/lynnlangit/kodu-class) and on Lynda.com (http://www.lynda.com/search?q=kodu)
 4) T-SQL on [Codeplex](https://datinggame.codeplex.com/)
 ***
-##About TKPJava and the APJava CS Exam
+## About TKPJava and the APJava CS Exam
 
 Via teacher feedback we at TKP hear that our TKPJava courseware is being used as part of the preparation for students prior to them taking the the APJava CS exam.  
 

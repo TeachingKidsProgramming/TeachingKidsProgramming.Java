@@ -41,6 +41,7 @@ Also this recipe is designed to reinforce using the 'extract method' tool in Ecl
 ###  Video Recap: Pentagon Crazy
 Video for teacher preparation
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=rsJ5m_zxnnE" target="_blank"><img src="http://img.youtube.com/vi/rsJ5m_zxnnE/0.jpg" alt=“Pentagon Crazy” width=“480” height=“360” border="10" /></a>
+
 ***
 ### Variation Grid: Pentagon Crazy
 
@@ -53,13 +54,15 @@ Video for teacher preparation
 |  Width  |  1-4  |   no  |
 |  Background  |  SolidWhite (default)  |   expose default |
 |  Number of LInes  |  200  |   no  |
+
 ***
-##Part 2 – Quiz: PentagonCrazyQuiz.java
+
+## Part 2 – Quiz: PentagonCrazyQuiz.java
 
 Cmd-shift-T: PCQ (PentagonCrazyQuiz)
 This quiz verifies that kids can create a method (by using the 'refactor>extract method' in Eclipse and also can use (or call) an existing method.  Also the colors passed in to the quiz are used in creating the 'reward shape'.  After kids PASS all 4 questions, they can alter the color values, which will FAIL the quiz questions, but will change the reward shape colors.
 ***
-##Part 3, 4 and 5 – Extra Recipes: DigiFlower.java and BackgroundPhoto.java
+## Part 3, 4 and 5 – Extra Recipes: DigiFlower.java and BackgroundPhoto.java
 
 
 See the TKP Instructional Design (Teaching Variation) section for more information.
@@ -71,7 +74,7 @@ To kick off this section, you may choose to use the TKP Kata Question:
 
 _"How would you change the shaper of a flower petal?"_
 ***
-##Part 7 – Recipe: KnottedRing.java
+## Part 6 – Recipe: KnottedRing.java
 
 This is a review recipe - there is a reinforcement of a 'deliberate' error (or exception) that the students saw in an earlier recipe (Spiral).  This 'error' is when the students try to 'get the next color' from the ColorWheel before they have added any colors to the wheel.  
 
@@ -79,7 +82,7 @@ The subtle difference in this error is that we do continue to show a custom erro
 
 At this point the kids should have the habit of READING the error messages that show up in the Console so that they can understand and fix programming errors.
 ***
-##Part 7 – Deep Dive: DeepDive04
+## Part 7 – Deep Dive: DeepDive04
 
 ### SETUP
 Chairs at front, circle/oval/whatever – computer at desk to the side.
@@ -103,7 +106,7 @@ In this DeepDive we are reinforcing these concepts:
 6) Operations on variables of same or mixed types (i.e. addition, division, concatenation)
 
 ***
-##Part 8 – Worksheet: 4_PentagonCrazyWorksheet.docx
+## Part 8 – Worksheet: 4_PentagonCrazyWorksheet.docx
 
 Print this worksheet 
 ***

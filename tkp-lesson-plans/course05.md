@@ -49,6 +49,7 @@ To use the values in the HashMap, you'll need to call the 'get' method on it.  T
 ### Video Recap: TurtleTree Recap
 Video for teacher preparation
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=LVWVMTPPeKE" target="_blank"><img src="http://img.youtube.com/vi/LVWVMTPPeKE/0.jpg" alt=“Turtle Tree” width=“480” height=“360” border="10" /></a>
+
 ***
 ## Part 2 – Variation: Turtle Tree
 To kick off this section, you may choose to use the TKP Kata Question:
@@ -82,7 +83,8 @@ As with the SpiderWeb recipe, this is another great one to use the debugger to s
 Note: Thanks to Matt Ballin for authoring the RecursiveSquare recipe.
 
 ***
-##Part 6 – Deep Dive: DeepDive05Recursion
+
+## Part 6 – Deep Dive: DeepDive05Recursion
 
 ### SETUP
 Chairs at front, circle/oval/whatever – computer at desk to the side.

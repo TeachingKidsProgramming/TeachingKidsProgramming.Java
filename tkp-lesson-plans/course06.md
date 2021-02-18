@@ -35,7 +35,8 @@ Video recap for teacher preparation.
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=1HSWdT4-czc" target="_blank"><img src="http://img.youtube.com/vi/1HSWdT4-czc/0.jpg" alt=“Ad Libs” width=“480” height=“360” border="10" /></a>
 
 ***
-##Part 2 - Variation: ExceptionalAdLibsVariation
+
+## Part 2 - Variation: ExceptionalAdLibsVariation
 To kick off this section, you may choose to use the TKP Kata Question:
 
 _"How would you make sure that the person telling your story did NOT enter in a number?"_
