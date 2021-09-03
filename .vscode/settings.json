@@ -8,5 +8,9 @@
     ],
     "files.watcherExclude": {
         "**/target": true
-    }
+    },
+    "java.project.sourcePaths": [
+        "TKPJava/src/main/java/org/verify-TKP",
+        "TKPJava"
+    ]
 }
