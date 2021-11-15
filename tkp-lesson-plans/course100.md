@@ -199,7 +199,7 @@ Pairing technique takes the form of one student at the keyboard and the other st
 
 ### Methods:
 
-####Setup:
+#### Setup:
 Pairing allows twice as many students per computer. It reduces the amount of computers the teacher must set up, although it is very important to keep in mind the classroom will need the same amount of chairs compared to the number of students.
 
 #### Class unity:
@@ -328,53 +328,53 @@ The source code for the APIs that we wrote to use in the TKP courseware is found
 ***
 ## Guide to Writing TKP Writing Recipes
 
-We put a great deal of effort into creating recipes.  We test and iterate constantly, so that kids will have a great experience learning.  Some of the core concepts we try to follow when creating recipes are as follows:
+We put a great deal of effort into creating recipes.  We test and iterate constantly, so that kids will have a great experience learning.  Some of the core concepts we try to follow when creating recipes are as follows:  
 
-1) Recipes should be FUN and ENGAGING
-2) Recipes should be able to be completed in 15-20 minutes
-3) Recipes should be around 20-40 lines of English (and no longer)
-4) Recipes should teach 1-3 core programming concepts only
-5) We create both the recipe and the variation (often also the quiz) when we create a new recipe
-6) The process goes as follows:
+1) Recipes should be FUN and ENGAGING  
+2) Recipes should be able to be completed in 15-20 minutes  
+3) Recipes should be around 20-40 lines of English (and no longer)  
+4) Recipes should teach 1-3 core programming concepts only  
+5) We create both the recipe and the variation (often also the quiz) when we create a new recipe  
+6) The process goes as follows:  
 
->> get an idea of what you want to make, for example draw an object, write something to the screen, etc...
-– code some Java, i.e. see what objects, properties, methods or events exists in the language already
-– create some new (or wrapped objects) in the Java TKP library (on Github), such as ‘Tortoise.SetPenColor’ to encapsulate ‘ProgramWindow.PenColor’ to make lesson objects more discoverable for kids
-– write documentation, including examples for your new objects into the new Java objects, methods, properties, etc..
-- create the 'stub' for the recipe, that is stub out the main method and any other methods that you just want the kids to fill in.
-– add the English comments to your stubbed out recipe, build and deploy the recipe
-– determine the 'run order' and add the line numbers to the end of each line of English 
-– test the recipe with actual kids!
-– make changes and updates based on your tester (kids) feedback, re-build and redeploy
-– edit the TKP Java source code on Github (you'll get your own branch to update)
-– add your new recipe to your TKP branch and create a pull request so that we can see your recipe
-– create teacher training materials (cheat sheets [answer keys] and videos)
-– add information to this document about the how to teach the recipe
+>> get an idea of what you want to make, for example draw an object, write something to the screen, etc...  
+– code some Java, i.e. see what objects, properties, methods or events exists in the language already  
+– create some new (or wrapped objects) in the Java TKP library (on Github), such as ‘Tortoise.SetPenColor’ to encapsulate ‘ProgramWindow.PenColor’ to make lesson objects more discoverable for kids  
+– write documentation, including examples for your new objects into the new Java objects, methods, properties, etc..  
+- create the 'stub' for the recipe, that is stub out the main method and any other methods that you just want the kids to fill in.  
+– add the English comments to your stubbed out recipe, build and deploy the recipe  
+– determine the 'run order' and add the line numbers to the end of each line of English   
+– test the recipe with actual kids!  
+– make changes and updates based on your tester (kids) feedback, re-build and redeploy  
+– edit the TKP Java source code on Github (you'll get your own branch to update)  
+– add your new recipe to your TKP branch and create a pull request so that we can see your recipe  
+– create teacher training materials (cheat sheets [answer keys] and videos)  
+– add information to this document about the how to teach the recipe  
 
 ### Recipe Writing Guidelines (for the English Comments in Java Recipes) 
-_thanks to contributor Katrina Owen for this guide_
+_thanks to contributor Katrina Owen for this guide_  
 
-‘recipe formatting notes
+‘recipe formatting notes  
 
-‘add empty lines after each instruction
-‘add two empty lines before starting a recipe
-‘add spaces after the apostrophe to indent comments
-‘indent method four spaces
-‘indent loops four spaces
-‘always end loops with ‘Repeat
-‘start a method recipe like this:
-‘————- Recipe for SomeRecipeName
-‘end a method recipe like this:
-‘————- End of SomeRecipeName recipe
-‘use English, not code, e.g. instead of _‘ Set the PenColor to “ReallyBrightRed"_
-‘use _‘ Change the color of the line the tortoise draws to really bright red_
+‘add empty lines after each instruction  
+‘add two empty lines before starting a recipe  
+‘add spaces after the apostrophe to indent comments  
+‘indent method four spaces  
+‘indent loops four spaces  
+‘always end loops with ‘Repeat  
+‘start a method recipe like this:  
+‘————- Recipe for SomeRecipeName  
+‘end a method recipe like this:  
+‘————- End of SomeRecipeName recipe  
+‘use English, not code, e.g. instead of _‘ Set the PenColor to “ReallyBrightRed"_  
+‘use _‘ Change the color of the line the tortoise draws to really bright red_  
 
-‘corollary:
-‘do not capitalize object names in comments
-‘do not put scare quotes around color names
-‘lower case color names (and do not string them together)
-‘start variable names with ‘the current x is y’
-‘always format program at the end to get rid of whitespace on blank lines
+‘corollary:  
+‘do not capitalize object names in comments  
+‘do not put scare quotes around color names  
+‘lower case color names (and do not string them together)  
+‘start variable names with ‘the current x is y’  
+‘always format program at the end to get rid of whitespace on blank lines  
 ***
 
 ### TKP courseware influences / influencers
@@ -393,9 +393,7 @@ Our main focus is to write courseware for middle school aged kids in Java.  Howe
 ***
 ## About TKPJava and the APJava CS Exam
 
-Via teacher feedback we at TKP hear that our TKPJava courseware is being used as part of the preparation for students prior to them taking the the APJava CS exam.  
-
-While we do not design our courseware to map to the exam objectives specifically, we will provide a chart (below) to list the exam concentration areas and our course objectives.
+Via teacher feedback we at TKP hear that our TKPJava courseware is being used as part of the preparation for students prior to them taking the the APJava CS exam.  While we do not design our courseware to map to the exam objectives specifically, we will provide a chart (below) to list the exam concentration areas and our course objectives.
 [Here](https://secure-media.collegeboard.org/digitalServices/pdf/ap/ap-course-overviews/ap-computer-science-a-course-overview.pdf) is a more complete list of the AP exam objectives.
 
 **Exam objectives -- Goals of AP Computer Science A**
